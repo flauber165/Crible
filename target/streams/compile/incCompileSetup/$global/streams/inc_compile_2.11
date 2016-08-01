@@ -1,0 +1,705 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes
+compile options:
+4 items
+0 -> -deprecation
+1 -> -unchecked
+2 -> -encoding
+3 -> utf8
+javac options:
+3 items
+0 -> -encoding
+1 -> utf8
+2 -> -g
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+38 items
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\Application$$anon$1.class
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\Application$$anonfun$index$1$$anonfun$apply$1.class
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\Application$$anonfun$index$1.class
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\Application$$typecreator1$1.class
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\Application$$typecreator2$1.class
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\Application.class
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\domain\Bank$.class
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\domain\Bank.class
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\Connector$$anonfun$1.class
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\Connector$$anonfun$connector$1.class
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\Connector$.class
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\Connector.class
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\daos\BankDao.class
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\maps\BankMap$id$.class
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\maps\BankMap$name$.class
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\maps\BankMap.class
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\BasicDatabase$bankDao$.class
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\BasicDatabase.class
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\ProductionDatabase$.class
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\ProductionDatabase.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\javascript\ReverseApplication.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\javascript\ReverseAssets.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\ReverseApplication.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\ReverseAssets.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\routes.java -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\routes$javascript.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\routes.java -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\routes.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes$$anonfun$documentation$1.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Application_index0_invoker$1.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Assets_versioned1_invoker$1.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes$$anonfun$routes$1.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\RoutesPrefix$$anonfun$1.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\RoutesPrefix$.class
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\RoutesPrefix.class
+binary dependencies:
+36 items
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.6.jar
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.6.jar
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.6.jar
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Users\BRMCe\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Users\BRMCe\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Users\BRMCe\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Users\BRMCe\.ivy2\cache\org.scaldi\scaldi_2.11\jars\scaldi_2.11-0.5.7.jar
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> C:\Users\BRMCe\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> C:\Users\BRMCe\.ivy2\cache\com.datastax.cassandra\cassandra-driver-core\jars\cassandra-driver-core-3.0.0.jar
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> C:\Users\BRMCe\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> C:\Users\BRMCe\.ivy2\cache\com.websudos\phantom-connectors_2.11\jars\phantom-connectors_2.11-1.22.0.jar
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> C:\Users\BRMCe\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> C:\Users\BRMCe\.ivy2\cache\com.websudos\phantom-connectors_2.11\jars\phantom-connectors_2.11-1.22.0.jar
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> C:\Users\BRMCe\.ivy2\cache\com.websudos\phantom-dsl_2.11\jars\phantom-dsl_2.11-1.22.0.jar
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> C:\Users\BRMCe\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> C:\Users\BRMCe\.ivy2\cache\com.datastax.cassandra\cassandra-driver-core\jars\cassandra-driver-core-3.0.0.jar
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> C:\Users\BRMCe\.ivy2\cache\com.websudos\phantom-dsl_2.11\jars\phantom-dsl_2.11-1.22.0.jar
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> C:\Users\BRMCe\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> C:\Users\BRMCe\.ivy2\cache\com.websudos\phantom-connectors_2.11\jars\phantom-connectors_2.11-1.22.0.jar
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> C:\Users\BRMCe\.ivy2\cache\com.websudos\phantom-dsl_2.11\jars\phantom-dsl_2.11-1.22.0.jar
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.6.jar
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> C:\Users\BRMCe\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.6.jar
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> C:\Users\BRMCe\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\routes.java -> C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.6.jar
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> C:\Users\BRMCe\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> C:\Users\BRMCe\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+14 items
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\routes.java -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\routes.java -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\routes.java -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\routes.java
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\routes.java -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+2 items
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala
+inheritance external dependencies:
+0 items
+class names:
+38 items
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> controllers.Application
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> controllers.Application$$anon$1
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> controllers.Application$$anonfun$index$1
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> controllers.Application$$anonfun$index$1$$anonfun$apply$1
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> controllers.Application$$typecreator1$1
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> controllers.Application$$typecreator2$1
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> domain.Bank
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> domain.Bank$
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> persistence.Connector
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> persistence.Connector$
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> persistence.Connector$$anonfun$1
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> persistence.Connector$$anonfun$connector$1
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> persistence.daos.BankDao
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> persistence.maps.BankMap
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> persistence.maps.BankMap$id$
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> persistence.maps.BankMap$name$
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> persistence.BasicDatabase
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> persistence.BasicDatabase$bankDao$
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> persistence.ProductionDatabase
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> persistence.ProductionDatabase$
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> controllers.javascript.ReverseApplication
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> controllers.javascript.ReverseAssets
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> controllers.ReverseApplication
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> controllers.ReverseAssets
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\routes.java -> controllers.routes
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\routes.java -> controllers.routes$javascript
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> router.Routes
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> router.Routes$$anonfun$documentation$1
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> router.Routes$$anonfun$router$Routes$$controllers_Application_index0_invoker$1
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> router.Routes$$anonfun$router$Routes$$controllers_Assets_versioned1_invoker$1
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> router.Routes$$anonfun$routes$1
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$1
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$2
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> router.RoutesPrefix
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> router.RoutesPrefix$
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> router.RoutesPrefix$$anonfun$1
+used names:
+391 items
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> $anon
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> $m
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> $m$untyped
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> $typecreator1
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> $typecreator2
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> $u
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> ->
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> <init>
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> =:=
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Action
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Application
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Bank
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> CacheApi
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> CacheManager
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Codec
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Controller
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Execution
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Implicits
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Injectable
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Injector
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Json
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Mirror
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> NotNothing
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Nothing
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Ok
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Predef
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> ProductionDatabase
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Singleton
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> StringWrites
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Type
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> TypeCreator
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> TypeTag
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> U
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Universe
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> UuidWrites
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Writeable
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> Writes
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> api
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> apply
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> asInstanceOf
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> asType
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> async
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> bank
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> bankDao
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> cache
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> cacheManager
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> concurrent
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> constraints
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> controllers
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> defaultContext
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> domain
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> ehcache
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> getAll
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> getClassLoader
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> http
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> id
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> inj
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> inject
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> json
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> libs
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> locationWrites
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> map
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> materializeTypeTag
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> mvc
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> name
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> net
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> notNothingEvidence
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> obj
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> package
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> persistence
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> play
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> r
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> reflect
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> runtime
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> runtimeMirror
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> scala
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> scaldi
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> sf
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> staticClass
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> toJsFieldJsValueWrapper
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> toJson
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> toTypeConstructor
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> tpEquals
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> traversableWrites
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> universe
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> utf_8
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> writeableOf_JsValue
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> &&
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> <init>
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> ==
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> AbstractFunction2
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> Bank
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> None
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> Predef
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> Product
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> ScalaRunTime
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> Serializable
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> String
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> UUID
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> _hashCode
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> _toString
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> asInstanceOf
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> domain
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> eq
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> id
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> isInstanceOf
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> java
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> name
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> runtime
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> scala
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> toString
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> typedProductIterator
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> util
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> ||
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> <init>
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> AnyRef
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> Buffer
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> ConfigFactory
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> Connector
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> ContactPoints
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> InetAddress
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> JavaConversions
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> Predef
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> String
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> apply
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> asScalaBuffer
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> canBuildFrom
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> collection
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> com
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> config
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> connector
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> connectors
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> getByName
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> getString
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> getStringList
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> hosts
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> inets
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> java
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> keySpace
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> keyspace
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> load
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> map
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> mutable
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> net
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> persistence
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> phantom
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> scala
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> typesafe
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> websudos
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> withClusterBuilder
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> withCredentials
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> <init>
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> =:=
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> Bank
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> BankDao
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> BankMap
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> ConsistencyLevel
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> Future
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> List
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> ONE
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> Predef
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> RootConnector
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> com
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> concurrent
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> consistencyLevel_=
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> context
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> daos
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> domain
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> dsl
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> fetch
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> maps
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> package
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> persistence
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> phantom
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> rootSelectBlockToSelectQuery
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> scala
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> select
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> session
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> space
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> tpEquals
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> websudos
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> <init>
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> Bank
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> BankMap
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> CassandraTable
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> ClusteringOrder
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> Predef
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> Row
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> String
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> StringPrimitive
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> TimeUUIDColumn
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> UUID
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> apply
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> column
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> com
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> domain
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> dsl
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> id
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> java
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> maps
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> name
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> package
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> persistence
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> phantom
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> r
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> scala
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> util
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> websudos
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> <init>
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> BankDao
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> BasicDatabase
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> Connector
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> DatabaseImpl
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> KeySpaceDef
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> ProductionDatabase
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> asInstanceOf
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> bankDao
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> com
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> connector
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> daos
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> db
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> dsl
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> package
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> persistence
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> phantom
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> websudos
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> +
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> <byname>
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> <init>
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> AnyRef
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> Asset
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> Assets
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> Call
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> HandlerDef
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> JavaScriptReverseRoute
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> JavascriptLiteral
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> PathBindable
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> Predef
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> QueryStringBindable
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> ReverseApplication
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> ReverseAssets
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> ReverseRouteContext
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> String
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> _defaultPrefix
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> _prefix
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> _root_
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> api
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> assetPathBindable
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> controllers
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> core
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> dynamicString
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> empty
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> endsWith
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> implicitly
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> javascript
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> javascriptUnbind
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> mvc
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> play
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> queryString
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> routing
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> scala
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> +
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> <byname>
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> <init>
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> AnyRef
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> Asset
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> Assets
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> Call
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> HandlerDef
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> JavascriptLiteral
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> Map
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> PathBindable
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> Predef
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> QueryStringBindable
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> ReverseApplication
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> ReverseAssets
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> ReverseRouteContext
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> String
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> _defaultPrefix
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> _prefix
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> _root_
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> _rrc
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> api
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> apply
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> assetPathBindable
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> controllers
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> core
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> dynamicString
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> empty
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> endsWith
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> file
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> implicitly
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> mvc
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> play
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> queryString
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> routing
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> scala
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> unbind
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> +
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> ++
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> :+
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> <init>
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> A1
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> Any
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> Application
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> Application_1
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> Asset
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> Assets
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> Assets_0
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> B1
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> Function1
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> GeneratedRouter
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> Handler
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> HandlerInvokerFactory
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> HttpErrorHandler
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> List
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> Nil
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> None
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> PartialFunction
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> Predef
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> RequestHeader
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> ReverseRouteContext
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> Right
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> Route
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> Routes
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> RoutesPrefix
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> Seq
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> String
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> Tuple3
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> api
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> apply
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> asInstanceOf
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> assetPathBindable
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> call
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> canBuildFrom
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> collection
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> controllers
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> controllers_Application_index0_invoker
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> controllers_Application_index0_route
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> controllers_Assets_versioned1_invoker
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> controllers_Assets_versioned1_route
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> core
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> createInvoker
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> defaultPrefix
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> e
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> empty
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> endsWith
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> errorHandler
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> fakeValue
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> file
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> foldLeft
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> fromPath
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> get
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> getClass
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> getClassLoader
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> http
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> immutable
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> index
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> isEmpty
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> isInstanceOf
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> j
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> mvc
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> package
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> params
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> passThrough
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> path
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> play
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> prefix
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> router
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> routing
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> s
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> scala
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> setPrefix
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> unapply
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> unary_!
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> unchecked
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> versioned
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> <init>
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> AnyRef
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> Function0
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> Predef
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> RoutesPrefix
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> String
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> Unit
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> _prefix
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> _prefix_=
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> byNamePrefix
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> p
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> prefix
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> router
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> scala
+product stamps:
+38 items
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\Application$$anon$1.class -> lastModified(1470009785450)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\Application$$anonfun$index$1$$anonfun$apply$1.class -> lastModified(1470009785469)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\Application$$anonfun$index$1.class -> lastModified(1470009785462)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\Application$$typecreator1$1.class -> lastModified(1470009785481)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\Application$$typecreator2$1.class -> lastModified(1470009785486)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\Application.class -> lastModified(1470009785438)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\javascript\ReverseApplication.class -> lastModified(1470009135457)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\javascript\ReverseAssets.class -> lastModified(1470009135465)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\ReverseApplication.class -> lastModified(1470009135438)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\ReverseAssets.class -> lastModified(1470009135449)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\routes$javascript.class -> lastModified(1470009136572)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\controllers\routes.class -> lastModified(1470009136578)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\domain\Bank$.class -> lastModified(1470009135503)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\domain\Bank.class -> lastModified(1470009135493)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\BasicDatabase$bankDao$.class -> lastModified(1470009785512)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\BasicDatabase.class -> lastModified(1470009785498)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\Connector$$anonfun$1.class -> lastModified(1470009135534)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\Connector$$anonfun$connector$1.class -> lastModified(1470009135547)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\Connector$.class -> lastModified(1470009135529)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\Connector.class -> lastModified(1470009135513)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\daos\BankDao.class -> lastModified(1470009135588)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\maps\BankMap$id$.class -> lastModified(1470009135615)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\maps\BankMap$name$.class -> lastModified(1470009135619)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\maps\BankMap.class -> lastModified(1470009135603)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\ProductionDatabase$.class -> lastModified(1470009785551)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\persistence\ProductionDatabase.class -> lastModified(1470009785544)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes$$anonfun$documentation$1.class -> lastModified(1470009135659)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Application_index0_invoker$1.class -> lastModified(1470009135669)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Assets_versioned1_invoker$1.class -> lastModified(1470009135678)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class -> lastModified(1470009135715)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class -> lastModified(1470009135703)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class -> lastModified(1470009135740)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class -> lastModified(1470009135729)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes$$anonfun$routes$1.class -> lastModified(1470009135694)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\Routes.class -> lastModified(1470009135648)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\RoutesPrefix$$anonfun$1.class -> lastModified(1470009135773)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\RoutesPrefix$.class -> lastModified(1470009135760)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\classes\router\RoutesPrefix.class -> lastModified(1470009135749)
+source stamps:
+11 items
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> hash(81edd6f97125fd973d1e4768a9f7baf18dda5afd)
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> hash(a840143628757fcbd72dee964bdb1c32a0fee1f1)
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> hash(0af416ca673f615ceaf6d8c4e985b3f97b4cdfd9)
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> hash(a26522844118b763f01daf7ba4ed596dd07bafd0)
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> hash(99ddf2232fdd2a892b9afd29eaa395bfc31fe09f)
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> hash(a7f2fd18abb3d6a0f9220bf5942de318e5e9a191)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> hash(34a516272081fcc0b0145cf07a5fb839847758f8)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> hash(e26a62365dde3a72a8a38bcc243210c6549f5b3d)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\routes.java -> hash(399df17a72cb50889325e5ebf4a2677d5ce4cdee)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> hash(80ae6327593d9065a31707779f165e6f5968ed19)
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> hash(7e87ccad8a2680d68399ac9f8a9253088940288b)
+binary stamps:
+12 items
+C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar -> lastModified(1469670394973)
+C:\Users\BRMCe\.ivy2\cache\com.datastax.cassandra\cassandra-driver-core\jars\cassandra-driver-core-3.0.0.jar -> lastModified(1453993738000)
+C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.6.jar -> lastModified(1450089984000)
+C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.6.jar -> lastModified(1450089981000)
+C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.6.jar -> lastModified(1450084314000)
+C:\Users\BRMCe\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar -> lastModified(1431099960000)
+C:\Users\BRMCe\.ivy2\cache\com.websudos\phantom-connectors_2.11\jars\phantom-connectors_2.11-1.22.0.jar -> lastModified(1455517590000)
+C:\Users\BRMCe\.ivy2\cache\com.websudos\phantom-dsl_2.11\jars\phantom-dsl_2.11-1.22.0.jar -> lastModified(1455517593000)
+C:\Users\BRMCe\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar -> lastModified(1429723140000)
+C:\Users\BRMCe\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar -> lastModified(1457496963000)
+C:\Users\BRMCe\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar -> lastModified(1435004220000)
+C:\Users\BRMCe\.ivy2\cache\org.scaldi\scaldi_2.11\jars\scaldi_2.11-0.5.7.jar -> lastModified(1450042630000)
+class names:
+12 items
+C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar -> java.lang.Object
+C:\Users\BRMCe\.ivy2\cache\com.datastax.cassandra\cassandra-driver-core\jars\cassandra-driver-core-3.0.0.jar -> com.datastax.driver.core.Row
+C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.6.jar -> play.api.cache.CacheApi
+C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.6.jar -> play.api.libs.json.Writes
+C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.6.jar -> play.api.mvc.Controller
+C:\Users\BRMCe\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar -> com.typesafe.config.Config
+C:\Users\BRMCe\.ivy2\cache\com.websudos\phantom-connectors_2.11\jars\phantom-connectors_2.11-1.22.0.jar -> com.websudos.phantom.connectors.KeySpaceDef
+C:\Users\BRMCe\.ivy2\cache\com.websudos\phantom-dsl_2.11\jars\phantom-dsl_2.11-1.22.0.jar -> com.websudos.phantom.db.DatabaseImpl
+C:\Users\BRMCe\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar -> net.sf.ehcache.CacheManager
+C:\Users\BRMCe\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar -> scala.concurrent.Future
+C:\Users\BRMCe\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar -> scala.reflect.api.TypeCreator
+C:\Users\BRMCe\.ivy2\cache\org.scaldi\scaldi_2.11\jars\scaldi_2.11-0.5.7.jar -> scaldi.Injectable
+internal apis:
+11 items
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCZlD9fAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAFc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwDO4TZnQAD3JlcXVlc3Qyc2Vzc2lvbnNxAH4AC9kUv150AAxyZXF1ZXN0MmxhbmdzcQB+AAsdkYj3dAAObG9jYXRpb25Xcml0ZXNzcQB+AAvccHvddAAcY2FuQmVJZGVudGlmaWVkVG9Db25zdHJhaW50c3NxAH4AC2dnSxt0AA1yZXF1ZXN0MmZsYXNodXEAfgAJAAABJXNxAH4AC9V1rV50AAtjaGVja0ZvckVvZnNxAH4AC4tv9I10AAxSZXNldENvbnRlbnRzcQB+AAtoaFL8dAANTm90QWNjZXB0YWJsZXNxAH4AC0i64L90ABFUZW1wb3JhcnlSZWRpcmVjdHNxAH4ACwjlp0d0AAhzZW5kRmlsZXNxAH4ACwcFK0d0AA9hZGRpbmdUb1Nlc3Npb25zcQB+AAuieZKndAAGTG9ja2Vkc3EAfgALolzHH3QABm5vdGlmeXNxAH4AC+C9zFN0AARGUk9Nc3EAfgALWFu13HQAEENPTlRFTlRfTEFOR1VBR0VzcQB+AAs58ofRdAAHQ1JFQVRFRHNxAH4ACxreSIV0AAd1bmFwcGx5c3EAfgALeYzK0XQAEFRPT19NQU5ZX1JFUVVFU1RzcQB+AAtxOG2wdAASdG9sZXJhbnRCb2R5UGFyc2Vyc3EAfgALTpsOAHQAHGluamVjdFdpdGhDb25zdHJ1Y3RvckRlZmF1bHRzcQB+AAtOr8OYdAAHV0FSTklOR3NxAH4AC2C8i5d0AA9QYXltZW50UmVxdWlyZWRzcQB+AAvzkADMdAAIQ09OVElOVUVzcQB+AAs3TqApdAAEYm9keXNxAH4AC3hcarF0AAVjaHVua3NxAH4AC2ntzbN0AA5mb3JtJGRlZmF1bHQkMnNxAH4AC1WuyCp0AAtTRVRfQ09PS0lFMnNxAH4AC6OJcE50AAhIVFRQXzFfMXNxAH4AC/3Soep0ABNDT05URU5UX0RJU1BPU0lUSU9Oc3EAfgAL8YVhlnQADXJhdyRkZWZhdWx0JDFzcQB+AAvWadlJdAAPaW5qZWN0QWxsT2ZUeXBlc3EAfgALO2xOF3QADENPTlRFTlRfVFlQRXNxAH4AC3KqW+l0AAZCSU5BUllzcQB+AAvVjsxrdAAEd2FpdHNxAH4ACyHFLql0ABxBQ0NFU1NfQ09OVFJPTF9BTExPV19NRVRIT0RTc3EAfgALhmEdCnQACkJhZEdhdGV3YXlzcQB+AAs7xjjPdAAQTWV0aG9kTm90QWxsb3dlZHNxAH4AC0NLMgF0AA5Ub29NYW55UmVxdWVzdHNxAH4AC21yJKt0ABNkZWNodW5rV2l0aFRyYWlsZXJzc3EAfgALNNnwWXQAClVTRVJfQUdFTlRzcQB+AAs4NR46dAAWc2VuZFJlc291cmNlJGRlZmF1bHQkMnNxAH4AC72qYZJ0AARIT1NUc3EAfgALetBjXHQAC0NPTlRFTlRfTUQ1c3EAfgALcZmpxHQADmNvcHkkZGVmYXVsdCQyc3EAfgALij6fB3QAB0NyZWF0ZWRzcQB+AAtJwMiodAANJGFzSW5zdGFuY2VPZnNxAH4AC1HRc690AAVlbXB0eXNxAH4AC+m/wVV0ABBYX0ZPUldBUkRFRF9QT1JUc3EAfgAL1M/aanQACkphdmFTY3JpcHRzcQB+AAs5JF3qdAALQkFEX1JFUVVFU1RzcQB+AAvUu+1vdAAFdXNpbmdzcQB+AAs+uSJKdAAOTm90SW1wbGVtZW50ZWRzcQB+AAsu85VwdAAMTUFYX0ZPUldBUkRTc3EAfgALSovBKnQAEFhfRk9SV0FSREVEX0hPU1RzcQB+AAvJDoKjdAADQ1NTc3EAfgALW08oAXQADHRvbGVyYW50SnNvbnNxAH4AC6JOS/J0AAhTZWVPdGhlcnNxAH4AC1bBIwh0AAdUUkFJTEVSc3EAfgALDgjrnnQAElBST1hZX0FVVEhFTlRJQ0FURXNxAH4ACxbpO6B0AA1BVVRIT1JJWkFUSU9Oc3EAfgALADaHVHQAA1hNTHNxAH4AC77J5kB0AAphbnlDb250ZW50c3EAfgALpvLrg3QADUNBQ0hFX0NPTlRST0xzcQB+AAuftbsRdAAbTm9uQXV0aG9yaXRhdGl2ZUluZm9ybWF0aW9uc3EAfgALjgmICHQAD05PVF9JTVBMRU1FTlRFRHNxAH4AC4UiKb50AAxwcm9kdWN0QXJpdHlzcQB+AAu2rYVcdAAGZXF1YWxzc3EAfgAL5f5LpXQAEFBBWU1FTlRfUkVRVUlSRURzcQB+AAvnAsTndAAEanNvbnNxAH4AC3dut0x0AAhBY2NlcHRlZHNxAH4ACyiw6tR0AAtSRVRSWV9BRlRFUnNxAH4AC3FaWjZ0ABJSZWRpcmVjdCRkZWZhdWx0JDJzcQB+AAuZQIFcdAAOdXJsRm9ybUVuY29kZWRzcQB+AAt51LfpdAAESlNPTnNxAH4AC+AguDJ0AAhSZWRpcmVjdHNxAH4AC8Wxhmh0ABNQUkVDT05ESVRJT05fRkFJTEVEc3EAfgAL/2uganQADlBhcnRpYWxDb250ZW50c3EAfgALCx9WvXQAFFVuc3VwcG9ydGVkTWVkaWFUeXBlc3EAfgALE1KT2HQACENPTkZMSUNUc3EAfgAL97EioHQAEnNlbmRGaWxlJGRlZmF1bHQkMnNxAH4ACw/EOLl0AA5BQ0NFUFRfQ0hBUlNFVHNxAH4AC22wBlB0ABFFeHBlY3RhdGlvbkZhaWxlZHNxAH4AC/5F7Kt0AANWSUFzcQB+AAt14AgHdAAMYXNJbnN0YW5jZU9mc3EAfgALObJUhnQAD1JFUVVFU1RfVElNRU9VVHNxAH4AC3tnqIl0ABBNVUxUSVBMRV9DSE9JQ0VTc3EAfgALSPiFb3QAEWluamVjdFdpdGhEZWZhdWx0c3EAfgALHYQ+UnQAEU1PVkVEX1BFUk1BTkVOVExZc3EAfgALilvbr3QAAlRFc3EAfgAL1RaJvXQADkdhdGV3YXlUaW1lb3V0c3EAfgAL5d7f0XQAEENPTlRFTlRfTE9DQVRJT05zcQB+AAvQhqU7dAAPUEFSVElBTF9DT05URU5Uc3EAfgAL2flrdXQAE3JlbW92aW5nRnJvbVNlc3Npb25zcQB+AAsszyRHdAAMY2FjaGVNYW5hZ2Vyc3EAfgALMHGy2nQAFElOU1VGRklDSUVOVF9TVE9SQUdFc3EAfgALIXlJq3QAEW11bHRpcGFydEZvcm1EYXRhc3EAfgALWQLqZHQADEVWRU5UX1NUUkVBTXNxAH4ACygtwO90AAxzeW5jaHJvbml6ZWRzcQB+AAsuSQHfdAAQRmFpbGVkRGVwZW5kZW5jeXNxAH4AC9/JVSF0AARFVEFHc3EAfgALfMYhrXQAD0xFTkdUSF9SRVFVSVJFRHNxAH4AC5KaeyV0AA53aXRoTmV3U2Vzc2lvbnNxAH4ACxVKMUF0AApKQVZBU0NSSVBUc3EAfgAL34bEhHQADkVudGl0eVRvb0xhcmdlc3EAfgALRqATd3QADFVOQVVUSE9SSVpFRHNxAH4AC664M4Z0ABJzZW5kUGF0aCRkZWZhdWx0JDJzcQB+AAusrTzhdAAWVU5TVVBQT1JURURfTUVESUFfVFlQRXNxAH4ACyUjQjp0AA0kaXNJbnN0YW5jZU9mc3EAfgALIYRPZHQAB1JFRkVSRVJzcQB+AAvcffkXdAAYUkVRVUVTVF9FTlRJVFlfVE9PX0xBUkdFc3EAfgALByihjHQABk9SSUdJTnNxAH4ACx6Kd+t0AAt3aXRoQ29va2llc3NxAH4AC+9y/1V0AA9BQ0NFUFRfTEFOR1VBR0VzcQB+AAtZLVfMdAAMTk9UX01PRElGSUVEc3EAfgALw1EdgnQAAmFzc3EAfgALjInPTHQAC3dpdGhTZXNzaW9uc3EAfgALN8T4D3QAGkhUVFBfVkVSU0lPTl9OT1RfU1VQUE9SVEVEc3EAfgALIZKC9nQAG0FDQ0VTU19DT05UUk9MX0FMTE9XX09SSUdJTnNxAH4AC5x7n7J0ABJzZW5kRmlsZSRkZWZhdWx0JDNzcQB+AAseJNHYdAATVW5wcm9jZXNzYWJsZUVudGl0eXNxAH4AC011yap0AA1yYXckZGVmYXVsdCQyc3EAfgALVQe9t3QABHRleHRzcQB+AAtApKtKdAAIY2FuRXF1YWxzcQB+AAvPcDFpdAAITm90Rm91bmRzcQB+AAuCBmyqdAAGY29uZmlnc3EAfgALsfNELXQACElGX1JBTkdFc3EAfgALq68KsXQAEnNlbmRGaWxlJGRlZmF1bHQkNHNxAH4AC7Q2HEt0ABttdWx0aXBhcnRGb3JtRGF0YSRkZWZhdWx0JDJzcQB+AAsPSJa8dAAIZmxhc2hpbmdzcQB+AAsj4Zm9dAAHZGVjaHVua3NxAH4AC1ZSnYp0AARGT1JNc3EAfgALDL53pHQAE0lGX1VOTU9ESUZJRURfU0lOQ0VzcQB+AAvfjHT+dAATU1dJVENISU5HX1BST1RPQ09MU3NxAH4AC/GmQ8x0ABJURU1QT1JBUllfUkVESVJFQ1RzcQB+AAsGoNYmdAANcHJvZHVjdFByZWZpeHNxAH4AC87bzsx0AA5DT05URU5UX0xFTkdUSHNxAH4AC/64U9Z0AA10ZW1wb3JhcnlGaWxlc3EAfgALUba3b3QAClNFVF9DT09LSUVzcQB+AAsDH16QdAAJbm90aWZ5QWxsc3EAfgALOWCmoXQAA0FHRXNxAH4ACzpt3tB0ABREZWZhdWx0TWF4VGV4dExlbmd0aHNxAH4ACzHaqnF0AAtCQURfR0FURVdBWXNxAH4AC7MBwSx0ABJFWFBFQ1RBVElPTl9GQUlMRURzcQB+AAt3iHIidAAKQ09OTkVDVElPTnNxAH4AC0t9h1V0AAlGT1JXQVJERURzcQB+AAvNkT2JdAACT2tzcQB+AAszhpHfdAAFY2FjaGVzcQB+AAv+K89vdAAMaXNJbnN0YW5jZU9mc3EAfgALBH7pgHQAEE1vdmVkUGVybWFuZW50bHlzcQB+AAtlB8U/dAACT0tzcQB+AAvSDHVFdAARZGlzY2FyZGluZ0Nvb2tpZXNzcQB+AAsbspF9dAAVQXBwbGljYXRpb25YbWxNYXRjaGVyc3EAfgAL/oL+FXQAHEFDQ0VTU19DT05UUk9MX0FMTE9XX0hFQURFUlNzcQB+AAtwp/QTdAAOQ0FDSEVfTUFOSUZFU1RzcQB+AAsZdpALdAAJRm9yYmlkZGVuc3EAfgALPG8mG3QAF0h0dHBWZXJzaW9uTm90U3VwcG9ydGVkc3EAfgALWFh3BHQABFRFWFRzcQB+AAsQMcIvdAAKQmFkUmVxdWVzdHNxAH4ACxy/ORR0AAVGT1VORHNxAH4AC2gf0K90AAY8aW5pdD5zcQB+AAuHJd/AdAALTm90TW9kaWZpZWRzcQB+AAsT+/81dAAEREFURXNxAH4AC49Xq0d0AA9jcmVhdGVCYWRSZXN1bHRzcQB+AAtuYZI6dAAFYXN5bmNzcQB+AAvMv7KpdAANQ09OVEVOVF9SQU5HRXNxAH4AC8DDt450AAlVTkxJTUlURURzcQB+AAvS2JiEdAAEJGFtcHNxAH4AC9Ye7g50AAxzZW5kUmVzb3VyY2VzcQB+AAt0oKKTdAAIaW5qZWN0ZWRzcQB+AAvoVlhKdAAMdG9sZXJhbnRUZXh0c3EAfgALY7X8O3QAB2NodW5rZWRzcQB+AAuzF1tQdAARVFJBTlNGRVJfRU5DT0RJTkdzcQB+AAuPvMZYdAAFYXBwbHlzcQB+AAsZBZstdAADcmF3c3EAfgAL5lMODnQABWVycm9yc3EAfgALvh9xGXQAA3htbHNxAH4AC7OPPeJ0AAVwYXJzZXNxAH4AC85QvRF0ABNQUk9YWV9BVVRIT1JJWkFUSU9Oc3EAfgALJTwqI3QAAj09c3EAfgALNkqq5HQABEdPTkVzcQB+AAsF92oKdAAER29uZXNxAH4AC09QVot0ACBBQ0NFU1NfQ09OVFJPTF9BTExPV19DUkVERU5USUFMU3NxAH4AC7I6UYN0AA5OT1RfQUNDRVBUQUJMRXNxAH4AC9fvV2F0AAJieXNxAH4AC/dAboJ0AAVjbG9uZXNxAH4AC75/kQJ0AAZzdHJlYW1zcQB+AAtc6DFGdAAJaW5qZWN0QWxsc3EAfgALX64vTXQABkVYUEVDVHNxAH4AC/XHn7l0ABZzZW5kUmVzb3VyY2UkZGVmYXVsdCQzc3EAfgALTzzyR3QAB2RlZmF1bHRzcQB+AAtGjWpxdAASU2VydmljZVVuYXZhaWxhYmxlc3EAfgAL5QYBanQACExPQ0FUSU9Oc3EAfgAL7cnb1nQAEnNlbmRQYXRoJGRlZmF1bHQkNHNxAH4ACyLLsxB0AARWQVJZc3EAfgAL/XrVuXQAEFdXV19BVVRIRU5USUNBVEVzcQB+AAvAHSLddAALQXBwbGljYXRpb25zcQB+AAt9YPuhdAAEZmVlZHNxAH4AC7fPlRB0AARUT0RPc3EAfgALD2cYwnQAD1hfRk9SV0FSREVEX0ZPUnNxAH4AC+nh2Tp0AA5mb3JtJGRlZmF1bHQkM3NxAH4AC42znhd0ABJQcmVjb25kaXRpb25GYWlsZWRzcQB+AAuJKpdzdAAIQUNDRVBURURzcQB+AAtxryPUdAAESHRtbHNxAH4AC0QVNLN0AApOT19DT05URU5Uc3EAfgALDw0OmXQACEhUVFBfMV8wc3EAfgALd0x9i3QAFUlOVEVSTkFMX1NFUlZFUl9FUlJPUnNxAH4ACxdiDWB0AA9jaHVuayRkZWZhdWx0JDFzcQB+AAt00EvFdAAHVVBHUkFERXNxAH4AC2FbpE10ABZ0b2xlcmFudEZvcm1VcmxFbmNvZGVkc3EAfgALPxUQqXQACU5PVF9GT1VORHNxAH4AC7SCovJ0AAdzZXNzaW9uc3EAfgALutiRMXQAD0FDQ0VQVF9FTkNPRElOR3NxAH4AC0uQpbN0ABNJbnRlcm5hbFNlcnZlckVycm9yc3EAfgALU+nDTHQAB0VYUElSRVNzcQB+AAtx5w0/dAAGaW5qZWN0c3EAfgAL13dPVnQADmNvcHkkZGVmYXVsdCQzc3EAfgALyXtrEXQABGNvcHlzcQB+AAs2eD9ZdAAfUkVRVUVTVEVEX1JBTkdFX05PVF9TQVRJU0ZJQUJMRXNxAH4ACxu/K290AAZoZWFkZXJzcQB+AAsmb2AodAAURGVmYXVsdE1heERpc2tMZW5ndGhzcQB+AAtVYdvadAAIdG9TdHJpbmdzcQB+AAvSuPWPdAAMVW5hdXRob3JpemVkc3EAfgALwHs5pHQABGZpbGVzcQB+AAuLYHxgdAAOUmVxdWVzdFRpbWVvdXRzcQB+AAsKxOTqdAAGQUNDRVBUc3EAfgAL8vTWzXQAClVyaVRvb0xvbmdzcQB+AAvqAWRqdAAPR0FURVdBWV9USU1FT1VUc3EAfgALHvTH3XQAC011bHRpU3RhdHVzc3EAfgALoxJlrnQABlNFUlZFUnNxAH4AC3Vq1Z50AB1BQ0NFU1NfQ09OVFJPTF9SRVFVRVNUX01FVEhPRHNxAH4AC9rHltZ0ABRVTlBST0NFU1NBQkxFX0VOVElUWXNxAH4AC6EbNi50ABZBQ0NFU1NfQ09OVFJPTF9NQVhfQUdFc3EAfgALon0G4nQACHNlbmRQYXRoc3EAfgALc8rtnXQAAiE9c3EAfgALxkQbUnQADUxBU1RfTU9ESUZJRURzcQB+AAsovZkfdAAdQUNDRVNTX0NPTlRST0xfRVhQT1NFX0hFQURFUlNzcQB+AAsdbbeMdAAeQUNDRVNTX0NPTlRST0xfUkVRVUVTVF9IRUFERVJTc3EAfgALi4tUTXQAC3dpdGhDaGFyc2V0c3EAfgALBhyuKnQACENvbmZsaWN0c3EAfgALG05gP3QACmNvbm5lY3Rpb25zcQB+AAvwpgpGdAAFQUxMT1dzcQB+AAt6PxFldAAGQ09PS0lFc3EAfgALnrWUDHQAEUlGX01PRElGSUVEX1NJTkNFc3EAfgALR4niPXQACGdldENsYXNzc3EAfgAL78j5H3QAA1htbHNxAH4ACzOPDNN0ABlDT05URU5UX1RSQU5TRkVSX0VOQ09ESU5Hc3EAfgALbkNbMnQADmNvcHkkZGVmYXVsdCQxc3EAfgALoefP/nQABEhUTUxzcQB+AAsmsnuddAAFRm91bmRzcQB+AAtNMhWHdAAdTk9OX0FVVEhPUklUQVRJVkVfSU5GT1JNQVRJT05zcQB+AAsbNhD5dAAEZm9ybXNxAH4AC62JHkx0AAZyZW5kZXJzcQB+AAslTnUtdAAKaWRlbnRpZmllZHNxAH4AC/SyouJ0AAZQUkFHTUFzcQB+AAs66xkAdAAISUZfTUFUQ0hzcQB+AAu4Wk0zdAAdUFJPWFlfQVVUSEVOVElDQVRJT05fUkVRVUlSRURzcQB+AAuPBL9wdAANUkVTRVRfQ09OVEVOVHNxAH4ACxs2DcB0AAlTRUVfT1RIRVJzcQB+AAtDJ2lWdAARRkFJTEVEX0RFUEVOREVOQ1lzcQB+AAurhP/EdAACbmVzcQB+AAs8vWgjdAAQQ09OVEVOVF9FTkNPRElOR3NxAH4AC0XzxeV0ABNJbnN1ZmZpY2llbnRTdG9yYWdlc3EAfgALfBRuxXQABVJBTkdFc3EAfgALwsIhGXQAD3dpdGhEYXRlSGVhZGVyc3NxAH4ACwY891F0AAlVU0VfUFJPWFlzcQB+AAt8ZGrHdAAGd3JpdGVzc3EAfgALKnxS7nQAB0FjY2VwdHNzcQB+AAv5/SQcdAAHQ0hVTktFRHNxAH4ACz8KuKN0ABRSRVFVRVNUX1VSSV9UT09fTE9OR3NxAH4AC0n2vid0ABJSZWRpcmVjdCRkZWZhdWx0JDNzcQB+AAsCwRXZdAAGTE9DS0VEc3EAfgALnlmsGnQABHdoZW5zcQB+AAvZc9HadAASc2VuZFBhdGgkZGVmYXVsdCQzc3EAfgALtUdy1XQABmlnbm9yZXNxAH4ACz+Gf2F0AA5ub0JpbmRpbmdGb3VuZHNxAH4AC9dY1gV0AARKc29uc3EAfgALqR9Zt3QACW1heExlbmd0aHNxAH4ACw25u0p0AAlGT1JCSURERU5zcQB+AAuV9ofWdAASTUVUSE9EX05PVF9BTExPV0VEc3EAfgALgSNi2nQAAmVxc3EAfgALkeGOpnQAGWNyZWF0ZUJhZFJlc3VsdCRkZWZhdWx0JDJzcQB+AAvJTI7WdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAL9iTlEHQADUlGX05PTkVfTUFUQ0hzcQB+AAtwUJmFdAANQUNDRVBUX1JBTkdFU3NxAH4AC2RwJ/10AAlOb0NvbnRlbnRzcQB+AAtOV2H7dAAQWF9SRVFVRVNURURfV0lUSHNxAH4ACz5wH650AA5pbmplY3RQcm92aWRlcnNxAH4AC9Igf+10ABFYX0ZPUldBUkRFRF9QUk9UT3NxAH4AC7nePSp0AAt0b2xlcmFudFhtbHNxAH4AC8wShfp0AAxNVUxUSV9TVEFUVVNzcQB+AAtq/VUNdAACIyNzcQB+AAuO9PlWdAAIZmluYWxpemVzcQB+AAvOaxmddAATU0VSVklDRV9VTkFWQUlMQUJMRXNxAH4ACwVf+w90AAVpbmRleHNxAH4AC0ZG4B90AA5wcm9kdWN0RWxlbWVudHNxAH4AC5XX0kV0AAhoYXNoQ29kZXNxAH4ACx7A4uR0AAZTdGF0dXNzcQB+AAs88TQSdAALd2l0aEhlYWRlcnNzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgJreHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAXY29udHJvbGxlcnMuQXBwbGljYXRpb251cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0ACdzY2FsYS5yZWZsZWN0Lm1hY3Jvcy5pbnRlcm5hbC5tYWNyb0ltcGxzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4ChAFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4Ca0wACWluaGVyaXRlZHEAfgJrTAAHcGFyZW50c3EAfgJreHEAfgKLc3EAfgKEAXVxAH4CZgAAAABwc3EAfgKEAXVxAH4CZgAAAABwc3EAfgKEAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAOc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4CinQACkluamVjdGFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AopzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABnNjYWxkaXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgKkc3EAfgKXdAAEV2lyZXEAfgKdc3EAfgKXdAAKQ29udHJvbGxlcnNxAH4Cm3NxAH4CnnVxAH4CoQAAAARzcQB+AqN0AARwbGF5c3EAfgKjdAADYXBpc3EAfgKjdAADbXZjcQB+AqhzcQB+Apd0AAlSZW5kZXJpbmdxAH4CrXNxAH4Cl3QAEVJlcXVlc3RFeHRyYWN0b3JzcQB+Aq1zcQB+Apd0ABBBY2NlcHRFeHRyYWN0b3JzcQB+Aq1zcQB+Apd0AAxDb250ZW50VHlwZXNzcQB+AptzcQB+Ap51cQB+AqEAAAAEc3EAfgKjdAAEcGxheXNxAH4Co3EAfgKzc3EAfgKjdAAEaHR0cHEAfgKoc3EAfgKXdAALSGVhZGVyTmFtZXNxAH4CvnNxAH4Cl3QABlN0YXR1c3EAfgK+c3EAfgKXdAAMSHR0cFByb3RvY29scQB+Ar5zcQB+Apd0AAtCb2R5UGFyc2Vyc3EAfgKtc3EAfgKXdAAHUmVzdWx0c3EAfgKtc3EAfgKXdAAGT2JqZWN0c3EAfgKbc3EAfgKedXEAfgKhAAAAA3NxAH4Co3QABGphdmFzcQB+AqN0AARsYW5ncQB+AqhzcQB+Apd0AANBbnlzcQB+AptzcQB+Ap51cQB+AqEAAAACc3EAfgKjdAAFc2NhbGFxAH4CqHBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAALY29udHJvbGxlcnNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVZDaSP1dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQAOUM6XFVzZXJzXEJSTUNlXERvY3VtZW50c1xjcmlibGVcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFIHt1vlxJf2XPR5HaKn3uvGN2lr9
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAwjLS1AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAH3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDz+/010AAZub3RpZnlzcQB+AAzuX+GNdAAEbmFtZXNxAH4ADEVFmTd0AAR3YWl0c3EAfgAMkkFWm3QADmNvcHkkZGVmYXVsdCQyc3EAfgAMOJ24MHQADSRhc0luc3RhbmNlT2ZzcQB+AAzDDN+9dAAMcHJvZHVjdEFyaXR5c3EAfgAMgjVT4HQABmVxdWFsc3NxAH4ADGL/sBx0AAxhc0luc3RhbmNlT2ZzcQB+AAxywoKmdAAMc3luY2hyb25pemVkc3EAfgAMB/amXnQADSRpc0luc3RhbmNlT2ZzcQB+AAwdd3addAAIY2FuRXF1YWxzcQB+AAzBdLavdAANcHJvZHVjdFByZWZpeHNxAH4ADPqNIIR0AAlub3RpZnlBbGxzcQB+AAyouCCzdAAMaXNJbnN0YW5jZU9mc3EAfgAMbQjnU3QABjxpbml0PnNxAH4ADPq/xgd0AAJpZHNxAH4ADO92qZ50AAI9PXNxAH4ADC/+MP10AAVjbG9uZXNxAH4ADBW40Wh0AARjb3B5c3EAfgAML2Ba3XQACHRvU3RyaW5nc3EAfgAMcTLsWXQAAiE9c3EAfgAMQ8EUVnQACGdldENsYXNzc3EAfgAMyNdr5XQADmNvcHkkZGVmYXVsdCQxc3EAfgAMBbn4EXQAAm5lc3EAfgAMaVsCJXQABEJhbmtzcQB+AAwBDJwGdAACZXFzcQB+AAzlX+e7dAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMw4GgQHQAAiMjc3EAfgAMbb4xZXQACGZpbmFsaXplc3EAfgAM3eM3FXQADnByb2R1Y3RFbGVtZW50c3EAfgAMmtXv6XQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AVXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAC2RvbWFpbi5CYW5rdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBueHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBtAHBzcQB+AHJzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AVUwACWluaGVyaXRlZHEAfgBVTAAHcGFyZW50c3EAfgBVeHEAfgB2c3EAfgBtAHBzcQB+AHJ1cQB+AFAAAAAAc3EAfgBtAHBzcQB+AHJ1cQB+AFAAAAAAc3EAfgBtAHBzcQB+AHJ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHV0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHVzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJNzcQB+AIZxAH4AiXNxAH4AinNxAH4AjXVxAH4AkAAAAANzcQB+AJJ0AARqYXZhc3EAfgCSdAACaW9xAH4Al3NxAH4AhnQAB1Byb2R1Y3RxAH4AjHNxAH4AhnQABkVxdWFsc3EAfgCMc3EAfgCGdAAGT2JqZWN0c3EAfgCKc3EAfgCNdXEAfgCQAAAAA3NxAH4AknEAfgCdc3EAfgCSdAAEbGFuZ3EAfgCXc3EAfgCGdAADQW55cQB+AIx1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZkb21haW5zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVZDXzHkdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAOUM6XFVzZXJzXEJSTUNlXERvY3VtZW50c1xjcmlibGVcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFKhAFDYodX/L1y3ulkvbHDKg/uHx
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD06MkwAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCfjPP90AAZub3RpZnlzcQB+AAy+1hUddAAEd2FpdHNxAH4ADBeeb2t0AA0kYXNJbnN0YW5jZU9mc3EAfgAMKr9WpXQABmVxdWFsc3NxAH4ADK4ObyV0AAxhc0luc3RhbmNlT2ZzcQB+AAw2KEzidAAMc3luY2hyb25pemVkc3EAfgAMXKxxP3QADSRpc0luc3RhbmNlT2ZzcQB+AAyD+raZdAAGY29uZmlnc3EAfgAMxMdjOXQACW5vdGlmeUFsbHNxAH4ADLbg3qN0AAxpc0luc3RhbmNlT2ZzcQB+AAzhWqyUdAAFaG9zdHNzcQB+AAy8+GgEdAACPT1zcQB+AAzVs3kxdAAFY2xvbmVzcQB+AAzB/0uRdAAJQ29ubmVjdG9yc3EAfgAM4KDIy3QACWNvbm5lY3RvcnNxAH4ADGhaFpt0AAhrZXlzcGFjZXNxAH4ADJcBytN0AAh0b1N0cmluZ3NxAH4ADK5rNUx0AAIhPXNxAH4ADHYir5p0AAhnZXRDbGFzc3NxAH4ADNxV0q50AAVpbmV0c3NxAH4ADJoTSmF0AAJuZXNxAH4ADIoKnzl0AAJlcXNxAH4ADGhKDel0AAIjI3NxAH4ADNl2ztJ0AAhmaW5hbGl6ZXNxAH4ADAvwonl0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABVwZXJzaXN0ZW5jZS5Db25uZWN0b3J1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBieHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBhAHBzcQB+AGZzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ASUwACWluaGVyaXRlZHEAfgBJTAAHcGFyZW50c3EAfgBJeHEAfgBqc3EAfgBhAHBzcQB+AGZ1cQB+AEQAAAAAc3EAfgBhAHBzcQB+AGZ1cQB+AEQAAAAAc3EAfgBhAHBzcQB+AGZ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGl0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGlzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AIZ0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIdzcQB+AHp0AANBbnlzcQB+AH5zcQB+AIF1cQB+AIQAAAACc3EAfgCGdAAFc2NhbGFxAH4AjXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAC3BlcnNpc3RlbmNlc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFWQ18x5HVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADlDOlxVc2Vyc1xCUk1DZVxEb2N1bWVudHNcY3JpYmxlXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQK9BbKZz9hXOr22MTphbP5e0zf2Q==
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDDNaJOAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwV7Qtj3QAB3Nlc3Npb25zcQB+AAsMRHu4dAAFc3BhY2V1cQB+AAkAAAA9c3EAfgAL1vHJ6nQABm5vdGlmeXNxAH4AC04KlIN0AA5pc1N0YXRpY0NvbHVtbnNxAH4ACyYCxZV0AAljbHVzdGVyZWRzcQB+AAu5hqzodAAEbmFtZXNxAH4ACyEUozJ0ABFjbHVzdGVyaW5nQ29sdW1uc3NxAH4ACxRr1OR0AAVhc0NxbHNxAH4AC0EmSS90AA5pc1NlY29uZGFyeUtleXNxAH4AC5C3F6x0AAR3YWl0c3EAfgALHCqHlHQADSRhc0luc3RhbmNlT2ZzcQB+AAuVJ9LVdAAGbG9nZ2Vyc3EAfgALcAGPYnQABWFsdGVyc3EAfgALsVdZwnQABmdldEFsbHNxAH4AC+8nSLB0AAZpbnNlcnRzcQB+AAsQRr5jdAAGZXF1YWxzc3EAfgALkZN3R3QADGFzSW5zdGFuY2VPZnNxAH4ACxAH2Op0AAtpc0FzY2VuZGluZ3NxAH4AC2NwcUN0AAh0cnVuY2F0ZXNxAH4AC61YiEJ0AAxzeW5jaHJvbml6ZWRzcQB+AAsbxhCEdAAPaXNNYXBFbnRyeUluZGV4c3EAfgALg8p73XQADWNsdXN0ZXJpbmdLZXlzcQB+AAtkU7zmdAAPaXNDbHVzdGVyaW5nS2V5c3EAfgALtxnicXQADSRpc0luc3RhbmNlT2ZzcQB+AAsJ/DO3dAAGY3JlYXRlc3EAfgALEWkmknQAC3ByaW1hcnlLZXlzc3EAfgALxI47UHQACG9wdGlvbmFsc3EAfgALY5H81nQADWlzTWFwS2V5SW5kZXhzcQB+AAuXo/oddAANY2Fzc2FuZHJhVHlwZXNxAH4ACy4SVbd0AAxpbnNlcnRTY2hlbWFzcQB+AAsXjtu2dAAFVmFsdWVzcQB+AAtb0suAdAAPaXNDb3VudGVyQ29sdW1uc3EAfgALBp3JinQACW5vdGlmeUFsbHNxAH4ACw+h6eV0AAxpc0luc3RhbmNlT2ZzcQB+AAvkOedxdAAGc2VsZWN0c3EAfgALjzuxInQADXNlY29uZGFyeUtleXNzcQB+AAv2ji9SdAAOaXNQYXJ0aXRpb25LZXlzcQB+AAvV5cizdAAGPGluaXQ+c3EAfgALyagBFXQAAmlkc3EAfgAL4BMphXQABWFwcGx5c3EAfgALFaerMXQACXRhYmxlTmFtZXNxAH4ACx8hJOZ0AAI9PXNxAH4AC0zIIod0AAdjb2x1bW5zc3EAfgALDNGqonQABWNsb25lc3EAfgALT6UAD3QABmRlbGV0ZXNxAH4ACwSLBQd0AAlpc1ByaW1hcnlzcQB+AAsRSys5dAAHQmFua0Rhb3NxAH4AC71MwJZ0AAh0b1N0cmluZ3NxAH4AC0Gd7ix0AA5kZWZpbmVUYWJsZUtleXNxAH4AC9N96T50AAVfbmFtZXNxAH4AC4XZ+dV0AAIhPXNxAH4AC9rvh6p0AAdmcm9tUm93c3EAfgALefKArnQACGdldENsYXNzc3EAfgALOJQ96nQABnVwZGF0ZXNxAH4AC1K4xqF0AAhfY29sdW1uc3NxAH4AC8fwD/d0AAJuZXNxAH4AC49vu8V0AAJxYnNxAH4ACwOn6fJ0AA1wYXJ0aXRpb25LZXlzc3EAfgAL4jNUwnQAAmVxc3EAfgALfPEPqnQAAiMjc3EAfgALBguN+XQACGZpbmFsaXplc3EAfgALkrgzHnQABXRhYmxlc3EAfgALXvNA0HQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AlXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAXQAGHBlcnNpc3RlbmNlLmRhb3MuQmFua0Rhb3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Arnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4ArQBwc3EAfgCyc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AJVMAAlpbmhlcml0ZWRxAH4AlUwAB3BhcmVudHNxAH4AlXhxAH4AtnNxAH4ArQBwc3EAfgCydXEAfgCQAAAAAHNxAH4ArQBwc3EAfgCydXEAfgCQAAAAAHNxAH4ArQBwc3EAfgCydXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgC1dAANUm9vdENvbm5lY3RvcnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AtXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABXNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAADY29tc3EAfgDSdAAId2Vic3Vkb3NzcQB+ANJ0AAdwaGFudG9tc3EAfgDSdAAKY29ubmVjdG9yc3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDTc3EAfgDGdAAHQmFua01hcHNxAH4AynNxAH4AzXVxAH4A0AAAAANzcQB+ANJ0AAtwZXJzaXN0ZW5jZXNxAH4A0nQABG1hcHNxAH4A3XNyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ax1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AtXNxAH4AxnQADkNhc3NhbmRyYVRhYmxlc3EAfgDKc3EAfgDNdXEAfgDQAAAABHNxAH4A0nQAA2NvbXNxAH4A0nQACHdlYnN1ZG9zc3EAfgDSdAAHcGhhbnRvbXEAfgDddXEAfgDEAAAAAnEAfgDec3EAfgDGdAAEQmFua3NxAH4AynNxAH4AzXVxAH4A0AAAAAJzcQB+ANJ0AAZkb21haW5xAH4A3XNxAH4A53NxAH4AxnQAC1NlbGVjdFRhYmxlcQB+AOx1cQB+AMQAAAACcQB+AN5xAH4A9nNxAH4AxnQABk9iamVjdHNxAH4AynNxAH4AzXVxAH4A0AAAAANzcQB+ANJ0AARqYXZhc3EAfgDSdAAEbGFuZ3EAfgDdc3EAfgDGdAADQW55c3EAfgDKc3EAfgDNdXEAfgDQAAAAAnNxAH4A0nQABXNjYWxhcQB+AN11cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0AAtwZXJzaXN0ZW5jZXNxAH4BE3QAEHBlcnNpc3RlbmNlLmRhb3NzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVZDXzHkdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQAOUM6XFVzZXJzXEJSTUNlXERvY3VtZW50c1xjcmlibGVcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFKJlIoRBGLdj8B2ve6TtWW3Qe6/Q
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDfBhxIAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAPHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDthX110AAZub3RpZnlzcQB+AAxnw7+fdAAOaXNTdGF0aWNDb2x1bW5zcQB+AAx88U2ddAAJY2x1c3RlcmVkc3EAfgAMejYeYHQABG5hbWVzcQB+AAz5thMAdAARY2x1c3RlcmluZ0NvbHVtbnNzcQB+AAyKcOsLdAAFYXNDcWxzcQB+AAwcQvdedAAOaXNTZWNvbmRhcnlLZXlzcQB+AAy4UolBdAAEd2FpdHNxAH4ADODRrSJ0AA0kYXNJbnN0YW5jZU9mc3EAfgAMnK2NNHQABmxvZ2dlcnNxAH4ADKWaUzl0AAVhbHRlcnNxAH4ADHMdLa50AAZpbnNlcnRzcQB+AAx4SCSrdAAGZXF1YWxzc3EAfgAMMpp7mHQADGFzSW5zdGFuY2VPZnNxAH4ADDCQa1F0AAtpc0FzY2VuZGluZ3NxAH4ADE90upd0AAh0cnVuY2F0ZXNxAH4ADGSziKR0AAxzeW5jaHJvbml6ZWRzcQB+AAx/n2d+dAAPaXNNYXBFbnRyeUluZGV4c3EAfgAMzF3My3QADWNsdXN0ZXJpbmdLZXlzcQB+AAwGSBzndAAPaXNDbHVzdGVyaW5nS2V5c3EAfgAM2w/jF3QADSRpc0luc3RhbmNlT2ZzcQB+AAxnhND/dAAGY3JlYXRlc3EAfgAMV6wf0XQAC3ByaW1hcnlLZXlzc3EAfgAMYnU1x3QACG9wdGlvbmFsc3EAfgAMy/wXQXQADWlzTWFwS2V5SW5kZXhzcQB+AAzu9hOadAANY2Fzc2FuZHJhVHlwZXNxAH4ADCMeyy50AAxpbnNlcnRTY2hlbWFzcQB+AAwzM7uZdAAFVmFsdWVzcQB+AAxdoBoddAAPaXNDb3VudGVyQ29sdW1uc3EAfgAMolkfynQACW5vdGlmeUFsbHNxAH4ADK1mIGp0AAxpc0luc3RhbmNlT2ZzcQB+AAwKzCLQdAAGc2VsZWN0c3EAfgAMyYy3P3QADXNlY29uZGFyeUtleXNzcQB+AAzFNw58dAAOaXNQYXJ0aXRpb25LZXlzcQB+AAwmKJN3dAAGPGluaXQ+c3EAfgAM+f3bJnQAAmlkc3EAfgAM6t0+dnQABWFwcGx5c3EAfgAML7O3ynQACXRhYmxlTmFtZXNxAH4ADJ2iWPJ0AAI9PXNxAH4ADPSBFsB0AAdjb2x1bW5zc3EAfgAMJOzlp3QABWNsb25lc3EAfgAMVsl213QABmRlbGV0ZXNxAH4ADNqE9TJ0AAlpc1ByaW1hcnlzcQB+AAxxopsTdAAIdG9TdHJpbmdzcQB+AAydZ3SsdAAOZGVmaW5lVGFibGVLZXlzcQB+AAw3Mf1NdAAFX25hbWVzcQB+AAzMC/BqdAACIT1zcQB+AAw/b6u2dAAHZnJvbVJvd3NxAH4ADD34KRB0AAhnZXRDbGFzc3NxAH4ADG+eaOl0AAZ1cGRhdGVzcQB+AAzJxLJAdAAIX2NvbHVtbnNzcQB+AAyvR7AidAACbmVzcQB+AAzRSBf5dAACcWJzcQB+AAxK2e47dAAHQmFua01hcHNxAH4ADHBTvON0AA1wYXJ0aXRpb25LZXlzc3EAfgAMx+N+i3QAAmVxc3EAfgAMn3FDd3QAAiMjc3EAfgAMI32xVnQACGZpbmFsaXplc3EAfgAMwpeyfHQABXRhYmxlc3EAfgAMx/WFcnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Aj3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAGHBlcnNpc3RlbmNlLm1hcHMuQmFua01hcHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AqHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4ApwBwc3EAfgCsc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AI9MAAlpbmhlcml0ZWRxAH4Aj0wAB3BhcmVudHNxAH4Aj3hxAH4AsHNxAH4ApwBwc3EAfgCsdXEAfgCKAAAAAHNxAH4ApwBwc3EAfgCsdXEAfgCKAAAAAHNxAH4ApwBwc3EAfgCsdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAARzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBldAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4Ar3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHEAfgDBeHEAfgCvdAAOQ2Fzc2FuZHJhVGFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AK9zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAARzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQAA2NvbXNxAH4Az3QACHdlYnN1ZG9zc3EAfgDPdAAHcGhhbnRvbXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDQdXEAfgC+AAAAAnNxAH4AxHQAB0JhbmtNYXBzcQB+AMdzcQB+AMp1cQB+AM0AAAADc3EAfgDPdAALcGVyc2lzdGVuY2VzcQB+AM90AARtYXBzcQB+ANhzcQB+AMR0AARCYW5rc3EAfgDHc3EAfgDKdXEAfgDNAAAAAnNxAH4Az3QABmRvbWFpbnEAfgDYc3EAfgDAc3EAfgDEdAALU2VsZWN0VGFibGVxAH4AyXVxAH4AvgAAAAJxAH4A2nEAfgDjc3EAfgDEdAAGT2JqZWN0c3EAfgDHc3EAfgDKdXEAfgDNAAAAA3NxAH4Az3QABGphdmFzcQB+AM90AARsYW5ncQB+ANhzcQB+AMR0AANBbnlzcQB+AMdzcQB+AMp1cQB+AM0AAAACc3EAfgDPdAAFc2NhbGFxAH4A2HVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAC3BlcnNpc3RlbmNlc3EAfgEAdAAQcGVyc2lzdGVuY2UubWFwc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVkNfMeR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA5QzpcVXNlcnNcQlJNQ2VcRG9jdW1lbnRzXGNyaWJsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUmd3yIy/dKokrmv0p6qOVv8Mf4J8=
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDQKn52AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAADc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwVHu7JHQAB3Nlc3Npb25zcQB+AAt68zsOdAAFc3BhY2VzcQB+AAshkn7PdAALUmljaFNlc3Npb251cQB+AAkAAABOc3EAfgALHtfrXHQABm5vdGlmeXNxAH4ACxyArNV0AA9wcm90b2NvbFZlcnNpb25zcQB+AAuLCjM1dAAOaXNTdGF0aWNDb2x1bW5zcQB+AAs1ar2qdAAIa2V5U3BhY2VzcQB+AAse9MxMdAAJY2x1c3RlcmVkc3EAfgALTKdUbnQABG5hbWVzcQB+AAuN6twudAAJdjRvck5ld2Vyc3EAfgALzybkDHQAEWNsdXN0ZXJpbmdDb2x1bW5zc3EAfgALyXmiPHQABWFzQ3Fsc3EAfgAL54USMXQADmlzU2Vjb25kYXJ5S2V5c3EAfgALZj0LgnQABHdhaXRzcQB+AAuvTaJjdAANJGFzSW5zdGFuY2VPZnNxAH4AC09GKX10AAhwcm92aWRlcnNxAH4AC57O6Wh0AAZsb2dnZXJzcQB+AAs+XuAydAAFYWx0ZXJzcQB+AAsVBg4WdAAKYXV0b2NyZWF0ZXNxAH4AC+Jj2rF0AAZnZXRBbGxzcQB+AAv5ZiardAAGaW5zZXJ0c3EAfgALUNGnL3QABmVxdWFsc3NxAH4AC7xnEDV0AAxhc0luc3RhbmNlT2ZzcQB+AAued6hZdAALaXNBc2NlbmRpbmdzcQB+AAvYNlf1dAAIdHJ1bmNhdGVzcQB+AAvgYFBkdAAMc3luY2hyb25pemVkc3EAfgALctaAo3QAD2lzTWFwRW50cnlJbmRleHNxAH4AC8FRQ050AA1CYXNpY0RhdGFiYXNlc3EAfgALSMxsT3QADWNsdXN0ZXJpbmdLZXlzcQB+AAtEqdAfdAAPaXNDbHVzdGVyaW5nS2V5c3EAfgALCu7z53QADSRpc0luc3RhbmNlT2ZzcQB+AAsusajPdAAGY3JlYXRlc3EAfgALH4LUqXQAC3ByaW1hcnlLZXlzc3EAfgALMf90jnQACG9wdGlvbmFsc3EAfgALZLeW+XQADWlzTWFwS2V5SW5kZXhzcQB+AAsTKq5QdAALaXNOZXdlclRoYW5zcQB+AAvpH2UhdAANY2Fzc2FuZHJhVHlwZXNxAH4AC6kiDjB0AAhhdXRvZHJvcHNxAH4ACwIMCbd0AAxpbnNlcnRTY2hlbWFzcQB+AAs6tmSNdAAFVmFsdWVzcQB+AAv9fdZjdAAPaXNDb3VudGVyQ29sdW1uc3EAfgALahYkPHQACW5vdGlmeUFsbHNxAH4AC7AxnYl0AAxpc0luc3RhbmNlT2ZzcQB+AAsqPVYndAAQY2Fzc2FuZHJhVmVyc2lvbnNxAH4AC9KvVHJ0AAZzZWxlY3RzcQB+AAstWNHvdAANc2Vjb25kYXJ5S2V5c3NxAH4AC0luII10AAdiYW5rRGFvc3EAfgAL+sgRmHQACHNodXRkb3duc3EAfgALfe8O6nQAElByb2R1Y3Rpb25EYXRhYmFzZXNxAH4ACxRnYFB0AA5pc1BhcnRpdGlvbktleXNxAH4AC2xGd790AAY8aW5pdD5zcQB+AAvUN329dAACaWRzcQB+AAvlWk0+dAAMYXV0b3RydW5jYXRlc3EAfgALZDHxCnQABWFwcGx5c3EAfgALKumkAXQACXRhYmxlTmFtZXNxAH4AC350mSR0AAI9PXNxAH4AC3tjEc10AAdjb2x1bW5zc3EAfgALOq5rvHQABWNsb25lc3EAfgALGqzirHQABmRlbGV0ZXNxAH4ACyTd6mx0AAljb25uZWN0b3JzcQB+AAslGdU2dAARY2Fzc2FuZHJhVmVyc2lvbnNzcQB+AAsc7u6fdAAJaXNQcmltYXJ5c3EAfgAL/3a+gXQAB3Nlc3Npb25zcQB+AAvfyFpCdAAIdG9TdHJpbmdzcQB+AAvSVvNwdAAOZGVmaW5lVGFibGVLZXlzcQB+AAugBnVGdAAFX25hbWVzcQB+AAtxxA1kdAACIT1zcQB+AAtosFkqdAAHZnJvbVJvd3NxAH4AC1iU9bV0AAhnZXRDbGFzc3NxAH4AC8jLYSJ0AAZ1cGRhdGVzcQB+AAs04moPdAAJdjNvck5ld2Vyc3EAfgALEMt/fXQACF9jb2x1bW5zc3EAfgALa4NAWXQAAm5lc3EAfgALbkAmEnQAAnFic3EAfgALyPNcgnQABnRhYmxlc3NxAH4ACzjhLHR0AA1wYXJ0aXRpb25LZXlzc3EAfgALhlvx1nQAAmVxc3EAfgALbwsdinQAAiMjc3EAfgALnuEOa3QACGZpbmFsaXplc3EAfgALeTPhO3QABXRhYmxlc3EAfgAL/yqUXnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AuXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAGXBlcnNpc3RlbmNlLkJhc2ljRGF0YWJhc2V1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+ANJ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+ANEAcHNxAH4A1nNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgC5TAAJaW5oZXJpdGVkcQB+ALlMAAdwYXJlbnRzcQB+ALl4cQB+ANpzcQB+ANEAcHNxAH4A1nVxAH4AtAAAAABzcQB+ANEAcHNxAH4A1nVxAH4AtAAAAABzcQB+ANEAcHNxAH4A1nVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4A2XQADERhdGFiYXNlSW1wbHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4A2XNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABXNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAADY29tc3EAfgD2dAAId2Vic3Vkb3NzcQB+APZ0AAdwaGFudG9tc3EAfgD2dAACZGJzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4A93NxAH4A6nQABk9iamVjdHNxAH4A7nNxAH4A8XVxAH4A9AAAAANzcQB+APZ0AARqYXZhc3EAfgD2dAAEbGFuZ3EAfgEBc3EAfgDqdAADQW55c3EAfgDuc3EAfgDxdXEAfgD0AAAAAnNxAH4A9nQABXNjYWxhcQB+AQFzcQB+ALZxAH4Aw3VxAH4AxAAAAABzcQB+AMYAdAAecGVyc2lzdGVuY2UuUHJvZHVjdGlvbkRhdGFiYXNldXEAfgDJAAAAAH5xAH4Ay3QABk1vZHVsZXVxAH4AzwAAAABzcQB+ANEAcHNxAH4A1nEAfgDbc3EAfgDRAHBzcQB+ANZzcQB+AN5zcQB+ANEAcHNxAH4A1nVxAH4AtAAAAABzcQB+ANEAcHNxAH4A1nVxAH4AtAAAAABzcQB+ANEAcHNxAH4A1nVxAH4A6AAAAARzcQB+AOp0AA1CYXNpY0RhdGFiYXNlc3EAfgDuc3EAfgDxdXEAfgD0AAAAAnNxAH4A9nQAC3BlcnNpc3RlbmNlcQB+AQFzcQB+AOp0AAxEYXRhYmFzZUltcGxzcQB+AO5zcQB+APF1cQB+APQAAAAFc3EAfgD2dAADY29tc3EAfgD2dAAId2Vic3Vkb3NzcQB+APZ0AAdwaGFudG9tc3EAfgD2dAACZGJxAH4BAXNxAH4A6nEAfgEDc3EAfgDuc3EAfgDxdXEAfgD0AAAAA3NxAH4A9nEAfgEIc3EAfgD2cQB+AQpxAH4BAXNxAH4A6nEAfgEMc3EAfgDuc3EAfgDxdXEAfgD0AAAAAnNxAH4A9nEAfgERcQB+AQF1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0AAtwZXJzaXN0ZW5jZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVkNpI/V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdAA5QzpcVXNlcnNcQlJNQ2VcRG9jdW1lbnRzXGNyaWJsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUp/L9GKuz1qD5Igv1lC3jGOXpoZE=
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDduuhXAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPRE0t90AAZub3RpZnlzcQB+AAyxPWrLdAAOX2RlZmF1bHRQcmVmaXhzcQB+AAzERvmXdAAEd2FpdHNxAH4ADN9I65p0AA0kYXNJbnN0YW5jZU9mc3EAfgAM41Q68nQABmVxdWFsc3NxAH4ADMuWmTh0AAxhc0luc3RhbmNlT2ZzcQB+AAxNPNdadAAMc3luY2hyb25pemVkc3EAfgAMEhXDgXQADSRpc0luc3RhbmNlT2ZzcQB+AAym6BizdAANUmV2ZXJzZUFzc2V0c3NxAH4ADFm+j6l0AAlub3RpZnlBbGxzcQB+AAy84Ph3dAAMaXNJbnN0YW5jZU9mc3EAfgAMR1tSXHQABjxpbml0PnNxAH4ADN8oyvh0AAI9PXNxAH4ADD8u+kJ0AAVjbG9uZXNxAH4ADEEB6th0AAh0b1N0cmluZ3NxAH4ADJsm8Ip0AAIhPXNxAH4ADGCL3d10AAhnZXRDbGFzc3NxAH4ADOQsXeZ0AAJuZXNxAH4ADLH8WTN0AAl2ZXJzaW9uZWRzcQB+AAzg47ZtdAACZXFzcQB+AAyVAhMGdAASUmV2ZXJzZUFwcGxpY2F0aW9uc3EAfgAMu6njEHQAAiMjc3EAfgAMk+e/LnQACGZpbmFsaXplc3EAfgAMHRou+HQABWluZGV4c3EAfgAMWKzHGXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ASXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAJGNvbnRyb2xsZXJzLmphdmFzY3JpcHQuUmV2ZXJzZUFzc2V0c3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AYnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AYQBwc3EAfgBmc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AElMAAlpbmhlcml0ZWRxAH4ASUwAB3BhcmVudHNxAH4ASXhxAH4AanNxAH4AYQBwc3EAfgBmdXEAfgBEAAAAAHNxAH4AYQBwc3EAfgBmdXEAfgBEAAAAAHNxAH4AYQBwc3EAfgBmdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBpdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBpc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCGdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCHc3EAfgB6dAADQW55c3EAfgB+c3EAfgCBdXEAfgCEAAAAAnNxAH4AhnQABXNjYWxhcQB+AI1zcQB+AEZxAH4AU3VxAH4AVAAAAABzcQB+AFYAdAApY29udHJvbGxlcnMuamF2YXNjcmlwdC5SZXZlcnNlQXBwbGljYXRpb251cQB+AFkAAAAAcQB+AF11cQB+AF8AAAAAc3EAfgBhAHBzcQB+AGZxAH4Aa3NxAH4AYQBwc3EAfgBmc3EAfgBuc3EAfgBhAHBzcQB+AGZ1cQB+AEQAAAAAc3EAfgBhAHBzcQB+AGZ1cQB+AEQAAAAAc3EAfgBhAHBzcQB+AGZ1cQB+AHgAAAACc3EAfgB6cQB+AH1zcQB+AH5zcQB+AIF1cQB+AIQAAAADc3EAfgCGcQB+AIlzcQB+AIZxAH4Ai3EAfgCNc3EAfgB6cQB+AI9zcQB+AH5zcQB+AIF1cQB+AIQAAAACc3EAfgCGcQB+AJRxAH4AjXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAFmNvbnRyb2xsZXJzLmphdmFzY3JpcHRzcQB+ALZ0AAtjb250cm9sbGVyc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVkNfMeR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA5QzpcVXNlcnNcQlJNQ2VcRG9jdW1lbnRzXGNyaWJsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUNKUWJyCB/MCwFFzwel+4OYR3WPg=
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCvMktbAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLX/hn90AAZub3RpZnlzcQB+AAwNY54RdAAOX2RlZmF1bHRQcmVmaXhzcQB+AAye/yeIdAAEd2FpdHNxAH4ADDF3VQd0AA0kYXNJbnN0YW5jZU9mc3EAfgAMEwx+KHQABmVxdWFsc3NxAH4ADARE58l0AAxhc0luc3RhbmNlT2ZzcQB+AAz9wkazdAAMc3luY2hyb25pemVkc3EAfgAMIbmbEnQADSRpc0luc3RhbmNlT2ZzcQB+AAzUgtJXdAANUmV2ZXJzZUFzc2V0c3NxAH4ADBxbhjF0AAlub3RpZnlBbGxzcQB+AAzoG7L5dAAMaXNJbnN0YW5jZU9mc3EAfgAMxrwvJ3QABjxpbml0PnNxAH4ADNMq4IZ0AAI9PXNxAH4ADP4yYIp0AAVjbG9uZXNxAH4ADKoxEEh0AAh0b1N0cmluZ3NxAH4ADIbvHK10AAIhPXNxAH4ADKY46AJ0AAhnZXRDbGFzc3NxAH4ADMnB0dB0AAJuZXNxAH4ADKe0cVB0AAl2ZXJzaW9uZWRzcQB+AAyg1lXtdAACZXFzcQB+AAxhFaA5dAASUmV2ZXJzZUFwcGxpY2F0aW9uc3EAfgAMpzysgnQAAiMjc3EAfgAMHhOtjHQACGZpbmFsaXplc3EAfgAMZdY9vHQABWluZGV4c3EAfgAMxblRIHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ASXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAGWNvbnRyb2xsZXJzLlJldmVyc2VBc3NldHN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGJ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGEAcHNxAH4AZnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBJTAAJaW5oZXJpdGVkcQB+AElMAAdwYXJlbnRzcQB+AEl4cQB+AGpzcQB+AGEAcHNxAH4AZnVxAH4ARAAAAABzcQB+AGEAcHNxAH4AZnVxAH4ARAAAAABzcQB+AGEAcHNxAH4AZnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AaXQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AaXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AhnQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ah3NxAH4AenQAA0FueXNxAH4AfnNxAH4AgXVxAH4AhAAAAAJzcQB+AIZ0AAVzY2FsYXEAfgCNc3EAfgBGcQB+AFN1cQB+AFQAAAAAc3EAfgBWAHQAHmNvbnRyb2xsZXJzLlJldmVyc2VBcHBsaWNhdGlvbnVxAH4AWQAAAABxAH4AXXVxAH4AXwAAAABzcQB+AGEAcHNxAH4AZnEAfgBrc3EAfgBhAHBzcQB+AGZzcQB+AG5zcQB+AGEAcHNxAH4AZnVxAH4ARAAAAABzcQB+AGEAcHNxAH4AZnVxAH4ARAAAAABzcQB+AGEAcHNxAH4AZnVxAH4AeAAAAAJzcQB+AHpxAH4AfXNxAH4AfnNxAH4AgXVxAH4AhAAAAANzcQB+AIZxAH4AiXNxAH4AhnEAfgCLcQB+AI1zcQB+AHpxAH4Aj3NxAH4AfnNxAH4AgXVxAH4AhAAAAAJzcQB+AIZxAH4AlHEAfgCNdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAALY29udHJvbGxlcnNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVZDXzHkdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAOUM6XFVzZXJzXEJSTUNlXERvY3VtZW50c1xjcmlibGVcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFOJqYjZd3jpyqKOLzCQyEMZUn1s9
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\routes.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAIl4F+AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAADHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDWEMsN0AAZub3RpZnlzcQB+AAwiIU/tdAAGQXNzZXRzc3EAfgAMbXrq1HQABHdhaXRzcQB+AAwfqLrQdAAGcm91dGVzc3EAfgAMVTZc4nQABmVxdWFsc3NxAH4ADNzwkR50ABFyb3V0ZXMkamF2YXNjcmlwdHNxAH4ADH5hOHh0AAlub3RpZnlBbGxzcQB+AAzRnyHkdAAGPGluaXQ+c3EAfgAMS1Yq5HQAC0FwcGxpY2F0aW9uc3EAfgAMVarO+HQACHRvU3RyaW5nc3EAfgAMIQt8cHQACGdldENsYXNzc3EAfgAMHufqNnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AL3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAEmNvbnRyb2xsZXJzLnJvdXRlc3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADHNjYWxhLnRocm93c3NyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4ASXhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4ASABwc3EAfgBNc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AC9MAAlpbmhlcml0ZWRxAH4AL0wAB3BhcmVudHNxAH4AL3hxAH4AUXNxAH4ASABwc3EAfgBNdXEAfgAqAAAAAHNxAH4ASABwc3EAfgBNdXEAfgAqAAAAAHNxAH4ASABwc3EAfgBNdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBQdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBQc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgBtdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgBuc3EAfgAscQB+ADlxAH4AO3EAfgA9cQB+AD5xAH4AQH5xAH4AQXQABk1vZHVsZXVxAH4ARQAAAABzcQB+AEgAcHNxAH4ATXEAfgBSc3EAfgBIAHBzcQB+AE1zcQB+AFVzcQB+AEgAcHNxAH4ATXVxAH4AKgAAAABzcQB+AEgAcHNxAH4ATXVxAH4AKgAAAABzcQB+AEgAcHNxAH4ATXVxAH4AXwAAAAB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAtjb250cm9sbGVyc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVkNfMeR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA5QzpcVXNlcnNcQlJNQ2VcRG9jdW1lbnRzXGNyaWJsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUOZ3xenLLUIiTJeXr9KJnfVzkze4=
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAk6XMBAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cE2B+bZ0AAZub3RpZnlzcQB+AAxlm95SdAAKYmFkUmVxdWVzdHNxAH4ADICYB9J0AAR3YWl0c3EAfgAMcvaVfXQADSRhc0luc3RhbmNlT2ZzcQB+AAxJNkt3dAAGcm91dGVzc3EAfgAMnnvHSXQADWNyZWF0ZUludm9rZXJzcQB+AAwW7Am6dAAlY29udHJvbGxlcnNfQXNzZXRzX3ZlcnNpb25lZDFfaW52b2tlcnNxAH4ADDoKbR50AAZlcXVhbHNzcQB+AAxUx9/vdAAGcHJlZml4c3EAfgAM7rEG3nQADGFzSW5zdGFuY2VPZnNxAH4ADAJP80p0AA1kb2N1bWVudGF0aW9uc3EAfgAMgxseR3QAJmNvbnRyb2xsZXJzX0FwcGxpY2F0aW9uX2luZGV4MF9pbnZva2Vyc3EAfgAMyAHA4HQADHN5bmNocm9uaXplZHNxAH4ADNpRt4V0AA0kaXNJbnN0YW5jZU9mc3EAfgAMQ6hwr3QACmhhbmRsZXJGb3JzcQB+AAzxTVAydAAJbm90aWZ5QWxsc3EAfgAMyGaE1HQADGlzSW5zdGFuY2VPZnNxAH4ADM5LRah0AAxlcnJvckhhbmRsZXJzcQB+AAxjeXNcdAAGPGluaXQ+c3EAfgAMWuhnt3QAAj09c3EAfgAMMd3HrHQABWNsb25lc3EAfgAMkibqRHQABlJvdXRlc3NxAH4ADCDDQgt0ACNjb250cm9sbGVyc19Bc3NldHNfdmVyc2lvbmVkMV9yb3V0ZXNxAH4ADLdI6/B0AAh0b1N0cmluZ3NxAH4ADMm/J8h0AAIhPXNxAH4ADMpR4yt0AAlmYWtlVmFsdWVzcQB+AAx0ov8YdAAIZ2V0Q2xhc3NzcQB+AAwIUQcBdAAkY29udHJvbGxlcnNfQXBwbGljYXRpb25faW5kZXgwX3JvdXRlc3EAfgAMMmBJpHQAAm5lc3EAfgAMBXHxLHQACndpdGhQcmVmaXhzcQB+AAyTLj6ydAAEY2FsbHNxAH4ADPdUv350AAJlcXNxAH4ADMXuRTh0AA1kZWZhdWx0UHJlZml4c3EAfgAM91K9EHQAAiMjc3EAfgAMbQP1nXQACGZpbmFsaXplc3EAfgAMhbNRb3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AX3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQADXJvdXRlci5Sb3V0ZXN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0ABNqYXZheC5pbmplY3QuSW5qZWN0c3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgB5eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgB4AHBzcQB+AH1zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AX0wACWluaGVyaXRlZHEAfgBfTAAHcGFyZW50c3EAfgBfeHEAfgCBc3EAfgB4AHBzcQB+AH11cQB+AFoAAAAAc3EAfgB4AHBzcQB+AH11cQB+AFoAAAAAc3EAfgB4AHBzcQB+AH11cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AIB0AA9HZW5lcmF0ZWRSb3V0ZXJzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AIBzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAARzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABHBsYXlzcQB+AJ10AARjb3Jlc3EAfgCddAAHcm91dGluZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCec3EAfgCRdAAGUm91dGVyc3EAfgCVc3EAfgCYdXEAfgCbAAAABHNxAH4AnXQABHBsYXlzcQB+AJ10AANhcGlzcQB+AJ10AAdyb3V0aW5ncQB+AKZzcQB+AJF0AAZPYmplY3RzcQB+AJVzcQB+AJh1cQB+AJsAAAADc3EAfgCddAAEamF2YXNxAH4AnXQABGxhbmdxAH4ApnNxAH4AkXQAA0FueXNxAH4AlXNxAH4AmHVxAH4AmwAAAAJzcQB+AJ10AAVzY2FsYXEAfgCmdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAGcm91dGVyc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFWQ18x5HVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADlDOlxVc2Vyc1xCUk1DZVxEb2N1bWVudHNcY3JpYmxlXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSArmMnWT2QZaMXB3efFl5vWWjtGQ==
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBcdvxBAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cN0jWmN0AAZub3RpZnlzcQB+AAw6mfPpdAAMYnlOYW1lUHJlZml4c3EAfgAMGqAuKnQABHdhaXRzcQB+AAwiihQedAANJGFzSW5zdGFuY2VPZnNxAH4ADGlC0gh0AAZlcXVhbHNzcQB+AAxzjiBXdAAGcHJlZml4c3EAfgAMoe4en3QADGFzSW5zdGFuY2VPZnNxAH4ADLjZuch0AAxSb3V0ZXNQcmVmaXhzcQB+AAzBVSPudAAMc3luY2hyb25pemVkc3EAfgAM3PW0o3QADSRpc0luc3RhbmNlT2ZzcQB+AAxQkfPHdAAHX3ByZWZpeHNxAH4ADL28U7F0AAlub3RpZnlBbGxzcQB+AAz/ysYxdAAMaXNJbnN0YW5jZU9mc3EAfgAM2W34NHQAAj09c3EAfgAMxTNSy3QABWNsb25lc3EAfgAM+6h7k3QACHRvU3RyaW5nc3EAfgAMjL/9EnQAAiE9c3EAfgAMFWcPZ3QACGdldENsYXNzc3EAfgAMRJBH63QACXNldFByZWZpeHNxAH4ADA44Ta90AAJuZXNxAH4ADBnhnUh0AAJlcXNxAH4ADBp2Pzd0AAIjI3NxAH4ADAff5nh0AAhmaW5hbGl6ZXNxAH4ADIIAnnp0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABNyb3V0ZXIuUm91dGVzUHJlZml4dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AYHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AXwBwc3EAfgBkc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEdMAAlpbmhlcml0ZWRxAH4AR0wAB3BhcmVudHNxAH4AR3hxAH4AaHNxAH4AXwBwc3EAfgBkdXEAfgBCAAAAAHNxAH4AXwBwc3EAfgBkdXEAfgBCAAAAAHNxAH4AXwBwc3EAfgBkdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBndAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBnc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCEdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCFc3EAfgB4dAADQW55c3EAfgB8c3EAfgB/dXEAfgCCAAAAAnNxAH4AhHQABXNjYWxhcQB+AIt1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZyb3V0ZXJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVZDXzHkdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAOUM6XFVzZXJzXEJSTUNlXERvY3VtZW50c1xjcmlibGVcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFH6HzK2KJoDWg5msn4qSUwiJQCiL
+external apis:
+0 items
+source infos:
+11 items
+C:\Users\BRMCe\Documents\crible\app\controllers\Application.scala -> 
+AAAAAAAAAAA=
+C:\Users\BRMCe\Documents\crible\app\domain\Bank.scala -> 
+AAAAAAAAAAA=
+C:\Users\BRMCe\Documents\crible\app\persistence\Connector.scala -> 
+AAAAAAAAAAA=
+C:\Users\BRMCe\Documents\crible\app\persistence\daos\BankDao.scala -> 
+AAAAAAAAAAA=
+C:\Users\BRMCe\Documents\crible\app\persistence\maps\BankMap.scala -> 
+AAAAAAAAAAA=
+C:\Users\BRMCe\Documents\crible\app\persistence\ProductionDatabase.scala -> 
+AAAAAAAAAAA=
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala -> 
+AAAAAAAAAAA=
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala -> 
+AAAAAAAAAAA=
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\controllers\routes.java -> 
+AAAAAAAAAAA=
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\Routes.scala -> 
+AAAAAAAAAAA=
+C:\Users\BRMCe\Documents\crible\target\scala-2.11\routes\main\router\RoutesPrefix.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVkNfMeR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOUM6XFVzZXJzXEJSTUNlXERvY3VtZW50c1xjcmlibGVcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVkNpI/V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOUM6XFVzZXJzXEJSTUNlXERvY3VtZW50c1xjcmlibGVcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=
