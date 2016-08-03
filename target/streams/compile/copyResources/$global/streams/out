@@ -1,3 +1,3 @@
 [debug] Copy resource mappings: 
-[debug] 	(C:\Users\brcerqueira\Documents\GitHub\cribleempresa\conf\application.conf,C:\Users\brcerqueira\Documents\GitHub\cribleempresa\target\scala-2.11\classes\application.conf)
-[debug] 	(C:\Users\brcerqueira\Documents\GitHub\cribleempresa\conf\routes,C:\Users\brcerqueira\Documents\GitHub\cribleempresa\target\scala-2.11\classes\routes)
+[debug] 	(C:\Projects\cribleempresa\conf\application.conf,C:\Projects\cribleempresa\target\scala-2.11\classes\application.conf)
+[debug] 	(C:\Projects\cribleempresa\conf\routes,C:\Projects\cribleempresa\target\scala-2.11\classes\routes)

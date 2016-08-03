@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/brcerqueira/Documents/GitHub/cribleempresa/conf/routes
-// @DATE:Tue Aug 02 16:25:56 BRT 2016
+// @SOURCE:C:/Projects/cribleempresa/conf/routes
+// @DATE:Wed Aug 03 20:31:40 GFT 2016
 
 package controllers;
 
