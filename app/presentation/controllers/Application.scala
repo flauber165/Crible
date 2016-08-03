@@ -10,12 +10,7 @@ import service.queries.BankQuery
 class Application(implicit inj: Injector) extends Controller with Injectable {
   val bankQuery = inject [BankQuery]
 
-  implicit val locationWrites = new Writes[Bank] {
-    def writes(bank: Bank) = Json.obj(
-      "id" -> bank.id,
-      "name" -> bank.name
-    )
-  }
+  implicit val bankWrites = Json.writes[Bank]
 
   def index = Action.async {
     bankQuery.getAll().map(r => Ok(Json.toJson(r)))
