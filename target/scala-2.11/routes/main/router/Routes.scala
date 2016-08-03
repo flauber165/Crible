@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/BRMCe/Documents/crible/conf/routes
-// @DATE:Sun Jul 31 20:52:00 GFT 2016
+// @SOURCE:C:/Users/brcerqueira/Documents/GitHub/cribleempresa/conf/routes
+// @DATE:Tue Aug 02 16:25:56 BRT 2016
 
 package router
 
@@ -16,7 +16,7 @@ import _root_.controllers.Assets.Asset
 class Routes(
   override val errorHandler: play.api.http.HttpErrorHandler, 
   // @LINE:6
-  Application_1: controllers.Application,
+  Application_1: presentation.controllers.Application,
   // @LINE:9
   Assets_0: controllers.Assets,
   val prefix: String
@@ -25,7 +25,7 @@ class Routes(
    @javax.inject.Inject()
    def this(errorHandler: play.api.http.HttpErrorHandler,
     // @LINE:6
-    Application_1: controllers.Application,
+    Application_1: presentation.controllers.Application,
     // @LINE:9
     Assets_0: controllers.Assets
   ) = this(errorHandler, Application_1, Assets_0, "/")
@@ -42,7 +42,7 @@ class Routes(
   }
 
   def documentation = List(
-    ("""GET""", this.prefix, """controllers.Application.index"""),
+    ("""GET""", this.prefix, """presentation.controllers.Application.index"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
@@ -52,14 +52,14 @@ class Routes(
 
 
   // @LINE:6
-  private[this] lazy val controllers_Application_index0_route = Route("GET",
+  private[this] lazy val presentation_controllers_Application_index0_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix)))
   )
-  private[this] lazy val controllers_Application_index0_invoker = createInvoker(
+  private[this] lazy val presentation_controllers_Application_index0_invoker = createInvoker(
     Application_1.index,
     HandlerDef(this.getClass.getClassLoader,
       "router",
-      "controllers.Application",
+      "presentation.controllers.Application",
       "index",
       Nil,
       "GET",
@@ -89,9 +89,9 @@ class Routes(
   def routes: PartialFunction[RequestHeader, Handler] = {
   
     // @LINE:6
-    case controllers_Application_index0_route(params) =>
+    case presentation_controllers_Application_index0_route(params) =>
       call { 
-        controllers_Application_index0_invoker.call(Application_1.index)
+        presentation_controllers_Application_index0_invoker.call(Application_1.index)
       }
   
     // @LINE:9

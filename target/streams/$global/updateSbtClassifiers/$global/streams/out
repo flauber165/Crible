@@ -10,6 +10,7 @@
 [debug] == resolving dependencies crible#crible$sbt_2.11;1.0->org.scala-sbt#sbt;0.13.8 [default->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.8 {default=[default(compile)]}
+[debug] no default cache defined: set to C:\Users\brcerqueira\.ivy2\cache
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.8
 [debug] 	found org.scala-sbt#sbt;0.13.8 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
@@ -3725,9 +3726,9 @@
 [debug] 	[NOT REQUIRED] asm#asm;3.1!asm.jar
 [debug] 	[NOT REQUIRED] jfree#jcommon;1.0.12!jcommon.jar
 [debug] 	[NOT REQUIRED] jfree#jfreechart;1.0.8a!jfreechart.jar
-[debug] :: resolution report :: resolve 17374ms :: artifacts dl 124ms
-[debug] 	report for crible#crible$sbt_2.11;1.0 default produced in C:\Users\BRMCe\Documents\crible\target\resolution-cache\reports\crible-crible$sbt_2.11-default.xml
-[debug] 	resolve done (17374ms resolve - 124ms download)
+[debug] :: resolution report :: resolve 6989ms :: artifacts dl 92ms
+[debug] 	report for crible#crible$sbt_2.11;1.0 default produced in C:\Users\brcerqueira\Documents\GitHub\cribleempresa\target\resolution-cache\reports\crible-crible$sbt_2.11-default.xml
+[debug] 	resolve done (6989ms resolve - 92ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: crible#crible$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -4825,6 +4826,6 @@
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-simple;1.7.12!slf4j-simple.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#npm_2.10;1.1.1!npm_2.10.jar(src)
-[debug] :: resolution report :: resolve 429ms :: artifacts dl 109ms
-[debug] 	report for crible#crible$sources_2.11;1.0 default produced in C:\Users\BRMCe\Documents\crible\target\resolution-cache\reports\crible-crible$sources_2.11-default.xml
-[debug] 	resolve done (429ms resolve - 109ms download)
+[debug] :: resolution report :: resolve 361ms :: artifacts dl 986ms
+[debug] 	report for crible#crible$sources_2.11;1.0 default produced in C:\Users\brcerqueira\Documents\GitHub\cribleempresa\target\resolution-cache\reports\crible-crible$sources_2.11-default.xml
+[debug] 	resolve done (361ms resolve - 986ms download)

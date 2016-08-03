@@ -6,7 +6,7 @@ import com.websudos.phantom.CassandraTable
 import com.websudos.phantom.dsl._
 import domain.Bank
 
-class BankMap extends CassandraTable[BankMap, Bank] {
+private[persistence] class BankMap extends CassandraTable[BankMap, Bank] {
 
   override def tableName: String = "bank"
 

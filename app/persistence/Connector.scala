@@ -5,7 +5,7 @@ import com.typesafe.config.ConfigFactory
 import com.websudos.phantom.connectors.ContactPoints
 import scala.collection.JavaConversions._
 
-object Connector {
+private[persistence] object Connector {
   val config = ConfigFactory.load()
 
   val hosts = config.getStringList("cassandra.host")

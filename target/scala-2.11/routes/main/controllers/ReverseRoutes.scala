@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/BRMCe/Documents/crible/conf/routes
-// @DATE:Sun Jul 31 20:52:00 GFT 2016
+// @SOURCE:C:/Users/brcerqueira/Documents/GitHub/cribleempresa/conf/routes
+// @DATE:Tue Aug 02 16:25:56 BRT 2016
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }
@@ -9,7 +9,7 @@ import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamic
 
 import _root_.controllers.Assets.Asset
 
-// @LINE:6
+// @LINE:9
 package controllers {
 
   // @LINE:9
@@ -23,21 +23,6 @@ package controllers {
     def versioned(file:Asset): Call = {
       implicit val _rrc = new ReverseRouteContext(Map(("path", "/public")))
       Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[Asset]].unbind("file", file))
-    }
-  
-  }
-
-  // @LINE:6
-  class ReverseApplication(_prefix: => String) {
-    def _defaultPrefix: String = {
-      if (_prefix.endsWith("/")) "" else "/"
-    }
-
-  
-    // @LINE:6
-    def index(): Call = {
-      import ReverseRouteContext.empty
-      Call("GET", _prefix)
     }
   
   }
