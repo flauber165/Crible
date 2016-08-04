@@ -1,2 +1,4 @@
 # Criblé
-Repositório do Produto Criblé Empresa
+Repositório da solução Criblé e seus módulos
+
+Criblé Empresa & Criblé Mercado
