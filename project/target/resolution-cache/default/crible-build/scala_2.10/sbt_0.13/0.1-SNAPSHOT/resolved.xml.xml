@@ -4,7 +4,7 @@
 		module="crible-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160731140758"
+		publication="20160804195204"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
