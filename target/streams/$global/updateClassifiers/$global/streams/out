@@ -4,6 +4,7 @@
 [warn]  * com.google.guava:guava:(16.0.1, 18.0)
 [warn]  * junit:junit:(4.12, 4.11)
 [warn]  * org.scala-lang.modules:scala-parser-combinators_2.11:(1.0.4, 1.0.1)
+[warn]  * com.typesafe.akka:akka-actor_2.11:(2.3.14, 2.3.13)
 [warn]  * org.scala-lang.modules:scala-xml_2.11:(1.0.1, 1.0.4)
 [debug] :: resolving dependencies :: crible#crible$sources_2.11;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
@@ -13,7 +14,7 @@
 [debug] == resolving dependencies for crible#crible$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7420472d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30cd0d06
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -22,7 +23,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#twirl-api_2.11;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a740cd8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f3c7f7b
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#twirl-api_2.11;1.1.1
 [debug] 	found com.typesafe.play#twirl-api_2.11;1.1.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime]
@@ -30,7 +31,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19725956
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@725e43a2
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.4
 [debug] 	found org.apache.commons#commons-lang3;3.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->runtime]
@@ -38,7 +39,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61ff7197
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53a16448
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->runtime]
@@ -46,7 +47,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-server_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-server_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d3be397
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@678311de
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-server_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-server_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-server_2.11;2.4.6 [compile->runtime]
@@ -54,7 +55,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-server_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a86fe55
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40368191
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play_2.11;2.4.6
 [debug] 	found com.typesafe.play#play_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play_2.11;2.4.6 [compile->runtime]
@@ -62,7 +63,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#build-link;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#build-link;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@489c600c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@588d7ab5
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#build-link;2.4.6
 [debug] 	found com.typesafe.play#build-link;2.4.6 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#build-link;2.4.6 [compile->runtime]
@@ -70,7 +71,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#build-link;2.4.6 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-exceptions;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-exceptions;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@264dcd34
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d70204e
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-exceptions;2.4.6
 [debug] 	found com.typesafe.play#play-exceptions;2.4.6 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-exceptions;2.4.6 [compile->runtime]
@@ -78,7 +79,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-exceptions;2.4.6 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.javassist#javassist;3.19.0-GA [compile->default(compile)]
 [info] Resolving org.javassist#javassist;3.19.0-GA ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20f54553
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35ace790
 [debug] sbt-chain: module revision found in cache: org.javassist#javassist;3.19.0-GA
 [debug] 	found org.javassist#javassist;3.19.0-GA in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.javassist#javassist;3.19.0-GA [compile->runtime]
@@ -86,7 +87,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.javassist#javassist;3.19.0-GA [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f309d1e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3052c94b
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-iteratees_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->runtime]
@@ -94,7 +95,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.11;0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d9aa712
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f0382b4
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
@@ -102,7 +103,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a8f4e6d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@727c66fa
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
 [debug] 	found com.typesafe#config;1.3.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->runtime]
@@ -110,7 +111,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1127ec9f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37499877
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-json_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.4.6 [compile->runtime]
@@ -118,7 +119,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77ade4bb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65bfa7d3
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-functional_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.4.6 [compile->runtime]
@@ -126,7 +127,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e45e59
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f5022f7
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-datacommons_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.4.6 [compile->runtime]
@@ -134,7 +135,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->joda-time#joda-time;2.8.1 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.8.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52008732
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49529e97
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.8.1
 [debug] 	found joda-time#joda-time;2.8.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->joda-time#joda-time;2.8.1 [compile->runtime]
@@ -142,7 +143,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->joda-time#joda-time;2.8.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.joda#joda-convert;1.7 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d972126
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f73faf5
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.7
 [debug] 	found org.joda#joda-convert;1.7 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.joda#joda-convert;1.7 [compile->runtime]
@@ -150,7 +151,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.joda#joda-convert;1.7 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.5.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@417b9bc7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a99d8ae
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.5.4
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.5.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->runtime]
@@ -158,7 +159,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.5.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5cca8f0b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2aca5ce5
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.5.4
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.5.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.4 [compile->runtime]
@@ -166,7 +167,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.5.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e4fad2b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b82ff60
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.5.4
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.5.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.4 [compile->runtime]
@@ -174,7 +175,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6951135a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2cbe4c64
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 [compile->runtime]
@@ -182,7 +183,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3697292a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f0a3dde
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 [compile->runtime]
@@ -190,7 +191,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-netty-utils;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-netty-utils;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c071b69
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d15c2e2
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-netty-utils;2.4.6
 [debug] 	found com.typesafe.play#play-netty-utils;2.4.6 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-netty-utils;2.4.6 [compile->runtime]
@@ -198,7 +199,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-netty-utils;2.4.6 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@514f8c97
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d8779e1
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.12
 [debug] 	found org.slf4j#slf4j-api;1.7.12 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [compile->runtime]
@@ -206,7 +207,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fc8f5c4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e0cc6f5
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.12
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.12 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.12 [compile->runtime]
@@ -214,7 +215,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.12 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d058b02
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@162b3e0
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.12
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.12 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.12 [compile->runtime]
@@ -222,7 +223,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.12 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-core;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@184dc238
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c928bac
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.3
 [debug] 	found ch.qos.logback#logback-core;1.1.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [compile->runtime]
@@ -230,23 +231,15 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-classic;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bc5633c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7bd0b38d
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.3
 [debug] 	found ch.qos.logback#logback-classic;1.1.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->master]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->default(compile)]
-[info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51065ea5
-[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.13
-[debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.13 in sbt-chain
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->runtime]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->compile]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-slf4j_2.11;2.3.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7895bca4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49499456
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.11;2.3.13
 [debug] 	found com.typesafe.akka#akka-slf4j_2.11;2.3.13 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->runtime]
@@ -254,7 +247,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75e519c5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17631792
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.10
 [debug] 	found commons-codec#commons-codec;1.10 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->runtime]
@@ -262,7 +255,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [compile->default(compile)]
 [info] Resolving xerces#xercesImpl;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1574906
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6568943
 [debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.11.0
 [debug] 	found xerces#xercesImpl;2.11.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [compile->runtime]
@@ -270,7 +263,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->default(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16926eae
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c5d0e7e
 [debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01
 [debug] 	found xml-apis#xml-apis;1.4.01 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->runtime]
@@ -278,7 +271,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->javax.transaction#jta;1.1 [compile->default(compile)]
 [info] Resolving javax.transaction#jta;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57267880
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fb867b5
 [debug] sbt-chain: module revision found in cache: javax.transaction#jta;1.1
 [debug] 	found javax.transaction#jta;1.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->javax.transaction#jta;1.1 [compile->runtime]
@@ -286,7 +279,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->javax.transaction#jta;1.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject#guice;4.0 [compile->default(compile)]
 [info] Resolving com.google.inject#guice;4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16ed21b6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12c6e11f
 [debug] sbt-chain: module revision found in cache: com.google.inject#guice;4.0
 [debug] 	found com.google.inject#guice;4.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject#guice;4.0 [compile->runtime]
@@ -294,7 +287,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject#guice;4.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->default(compile)]
 [info] Resolving javax.inject#javax.inject;1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@478d58c6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@546d9729
 [debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
 [debug] 	found javax.inject#javax.inject;1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->runtime]
@@ -302,7 +295,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->default(compile)]
 [info] Resolving aopalliance#aopalliance;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d6f4723
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6079b3e
 [debug] sbt-chain: module revision found in cache: aopalliance#aopalliance;1.0
 [debug] 	found aopalliance#aopalliance;1.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->runtime]
@@ -310,7 +303,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.guava#guava;16.0.1 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;16.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2811e20e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10132726
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;16.0.1
 [debug] 	found com.google.guava#guava;16.0.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.guava#guava;16.0.1 [compile->runtime]
@@ -318,29 +311,15 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.guava#guava;16.0.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->default(compile)]
 [info] Resolving com.google.inject.extensions#guice-assistedinject;4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@104be91b
-[info] Resolving com.google.inject.extensions#guice-assistedinject;4.0 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@104be91b
-[debug] 		tried C:\Users\BRMCe\.ivy2\local\com.google.inject.extensions\guice-assistedinject\4.0\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.google.inject.extensions#guice-assistedinject;4.0
-[debug] 		tried https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
-[debug] 	jcenter: found md file for com.google.inject.extensions#guice-assistedinject;4.0
-[debug] 		=> https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom (4.0)
-[debug] downloading https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
-[debug] 	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (764ms)
-[info] Resolving com.google.inject.extensions#extensions-parent;4.0 ...
-[debug] sbt-chain: Checking cache for: dependency: com.google.inject.extensions#extensions-parent;4.0 {}
-[debug] sbt-chain: module revision found in cache: com.google.inject.extensions#extensions-parent;4.0
-[debug] 	found com.google.inject.extensions#guice-assistedinject;4.0 in jcenter
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b18546b
+[debug] sbt-chain: module revision found in cache: com.google.inject.extensions#guice-assistedinject;4.0
+[debug] 	found com.google.inject.extensions#guice-assistedinject;4.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-netty-server_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-netty-server_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48c0cb56
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@335b1378
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-netty-server_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-netty-server_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-netty-server_2.11;2.4.6 [compile->runtime]
@@ -348,7 +327,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-netty-server_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty;3.10.4.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.10.4.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a1a9cd8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c5bf53f
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.10.4.Final
 [debug] 	found io.netty#netty;3.10.4.Final in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty;3.10.4.Final [compile->runtime]
@@ -356,7 +335,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty;3.10.4.Final [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.netty#netty-http-pipelining;1.1.4 [compile->default(compile)]
 [info] Resolving com.typesafe.netty#netty-http-pipelining;1.1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d3d797e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cbbd072
 [debug] sbt-chain: module revision found in cache: com.typesafe.netty#netty-http-pipelining;1.1.4
 [debug] 	found com.typesafe.netty#netty-http-pipelining;1.1.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.netty#netty-http-pipelining;1.1.4 [compile->runtime]
@@ -364,7 +343,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.netty#netty-http-pipelining;1.1.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-cache_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-cache_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67fc9f3b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2bb299
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-cache_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-cache_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-cache_2.11;2.4.6 [compile->runtime]
@@ -372,7 +351,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-cache_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sf.ehcache#ehcache-core;2.6.11 [compile->default(compile)]
 [info] Resolving net.sf.ehcache#ehcache-core;2.6.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49a48197
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@337998b0
 [debug] sbt-chain: module revision found in cache: net.sf.ehcache#ehcache-core;2.6.11
 [debug] 	found net.sf.ehcache#ehcache-core;2.6.11 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sf.ehcache#ehcache-core;2.6.11 [compile->runtime]
@@ -380,7 +359,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sf.ehcache#ehcache-core;2.6.11 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scaldi#scaldi-play_2.11;0.5.13 [compile->default(compile)]
 [info] Resolving org.scaldi#scaldi-play_2.11;0.5.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@346802ee
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f0e5e0c
 [debug] sbt-chain: module revision found in cache: org.scaldi#scaldi-play_2.11;0.5.13
 [debug] 	found org.scaldi#scaldi-play_2.11;0.5.13 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scaldi#scaldi-play_2.11;0.5.13 [compile->runtime]
@@ -388,7 +367,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scaldi#scaldi-play_2.11;0.5.13 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scaldi#scaldi-jsr330_2.11;0.5.8 [compile->default(compile)]
 [info] Resolving org.scaldi#scaldi-jsr330_2.11;0.5.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@708a600f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ef5df8f
 [debug] sbt-chain: module revision found in cache: org.scaldi#scaldi-jsr330_2.11;0.5.8
 [debug] 	found org.scaldi#scaldi-jsr330_2.11;0.5.8 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scaldi#scaldi-jsr330_2.11;0.5.8 [compile->runtime]
@@ -396,7 +375,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scaldi#scaldi-jsr330_2.11;0.5.8 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scaldi#scaldi_2.11;0.5.7 [compile->default(compile)]
 [info] Resolving org.scaldi#scaldi_2.11;0.5.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fc58273
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@356139cc
 [debug] sbt-chain: module revision found in cache: org.scaldi#scaldi_2.11;0.5.7
 [debug] 	found org.scaldi#scaldi_2.11;0.5.7 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scaldi#scaldi_2.11;0.5.7 [compile->runtime]
@@ -404,7 +383,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scaldi#scaldi_2.11;0.5.7 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17962dab
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57649c4d
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
 [debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
@@ -413,7 +392,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-dsl_2.11;1.22.0 [compile->default(compile)]
 [info] Resolving com.websudos#phantom-dsl_2.11;1.22.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3feab33e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@748da475
 [debug] sbt-chain: module revision found in cache: com.websudos#phantom-dsl_2.11;1.22.0
 [debug] 	found com.websudos#phantom-dsl_2.11;1.22.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-dsl_2.11;1.22.0 [compile->runtime]
@@ -421,7 +400,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-dsl_2.11;1.22.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-connectors_2.11;1.22.0 [compile->default(compile)]
 [info] Resolving com.websudos#phantom-connectors_2.11;1.22.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60222704
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@693f4024
 [debug] sbt-chain: module revision found in cache: com.websudos#phantom-connectors_2.11;1.22.0
 [debug] 	found com.websudos#phantom-connectors_2.11;1.22.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-connectors_2.11;1.22.0 [compile->runtime]
@@ -429,7 +408,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-connectors_2.11;1.22.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#log4j-over-slf4j;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#log4j-over-slf4j;1.7.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76e6c07f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a73f7a2
 [debug] sbt-chain: module revision found in cache: org.slf4j#log4j-over-slf4j;1.7.12
 [debug] 	found org.slf4j#log4j-over-slf4j;1.7.12 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#log4j-over-slf4j;1.7.12 [compile->runtime]
@@ -437,7 +416,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#log4j-over-slf4j;1.7.12 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->default(compile)]
 [info] Resolving com.datastax.cassandra#cassandra-driver-core;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d61af3d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12d1f5d2
 [debug] sbt-chain: module revision found in cache: com.datastax.cassandra#cassandra-driver-core;3.0.0
 [debug] 	found com.datastax.cassandra#cassandra-driver-core;3.0.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->runtime]
@@ -445,7 +424,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-handler;4.0.33.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-handler;4.0.33.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21909e69
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36022cca
 [debug] sbt-chain: module revision found in cache: io.netty#netty-handler;4.0.33.Final
 [debug] 	found io.netty#netty-handler;4.0.33.Final in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-handler;4.0.33.Final [compile->runtime]
@@ -453,7 +432,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-handler;4.0.33.Final [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-buffer;4.0.33.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-buffer;4.0.33.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53f0d9c1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fa568bf
 [debug] sbt-chain: module revision found in cache: io.netty#netty-buffer;4.0.33.Final
 [debug] 	found io.netty#netty-buffer;4.0.33.Final in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-buffer;4.0.33.Final [compile->runtime]
@@ -461,7 +440,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-buffer;4.0.33.Final [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-common;4.0.33.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-common;4.0.33.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@538cfb95
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@431bdae3
 [debug] sbt-chain: module revision found in cache: io.netty#netty-common;4.0.33.Final
 [debug] 	found io.netty#netty-common;4.0.33.Final in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-common;4.0.33.Final [compile->runtime]
@@ -469,7 +448,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-common;4.0.33.Final [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-transport;4.0.33.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-transport;4.0.33.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6af3bc7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e73dad9
 [debug] sbt-chain: module revision found in cache: io.netty#netty-transport;4.0.33.Final
 [debug] 	found io.netty#netty-transport;4.0.33.Final in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-transport;4.0.33.Final [compile->runtime]
@@ -477,7 +456,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-transport;4.0.33.Final [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-codec;4.0.33.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-codec;4.0.33.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@266933e7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71aed049
 [debug] sbt-chain: module revision found in cache: io.netty#netty-codec;4.0.33.Final
 [debug] 	found io.netty#netty-codec;4.0.33.Final in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-codec;4.0.33.Final [compile->runtime]
@@ -485,7 +464,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-codec;4.0.33.Final [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->default(compile)]
 [info] Resolving io.dropwizard.metrics#metrics-core;3.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22d5cb9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36469036
 [debug] sbt-chain: module revision found in cache: io.dropwizard.metrics#metrics-core;3.1.2
 [debug] 	found io.dropwizard.metrics#metrics-core;3.1.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->runtime]
@@ -493,7 +472,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#diesel-engine_2.11;0.2.4 [compile->default(compile)]
 [info] Resolving com.websudos#diesel-engine_2.11;0.2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@478cc711
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@231f3d25
 [debug] sbt-chain: module revision found in cache: com.websudos#diesel-engine_2.11;0.2.4
 [debug] 	found com.websudos#diesel-engine_2.11;0.2.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#diesel-engine_2.11;0.2.4 [compile->runtime]
@@ -501,7 +480,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#diesel-engine_2.11;0.2.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.chuusai#shapeless_2.11;2.2.5 [compile->default(compile)]
 [info] Resolving com.chuusai#shapeless_2.11;2.2.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d06ab57
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e4fdc99
 [debug] sbt-chain: module revision found in cache: com.chuusai#shapeless_2.11;2.2.5
 [debug] 	found com.chuusai#shapeless_2.11;2.2.5 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.chuusai#shapeless_2.11;2.2.5 [compile->runtime]
@@ -509,7 +488,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.chuusai#shapeless_2.11;2.2.5 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.twitter#util-core_2.11;6.27.0 [compile->default(compile)]
 [info] Resolving com.twitter#util-core_2.11;6.27.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@597921fa
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bc6d5d
 [debug] sbt-chain: module revision found in cache: com.twitter#util-core_2.11;6.27.0
 [debug] 	found com.twitter#util-core_2.11;6.27.0 in sbt-chain
 [debug] 	[6.27.0] com.twitter#util-core_2.11;6.27.0
@@ -518,7 +497,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.twitter#util-core_2.11;6.27.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.twitter#util-function_2.11;6.27.0 [compile->default(compile)]
 [info] Resolving com.twitter#util-function_2.11;6.27.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3152ee1d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29b0993e
 [debug] sbt-chain: module revision found in cache: com.twitter#util-function_2.11;6.27.0
 [debug] 	found com.twitter#util-function_2.11;6.27.0 in sbt-chain
 [debug] 	[6.27.0] com.twitter#util-function_2.11;6.27.0
@@ -527,7 +506,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.twitter#util-function_2.11;6.27.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3424cdf7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14e691f8
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
@@ -535,12 +514,44 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->default(compile)]
 [info] Resolving com.datastax.cassandra#cassandra-driver-extras;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38db9db1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69e51ba6
 [debug] sbt-chain: module revision found in cache: com.datastax.cassandra#cassandra-driver-extras;3.0.0
 [debug] 	found com.datastax.cassandra#cassandra-driver-extras;3.0.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->default(compile)]
+[info] Resolving com.websudos#phantom-reactivestreams_2.11;1.22.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4549366
+[debug] sbt-chain: module revision found in cache: com.websudos#phantom-reactivestreams_2.11;1.22.0
+[debug] 	found com.websudos#phantom-reactivestreams_2.11;1.22.0 in sbt-chain
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->default(compile)]
+[info] Resolving com.typesafe.play#play-streams-experimental_2.11;2.4.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9cb88ab
+[debug] sbt-chain: module revision found in cache: com.typesafe.play#play-streams-experimental_2.11;2.4.3
+[debug] 	found com.typesafe.play#play-streams-experimental_2.11;2.4.3 in sbt-chain
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[info] Resolving org.reactivestreams#reactive-streams;1.0.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@608ad5c8
+[debug] sbt-chain: module revision found in cache: org.reactivestreams#reactive-streams;1.0.0
+[debug] 	found org.reactivestreams#reactive-streams;1.0.0 in sbt-chain
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.14 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@692e211e
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.14
+[debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.14 in sbt-chain
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for crible#crible$sources_2.11;1.0 [runtime]
 [debug] == resolving dependencies for crible#crible$sources_2.11;1.0 [compile]
@@ -656,10 +667,6 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->master]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->default(compile)]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->runtime]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->compile]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->compile]
@@ -800,6 +807,22 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -912,10 +935,6 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [runtime->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [runtime->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [runtime->master]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->default(compile)]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->runtime]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->compile]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [runtime->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [runtime->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [runtime->compile]
@@ -1056,6 +1075,22 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [runtime->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [runtime->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [runtime->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for crible#crible$sources_2.11;1.0 [test]
 [debug] == resolving dependencies for crible#crible$sources_2.11;1.0 [runtime]
@@ -1172,10 +1207,6 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->master]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->default(compile)]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->runtime]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->compile]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->compile]
@@ -1313,6 +1344,22 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -1425,10 +1472,6 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [runtime->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [runtime->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [runtime->master]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->default(compile)]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->runtime]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->compile]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [runtime->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [runtime->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [runtime->compile]
@@ -1566,6 +1609,22 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [runtime->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [runtime->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [runtime->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->compile]
@@ -1678,10 +1737,6 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->master]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [test->default(compile)]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [test->runtime]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [test->compile]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [test->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [test->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [test->compile]
@@ -1818,9 +1873,25 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [test->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [test->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [test->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [test->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [test->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [test->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [test->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [test->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [test->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [test->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [test->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [test->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [test->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [test->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.4.6 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3247b83d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ab91b05
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-test_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-test_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.4.6 [test->runtime]
@@ -1836,7 +1907,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->junit#junit;4.12 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b7f7356
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a3c6778
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [test->runtime]
@@ -1844,7 +1915,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.novocode#junit-interface;0.11 [test->default(compile)]
 [info] Resolving com.novocode#junit-interface;0.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f8abded
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4cf1f0f4
 [debug] sbt-chain: module revision found in cache: com.novocode#junit-interface;0.11
 [debug] 	found com.novocode#junit-interface;0.11 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.novocode#junit-interface;0.11 [test->runtime]
@@ -1852,7 +1923,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.novocode#junit-interface;0.11 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@af958f0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7453ef7b
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->runtime]
@@ -1860,7 +1931,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.guava#guava;18.0 [test->default(compile)]
 [info] Resolving com.google.guava#guava;18.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b304198
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@da35a0e
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;18.0
 [debug] 	found com.google.guava#guava;18.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.guava#guava;18.0 [test->runtime]
@@ -1868,7 +1939,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.guava#guava;18.0 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.code.findbugs#jsr305;2.0.3 [test->default(compile)]
 [info] Resolving com.google.code.findbugs#jsr305;2.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5db661c6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59dc116b
 [debug] sbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;2.0.3
 [debug] 	found com.google.code.findbugs#jsr305;2.0.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.code.findbugs#jsr305;2.0.3 [test->runtime]
@@ -1876,7 +1947,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.code.findbugs#jsr305;2.0.3 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.fluentlenium#fluentlenium-core;0.10.3 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-core;0.10.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c0f2e3b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@257b5a6b
 [debug] sbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-core;0.10.3
 [debug] 	found org.fluentlenium#fluentlenium-core;0.10.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.fluentlenium#fluentlenium-core;0.10.3 [test->runtime]
@@ -1884,7 +1955,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.fluentlenium#fluentlenium-core;0.10.3 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-java;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-java;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@105f3e44
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6116287a
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-java;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-java;2.44.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-java;2.44.0 [test->runtime]
@@ -1892,7 +1963,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-java;2.44.0 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a59f16d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54bcc9a5
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 [test->runtime]
@@ -1900,7 +1971,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-remote-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-remote-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6318732b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1db2e044
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-remote-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-remote-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-remote-driver;2.44.0 [test->runtime]
@@ -1908,7 +1979,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-remote-driver;2.44.0 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->cglib#cglib-nodep;2.1_3 [test->default(compile)]
 [info] Resolving cglib#cglib-nodep;2.1_3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@280b1d2c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f5f4eda
 [debug] sbt-chain: module revision found in cache: cglib#cglib-nodep;2.1_3
 [debug] 	found cglib#cglib-nodep;2.1_3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->cglib#cglib-nodep;2.1_3 [test->runtime]
@@ -1916,7 +1987,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->cglib#cglib-nodep;2.1_3 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.code.gson#gson;2.3 [test->default(compile)]
 [info] Resolving com.google.code.gson#gson;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@388c569b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2286f096
 [debug] sbt-chain: module revision found in cache: com.google.code.gson#gson;2.3
 [debug] 	found com.google.code.gson#gson;2.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.code.gson#gson;2.3 [test->runtime]
@@ -1924,7 +1995,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.code.gson#gson;2.3 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-api;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-api;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51bcc150
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@800e825
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-api;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-api;2.44.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-api;2.44.0 [test->runtime]
@@ -1932,7 +2003,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-api;2.44.0 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.3.4 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f2f250b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@514f0ac0
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.3.4
 [debug] 	found org.apache.httpcomponents#httpclient;4.3.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.3.4 [test->runtime]
@@ -1940,7 +2011,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.3.4 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.3.2 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b0ae0ec
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1194024d
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.3.2
 [debug] 	found org.apache.httpcomponents#httpcore;4.3.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.3.2 [test->runtime]
@@ -1948,7 +2019,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.3.2 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-logging#commons-logging;1.1.3 [test->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1511c681
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e7ef569
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.3
 [debug] 	found commons-logging#commons-logging;1.1.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-logging#commons-logging;1.1.3 [test->runtime]
@@ -1956,7 +2027,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-logging#commons-logging;1.1.3 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.commons#commons-exec;1.1 [test->default(compile)]
 [info] Resolving org.apache.commons#commons-exec;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4da9592d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@455ac167
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-exec;1.1
 [debug] 	found org.apache.commons#commons-exec;1.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.commons#commons-exec;1.1 [test->runtime]
@@ -1964,7 +2035,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.commons#commons-exec;1.1 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.java.dev.jna#jna;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#jna;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@564bf18b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ccafd5c
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#jna;3.4.0
 [debug] 	found net.java.dev.jna#jna;3.4.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.java.dev.jna#jna;3.4.0 [test->runtime]
@@ -1972,7 +2043,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.java.dev.jna#jna;3.4.0 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.java.dev.jna#platform;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#platform;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ee3a233
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62e66ee9
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#platform;3.4.0
 [debug] 	found net.java.dev.jna#platform;3.4.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.java.dev.jna#platform;3.4.0 [test->runtime]
@@ -1980,7 +2051,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.java.dev.jna#platform;3.4.0 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fe6fe70
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48b31f22
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 [test->runtime]
@@ -1988,7 +2059,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit;2.15 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit;2.15 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39552675
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ec29488
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit;2.15
 [debug] 	found net.sourceforge.htmlunit#htmlunit;2.15 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit;2.15 [test->runtime]
@@ -1996,7 +2067,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit;2.15 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xalan#xalan;2.7.1 [test->default(compile)]
 [info] Resolving xalan#xalan;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1dbd6a30
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c220360
 [debug] sbt-chain: module revision found in cache: xalan#xalan;2.7.1
 [debug] 	found xalan#xalan;2.7.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xalan#xalan;2.7.1 [test->runtime]
@@ -2004,7 +2075,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xalan#xalan;2.7.1 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-collections#commons-collections;3.2.1 [test->default(compile)]
 [info] Resolving commons-collections#commons-collections;3.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3978b4a4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78972f52
 [debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
 [debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-collections#commons-collections;3.2.1 [test->runtime]
@@ -2012,7 +2083,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-collections#commons-collections;3.2.1 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpmime;4.3.3 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpmime;4.3.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7587e716
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a5a6d3b
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.3.3
 [debug] 	found org.apache.httpcomponents#httpmime;4.3.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpmime;4.3.3 [test->runtime]
@@ -2020,7 +2091,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpmime;4.3.3 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit-core-js;2.15 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit-core-js;2.15 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57ee0ce7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45e9909f
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.15
 [debug] 	found net.sourceforge.htmlunit#htmlunit-core-js;2.15 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit-core-js;2.15 [test->runtime]
@@ -2028,7 +2099,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit-core-js;2.15 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.nekohtml#nekohtml;1.9.21 [test->default(compile)]
 [info] Resolving net.sourceforge.nekohtml#nekohtml;1.9.21 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e4d47e9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50ece5d6
 [debug] sbt-chain: module revision found in cache: net.sourceforge.nekohtml#nekohtml;1.9.21
 [debug] 	found net.sourceforge.nekohtml#nekohtml;1.9.21 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.nekohtml#nekohtml;1.9.21 [test->runtime]
@@ -2036,7 +2107,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.nekohtml#nekohtml;1.9.21 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.cssparser#cssparser;0.9.14 [test->default(compile)]
 [info] Resolving net.sourceforge.cssparser#cssparser;0.9.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20fd76d4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73f0a506
 [debug] sbt-chain: module revision found in cache: net.sourceforge.cssparser#cssparser;0.9.14
 [debug] 	found net.sourceforge.cssparser#cssparser;0.9.14 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.cssparser#cssparser;0.9.14 [test->runtime]
@@ -2044,7 +2115,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.cssparser#cssparser;0.9.14 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.w3c.css#sac;1.3 [test->default(compile)]
 [info] Resolving org.w3c.css#sac;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@90542db
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@eda62e4
 [debug] sbt-chain: module revision found in cache: org.w3c.css#sac;1.3
 [debug] 	found org.w3c.css#sac;1.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.w3c.css#sac;1.3 [test->runtime]
@@ -2052,7 +2123,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.w3c.css#sac;1.3 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-io#commons-io;2.4 [test->default(compile)]
 [info] Resolving commons-io#commons-io;2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@627d770c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2742ea15
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.4
 [debug] 	found commons-io#commons-io;2.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-io#commons-io;2.4 [test->runtime]
@@ -2060,7 +2131,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-io#commons-io;2.4 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4083cf67
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ca9324c
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-websocket;8.1.15.v20140411
 [debug] 	found org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 [test->runtime]
@@ -2068,7 +2139,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-util;8.1.15.v20140411 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;8.1.15.v20140411 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fe2e910
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38be10d3
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.15.v20140411
 [debug] 	found org.eclipse.jetty#jetty-util;8.1.15.v20140411 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-util;8.1.15.v20140411 [test->runtime]
@@ -2076,7 +2147,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-util;8.1.15.v20140411 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-io;8.1.15.v20140411 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;8.1.15.v20140411 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e7e55a2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61eb025a
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.15.v20140411
 [debug] 	found org.eclipse.jetty#jetty-io;8.1.15.v20140411 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-io;8.1.15.v20140411 [test->runtime]
@@ -2084,7 +2155,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-io;8.1.15.v20140411 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-http;8.1.15.v20140411 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-http;8.1.15.v20140411 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@558963d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43e14630
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.15.v20140411
 [debug] 	found org.eclipse.jetty#jetty-http;8.1.15.v20140411 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-http;8.1.15.v20140411 [test->runtime]
@@ -2092,7 +2163,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-http;8.1.15.v20140411 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ca968d8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45f5687b
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 [test->runtime]
@@ -2100,7 +2171,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-ie-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-ie-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a1409e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8c1783e
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-ie-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-ie-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-ie-driver;2.44.0 [test->runtime]
@@ -2108,7 +2179,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-ie-driver;2.44.0 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-safari-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-safari-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50beef01
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3019d6b4
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-safari-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-safari-driver;2.44.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-safari-driver;2.44.0 [test->runtime]
@@ -2116,7 +2187,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-safari-driver;2.44.0 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.webbitserver#webbit;0.4.14 [test->default(compile)]
 [info] Resolving org.webbitserver#webbit;0.4.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10ff9410
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3177dfd2
 [debug] sbt-chain: module revision found in cache: org.webbitserver#webbit;0.4.14
 [debug] 	found org.webbitserver#webbit;0.4.14 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.webbitserver#webbit;0.4.14 [test->runtime]
@@ -2124,7 +2195,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.webbitserver#webbit;0.4.14 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-support;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-support;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cc8ee15
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f69f0dd
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-support;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-support;2.44.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-support;2.44.0 [test->runtime]
@@ -2249,10 +2320,6 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->master]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->default(compile)]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->runtime]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->compile]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->compile]
@@ -2393,6 +2460,22 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->master]
 [debug] == resolving dependencies for crible#crible$sources_2.11;1.0 [optional]
 [debug] == resolving dependencies for crible#crible$sources_2.11;1.0 [provided]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->default(compile)]
@@ -2507,10 +2590,6 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile-internal->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile-internal->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile-internal->master]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile-internal->default(compile)]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile-internal->runtime]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile-internal->compile]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile-internal->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile-internal->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile-internal->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile-internal->compile]
@@ -2651,6 +2730,22 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile-internal->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile-internal->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile-internal->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile-internal->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile-internal->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile-internal->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile-internal->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile-internal->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile-internal->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile-internal->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile-internal->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile-internal->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile-internal->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile-internal->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile-internal->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile-internal->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for crible#crible$sources_2.11;1.0 [runtime-internal]
 [debug] == resolving dependencies for crible#crible$sources_2.11;1.0 [runtime]
@@ -2767,10 +2862,6 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->master]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->default(compile)]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->runtime]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->compile]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->compile]
@@ -2911,6 +3002,22 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -3023,10 +3130,6 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [runtime->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [runtime->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [runtime->master]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->default(compile)]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->runtime]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->compile]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [runtime->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [runtime->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [runtime->compile]
@@ -3167,6 +3270,22 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [runtime->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [runtime->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [runtime->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime->master]
 [debug] == resolving dependencies for crible#crible$sources_2.11;1.0 [optional]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->runtime]
@@ -3280,10 +3399,6 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [runtime-internal->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [runtime-internal->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [runtime-internal->master]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime-internal->default(compile)]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime-internal->runtime]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime-internal->compile]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime-internal->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [runtime-internal->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [runtime-internal->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [runtime-internal->compile]
@@ -3424,6 +3539,22 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [runtime-internal->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [runtime-internal->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [runtime-internal->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime-internal->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime-internal->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime-internal->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime-internal->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime-internal->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime-internal->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime-internal->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime-internal->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime-internal->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime-internal->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime-internal->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime-internal->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime-internal->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for crible#crible$sources_2.11;1.0 [test-internal]
 [debug] == resolving dependencies for crible#crible$sources_2.11;1.0 [test]
@@ -3541,10 +3672,6 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->master]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->default(compile)]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->runtime]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->compile]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [compile->compile]
@@ -3686,6 +3813,22 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -3798,10 +3941,6 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [runtime->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [runtime->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [runtime->master]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->default(compile)]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->runtime]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->compile]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [runtime->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [runtime->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [runtime->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [runtime->compile]
@@ -3943,6 +4082,22 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [runtime->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [runtime->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [runtime->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [runtime->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [runtime->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [runtime->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->compile]
@@ -4055,10 +4210,6 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->master]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [test->default(compile)]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [test->runtime]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [test->compile]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [test->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [test->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [test->compile]
@@ -4195,6 +4346,22 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [test->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [test->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [test->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [test->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [test->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [test->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [test->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [test->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [test->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [test->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [test->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [test->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [test->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [test->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.4.6 [test->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.4.6 [test->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.4.6 [test->compile]
@@ -4465,10 +4632,6 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test-internal->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test-internal->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test-internal->master]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [test-internal->default(compile)]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [test-internal->runtime]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [test-internal->compile]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [test-internal->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [test-internal->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [test-internal->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [test-internal->compile]
@@ -4605,6 +4768,22 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [test-internal->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [test-internal->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [test-internal->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [test-internal->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [test-internal->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [test-internal->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [test-internal->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [test-internal->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [test-internal->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [test-internal->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [test-internal->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test-internal->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test-internal->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test-internal->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test-internal->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [test-internal->default(compile)]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [test-internal->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [test-internal->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.14 [test-internal->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.4.6 [test-internal->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.4.6 [test-internal->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.4.6 [test-internal->compile]
@@ -4876,10 +5055,6 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [docs->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [docs->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [docs->master]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [docs->default(compile)]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [docs->runtime]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [docs->compile]
-[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [docs->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [docs->default(compile)]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [docs->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.3.13 [docs->compile]
@@ -4978,6 +5153,14 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [docs->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [docs->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [docs->master]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [docs->default(compile)]
+[info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.13 ...
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.3.13 {docs=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.13
+[debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.13 in sbt-chain
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [docs->runtime]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [docs->compile]
+[debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.13 [docs->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-doc_2.11;1.2.2 [docs->default(compile)]
 [info] Resolving com.typesafe.play#play-doc_2.11;1.2.2 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-doc_2.11;1.2.2 {docs=[default(compile)]}
@@ -5145,8 +5328,6 @@
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.3!logback-core.jar
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.3!logback-classic.jar
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.3!logback-classic.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.13!akka-actor_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.13!akka-actor_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.11;2.3.13!akka-slf4j_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.11;2.3.13!akka-slf4j_2.11.jar
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)
@@ -5217,6 +5398,26 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar
 [debug] 	[NOT REQUIRED] com.datastax.cassandra#cassandra-driver-extras;3.0.0!cassandra-driver-extras.jar(src)
 [debug] 	[NOT REQUIRED] com.datastax.cassandra#cassandra-driver-extras;3.0.0!cassandra-driver-extras.jar
+[debug] 	[NOT REQUIRED] com.websudos#phantom-reactivestreams_2.11;1.22.0!phantom-reactivestreams_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.websudos#phantom-reactivestreams_2.11;1.22.0!phantom-reactivestreams_2.11.jar
+[debug] 		tried C:\Users\BRMCe\.ivy2\local\com.typesafe.play\play-streams-experimental_2.11\2.4.3\srcs\play-streams-experimental_2.11-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-streams-experimental_2.11;2.4.3!play-streams-experimental_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/play/play-streams-experimental_2.11/2.4.3/play-streams-experimental_2.11-2.4.3-sources.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/play/play-streams-experimental_2.11/2.4.3/play-streams-experimental_2.11-2.4.3-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-streams-experimental_2.11/2.4.3/play-streams-experimental_2.11-2.4.3-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/play/play-streams-experimental_2.11/2.4.3/play-streams-experimental_2.11-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/play/play-streams-experimental_2.11/2.4.3/play-streams-experimental_2.11-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-streams-experimental_2.11;2.4.3!play-streams-experimental_2.11.jar(src) (5035ms)
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar(src)
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar
+[debug] 		tried C:\Users\BRMCe\.ivy2\local\com.typesafe.akka\akka-actor_2.11\2.3.14\srcs\akka-actor_2.11-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.14!akka-actor_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.14/akka-actor_2.11-2.3.14-sources.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.14/akka-actor_2.11-2.3.14-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.14/akka-actor_2.11-2.3.14-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.14/akka-actor_2.11-2.3.14-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.14/akka-actor_2.11-2.3.14-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.3.14!akka-actor_2.11.jar(src) (5011ms)
 [debug] 	[NOT REQUIRED] com.google.guava#guava;18.0!guava.jar(src)
 [debug] 	[NOT REQUIRED] com.google.guava#guava;18.0!guava.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-test_2.11;2.4.6!play-test_2.11.jar(src)
@@ -5299,6 +5500,7 @@
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-docs_2.11;2.4.6!play-docs_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.13!akka-actor_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-doc_2.11;1.2.2!play-doc_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.pegdown#pegdown;1.4.0!pegdown.jar(src)
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.5!parboiled-java.jar(src)
@@ -5311,7 +5513,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 7832ms :: artifacts dl 285ms
+[debug] :: resolution report :: resolve 2453ms :: artifacts dl 10626ms
 [debug] 	report for crible#crible$sources_2.11;1.0 compile produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-compile.xml
 [debug] 	report for crible#crible$sources_2.11;1.0 runtime produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-runtime.xml
 [debug] 	report for crible#crible$sources_2.11;1.0 test produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-test.xml
@@ -5325,4 +5527,4 @@
 [debug] 	report for crible#crible$sources_2.11;1.0 docs produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-docs.xml
 [debug] 	report for crible#crible$sources_2.11;1.0 pom produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-pom.xml
 [debug] 	report for crible#crible$sources_2.11;1.0 scala-tool produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-scala-tool.xml
-[debug] 	resolve done (7832ms resolve - 285ms download)
+[debug] 	resolve done (2453ms resolve - 10626ms download)

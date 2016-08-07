@@ -1,10 +1,11 @@
 package service.queries
 
-import domain.Bank
-import service.queries.dao.BankQueryDao
+import service.domain.Bank
+import service.dao.queries.BankQueryDao
+
 import scala.concurrent.Future
 
-class BankQuery(bankQueryDao: BankQueryDao) {
+class BankQueryService(bankQueryDao: BankQueryDao) {
   def getAll(): Future[List[Bank]] = {
     bankQueryDao.getAll()
   }

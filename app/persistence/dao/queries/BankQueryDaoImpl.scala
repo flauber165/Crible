@@ -1,9 +1,9 @@
 package persistence.dao.queries
 
 import com.websudos.phantom.dsl._
-import domain.Bank
+import service.domain.Bank
 import persistence.maps.BankMap
-import service.queries.dao.BankQueryDao
+import service.dao.queries.BankQueryDao
 
 import scala.concurrent.Future
 

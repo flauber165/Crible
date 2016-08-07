@@ -4,7 +4,7 @@
 		module="crible_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160804195225"
+		publication="20160807225724"
 	>
 		<description>
 		crible
@@ -42,5 +42,6 @@
 		<dependency org="com.typesafe.play" name="play-cache_2.11" rev="2.4.6" conf="compile->default(compile)"/>
 		<dependency org="org.scaldi" name="scaldi-play_2.11" rev="0.5.13" conf="compile->default(compile)"/>
 		<dependency org="com.websudos" name="phantom-dsl_2.11" rev="1.22.0" conf="compile->default(compile)"/>
+		<dependency org="com.websudos" name="phantom-reactivestreams_2.11" rev="1.22.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

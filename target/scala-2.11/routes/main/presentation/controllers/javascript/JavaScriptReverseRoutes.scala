@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Projects/cribleempresa/conf/routes
-// @DATE:Wed Aug 03 20:31:40 GFT 2016
+// @SOURCE:C:/Projects/Crible/conf/routes
+// @DATE:Sun Aug 07 22:39:32 GFT 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -13,6 +13,26 @@ import _root_.controllers.Assets.Asset
 // @LINE:6
 package presentation.controllers.javascript {
   import ReverseRouteContext.empty
+
+  // @LINE:7
+  class ReverseAuthenticationController(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:7
+    def enter: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "presentation.controllers.AuthenticationController.enter",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "enter"})
+        }
+      """
+    )
+  
+  }
 
   // @LINE:6
   class ReverseApplication(_prefix: => String) {

@@ -4,7 +4,7 @@ import java.util.UUID
 
 import com.websudos.phantom.CassandraTable
 import com.websudos.phantom.dsl._
-import domain.Bank
+import service.domain.Bank
 
 private[persistence] class BankMap extends CassandraTable[BankMap, Bank] {
 

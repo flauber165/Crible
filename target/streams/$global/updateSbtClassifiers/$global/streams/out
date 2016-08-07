@@ -3725,9 +3725,9 @@
 [debug] 	[NOT REQUIRED] asm#asm;3.1!asm.jar
 [debug] 	[NOT REQUIRED] jfree#jcommon;1.0.12!jcommon.jar
 [debug] 	[NOT REQUIRED] jfree#jfreechart;1.0.8a!jfreechart.jar
-[debug] :: resolution report :: resolve 4013ms :: artifacts dl 173ms
+[debug] :: resolution report :: resolve 1658ms :: artifacts dl 91ms
 [debug] 	report for crible#crible$sbt_2.11;1.0 default produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sbt_2.11-default.xml
-[debug] 	resolve done (4013ms resolve - 173ms download)
+[debug] 	resolve done (1658ms resolve - 91ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: crible#crible$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -4825,6 +4825,6 @@
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-simple;1.7.12!slf4j-simple.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#npm_2.10;1.1.1!npm_2.10.jar(src)
-[debug] :: resolution report :: resolve 665ms :: artifacts dl 155ms
+[debug] :: resolution report :: resolve 421ms :: artifacts dl 99ms
 [debug] 	report for crible#crible$sources_2.11;1.0 default produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-default.xml
-[debug] 	resolve done (665ms resolve - 155ms download)
+[debug] 	resolve done (421ms resolve - 99ms download)

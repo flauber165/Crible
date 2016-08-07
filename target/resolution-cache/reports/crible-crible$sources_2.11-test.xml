@@ -7,10 +7,70 @@
 		revision="1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160804195505"/>
+		date="20160807213120"/>
 	<dependencies>
+		<module organisation="com.websudos" name="phantom-reactivestreams_2.11">
+			<revision name="1.22.0" status="release" pubdate="20160229104544" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/websudos/phantom" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="62">
+				<license name="Websudos license" url="https://github.com/websudos/phantom/blob/develop/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4547" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.websudos\phantom-reactivestreams_2.11\ivy-1.22.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/websudos/phantom-reactivestreams_2.11/1.22.0/phantom-reactivestreams_2.11-1.22.0.pom"/>
+				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="phantom-reactivestreams_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6261" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.websudos\phantom-reactivestreams_2.11\srcs\phantom-reactivestreams_2.11-1.22.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/websudos/phantom-reactivestreams_2.11/1.22.0/phantom-reactivestreams_2.11-1.22.0-sources.jar"/>
+					</artifact>
+					<artifact name="phantom-reactivestreams_2.11" type="jar" ext="jar" status="no" details="" size="38848" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.websudos\phantom-reactivestreams_2.11\jars\phantom-reactivestreams_2.11-1.22.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/websudos/phantom-reactivestreams_2.11/1.22.0/phantom-reactivestreams_2.11-1.22.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.3.14" status="release" pubdate="20150916221809" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="65">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2700" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\ivy-2.3.14.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.14/akka-actor_2.11-2.3.14.pom"/>
+				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.3.14" rev-constraint-default="2.3.14" rev-constraint-dynamic="2.3.14" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="336307" time="5011" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\srcs\akka-actor_2.11-2.3.14-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.14/akka-actor_2.11-2.3.14-sources.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="2792983" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.14.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.14/akka-actor_2.11-2.3.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-streams-experimental_2.11">
+			<revision name="2.4.3" status="release" pubdate="20150920101617" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="63">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3279" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play-streams-experimental_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/play/play-streams-experimental_2.11/2.4.3/play-streams-experimental_2.11-2.4.3.pom"/>
+				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="play-streams-experimental_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="12776" time="5035" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play-streams-experimental_2.11\srcs\play-streams-experimental_2.11-2.4.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play-streams-experimental_2.11/2.4.3/play-streams-experimental_2.11-2.4.3-sources.jar"/>
+					</artifact>
+					<artifact name="play-streams-experimental_2.11" type="jar" ext="jar" status="no" details="" size="120394" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play-streams-experimental_2.11\jars\play-streams-experimental_2.11-2.4.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play-streams-experimental_2.11/2.4.3/play-streams-experimental_2.11-2.4.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.0" status="release" pubdate="20150429131400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="64">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2426" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.reactivestreams\reactive-streams\ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom"/>
+				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3130" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.reactivestreams\reactive-streams\srcs\reactive-streams-1.0.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-sources.jar"/>
+					</artifact>
+					<artifact name="reactive-streams" type="jar" ext="jar" status="no" details="" size="2042" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.websudos" name="phantom-dsl_2.11">
-			<revision name="1.22.0" status="release" pubdate="20160215032634" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/websudos/phantom" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="47">
+			<revision name="1.22.0" status="release" pubdate="20160215032634" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/websudos/phantom" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="46">
 				<license name="Websudos license" url="https://github.com/websudos/phantom/blob/develop/LICENSE.txt"/>
 				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="5548" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.websudos\phantom-dsl_2.11\ivy-1.22.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/websudos/phantom-dsl_2.11/1.22.0/phantom-dsl_2.11-1.22.0.pom"/>
@@ -26,7 +86,7 @@
 			</revision>
 		</module>
 		<module organisation="com.datastax.cassandra" name="cassandra-driver-extras">
-			<revision name="3.0.0" status="release" pubdate="20160129000653" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/java-driver" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="62">
+			<revision name="3.0.0" status="release" pubdate="20160129000653" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/java-driver" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="61">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="7512" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.datastax.cassandra\cassandra-driver-extras\ivy-3.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/datastax/cassandra/cassandra-driver-extras/3.0.0/cassandra-driver-extras-3.0.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="3.0.0" rev-constraint-default="3.0.0" rev-constraint-dynamic="3.0.0" callerrev="1.0"/>
@@ -41,7 +101,7 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="util-core_2.11">
-			<revision name="6.27.0" status="release" pubdate="20150828195457" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="59">
+			<revision name="6.27.0" status="release" pubdate="20150828195457" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="58">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="4102" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.twitter\util-core_2.11\ivy-6.27.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-core_2.11/6.27.0/util-core_2.11-6.27.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="6.27.0" rev-constraint-default="6.27.0" rev-constraint-dynamic="6.27.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
@@ -56,7 +116,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
-			<revision name="1.0.4" status="release" pubdate="20150430110700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="61">
+			<revision name="1.0.4" status="release" pubdate="20150430110700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="60">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="2837" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0"/>
@@ -71,7 +131,7 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="util-function_2.11">
-			<revision name="6.27.0" status="release" pubdate="20150828195505" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="60">
+			<revision name="6.27.0" status="release" pubdate="20150828195505" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="59">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3540" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.twitter\util-function_2.11\ivy-6.27.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-function_2.11/6.27.0/util-function_2.11-6.27.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="6.27.0" rev-constraint-default="6.27.0" rev-constraint-dynamic="6.27.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
@@ -86,7 +146,7 @@
 			</revision>
 		</module>
 		<module organisation="com.chuusai" name="shapeless_2.11">
-			<revision name="2.2.5" status="release" pubdate="20150725144854" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="58">
+			<revision name="2.2.5" status="release" pubdate="20150725144854" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="57">
 				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2992" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.chuusai\shapeless_2.11\ivy-2.2.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/chuusai/shapeless_2.11/2.2.5/shapeless_2.11-2.2.5.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.2.5" rev-constraint-default="2.2.5" rev-constraint-dynamic="2.2.5" callerrev="1.0"/>
@@ -101,7 +161,7 @@
 			</revision>
 		</module>
 		<module organisation="com.websudos" name="diesel-engine_2.11">
-			<revision name="0.2.4" status="release" pubdate="20150826055417" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="57">
+			<revision name="0.2.4" status="release" pubdate="20150826055417" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="56">
 				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3393" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.websudos\diesel-engine_2.11\ivy-0.2.4.xml" searched="false" origin-is-local="false" origin-location="https://dl.bintray.com/websudos/oss-releases/com/websudos/diesel-engine_2.11/0.2.4/diesel-engine_2.11-0.2.4.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="0.2.4" rev-constraint-default="0.2.4" rev-constraint-dynamic="0.2.4" callerrev="1.0"/>
@@ -116,7 +176,7 @@
 			</revision>
 		</module>
 		<module organisation="com.websudos" name="phantom-connectors_2.11">
-			<revision name="1.22.0" status="release" pubdate="20160215032630" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/websudos/phantom" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="48">
+			<revision name="1.22.0" status="release" pubdate="20160215032630" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/websudos/phantom" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="47">
 				<license name="Websudos license" url="https://github.com/websudos/phantom/blob/develop/LICENSE.txt"/>
 				<metadata-artifact status="no" details="" size="3525" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.websudos\phantom-connectors_2.11\ivy-1.22.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/websudos/phantom-connectors_2.11/1.22.0/phantom-connectors_2.11-1.22.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="1.0"/>
@@ -131,7 +191,7 @@
 			</revision>
 		</module>
 		<module organisation="com.datastax.cassandra" name="cassandra-driver-core">
-			<revision name="3.0.0" status="release" pubdate="20160128180033" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/java-driver" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="50">
+			<revision name="3.0.0" status="release" pubdate="20160128180033" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/java-driver" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="49">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="7552" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.datastax.cassandra\cassandra-driver-core\ivy-3.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/datastax/cassandra/cassandra-driver-core/3.0.0/cassandra-driver-core-3.0.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="3.0.0" rev-constraint-default="3.0.0" rev-constraint-dynamic="3.0.0" callerrev="1.0"/>
@@ -146,7 +206,7 @@
 			</revision>
 		</module>
 		<module organisation="io.dropwizard.metrics" name="metrics-core">
-			<revision name="3.1.2" status="release" pubdate="20150426005900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="56">
+			<revision name="3.1.2" status="release" pubdate="20150426005900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="55">
 				<metadata-artifact status="no" details="" size="5039" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.dropwizard.metrics\metrics-core\ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="1.0"/>
 				<artifacts>
@@ -160,7 +220,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty-handler">
-			<revision name="4.0.33.Final" status="release" pubdate="20151104210555" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="51">
+			<revision name="4.0.33.Final" status="release" pubdate="20151104210555" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="50">
 				<metadata-artifact status="no" details="" size="16663" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-handler\ivy-4.0.33.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-handler/4.0.33.Final/netty-handler-4.0.33.Final.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="4.0.33.Final" rev-constraint-default="4.0.33.Final" rev-constraint-dynamic="4.0.33.Final" callerrev="1.0"/>
 				<artifacts>
@@ -174,7 +234,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty-codec">
-			<revision name="4.0.33.Final" status="release" pubdate="20151104210546" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="55">
+			<revision name="4.0.33.Final" status="release" pubdate="20151104210546" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="54">
 				<metadata-artifact status="no" details="" size="16045" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-codec\ivy-4.0.33.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-codec/4.0.33.Final/netty-codec-4.0.33.Final.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="4.0.33.Final" rev-constraint-default="4.0.33.Final" rev-constraint-dynamic="4.0.33.Final" callerrev="1.0"/>
 				<artifacts>
@@ -188,7 +248,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty-transport">
-			<revision name="4.0.33.Final" status="release" pubdate="20151104210544" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="54">
+			<revision name="4.0.33.Final" status="release" pubdate="20151104210544" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="53">
 				<metadata-artifact status="no" details="" size="15367" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-transport\ivy-4.0.33.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-transport/4.0.33.Final/netty-transport-4.0.33.Final.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="4.0.33.Final" rev-constraint-default="4.0.33.Final" rev-constraint-dynamic="4.0.33.Final" callerrev="1.0"/>
 				<artifacts>
@@ -202,7 +262,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty-buffer">
-			<revision name="4.0.33.Final" status="release" pubdate="20151104210543" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="52">
+			<revision name="4.0.33.Final" status="release" pubdate="20151104210543" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="51">
 				<metadata-artifact status="no" details="" size="15361" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-buffer\ivy-4.0.33.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-buffer/4.0.33.Final/netty-buffer-4.0.33.Final.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="4.0.33.Final" rev-constraint-default="4.0.33.Final" rev-constraint-dynamic="4.0.33.Final" callerrev="1.0"/>
 				<artifacts>
@@ -216,7 +276,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty-common">
-			<revision name="4.0.33.Final" status="release" pubdate="20151104210553" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="53">
+			<revision name="4.0.33.Final" status="release" pubdate="20151104210553" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="52">
 				<metadata-artifact status="no" details="" size="13670" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-common\ivy-4.0.33.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-common/4.0.33.Final/netty-common-4.0.33.Final.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="4.0.33.Final" rev-constraint-default="4.0.33.Final" rev-constraint-dynamic="4.0.33.Final" callerrev="1.0"/>
 				<artifacts>
@@ -230,7 +290,7 @@
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="log4j-over-slf4j">
-			<revision name="1.7.12" status="release" pubdate="20150326175100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="49">
+			<revision name="1.7.12" status="release" pubdate="20150326175100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="48">
 				<license name="Apache Software Licenses" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="5161" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.slf4j\log4j-over-slf4j\ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/log4j-over-slf4j/1.7.12/log4j-over-slf4j-1.7.12.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="1.0"/>
@@ -245,7 +305,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scaldi" name="scaldi-play_2.11">
-			<revision name="0.5.13" status="release" pubdate="20160129073219" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scaldi.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="43">
+			<revision name="0.5.13" status="release" pubdate="20160129073219" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scaldi.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">
 				<license name="Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3667" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.scaldi\scaldi-play_2.11\ivy-0.5.13.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scaldi/scaldi-play_2.11/0.5.13/scaldi-play_2.11-0.5.13.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="0.5.13" rev-constraint-default="0.5.13" rev-constraint-dynamic="0.5.13" callerrev="1.0"/>
@@ -260,7 +320,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-test_2.11">
-			<revision name="2.4.6" status="release" pubdate="20151214074629" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="63">
+			<revision name="2.4.6" status="release" pubdate="20151214074629" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="66">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3916" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play-test_2.11\ivy-2.4.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/play/play-test_2.11/2.4.6/play-test_2.11-2.4.6.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="1.0"/>
@@ -275,7 +335,7 @@
 			</revision>
 		</module>
 		<module organisation="org.fluentlenium" name="fluentlenium-core">
-			<revision name="0.10.3" status="release" pubdate="20141126054900" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FluentLenium/FluentLenium" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="70">
+			<revision name="0.10.3" status="release" pubdate="20141126054900" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FluentLenium/FluentLenium" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="73">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="6232" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.fluentlenium\fluentlenium-core\ivy-0.10.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/fluentlenium/fluentlenium-core/0.10.3/fluentlenium-core-0.10.3.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="0.10.3" rev-constraint-default="0.10.3" rev-constraint-dynamic="0.10.3" callerrev="1.0"/>
@@ -290,7 +350,7 @@
 			</revision>
 		</module>
 		<module organisation="org.seleniumhq.selenium" name="selenium-java">
-			<revision name="2.44.0" status="release" pubdate="20141023171500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="71">
+			<revision name="2.44.0" status="release" pubdate="20141023171500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="74">
 				<metadata-artifact status="no" details="" size="7037" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.seleniumhq.selenium\selenium-java\ivy-2.44.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-java/2.44.0/selenium-java-2.44.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.44.0" rev-constraint-default="2.44.0" rev-constraint-dynamic="2.44.0" callerrev="1.0"/>
 				<artifacts>
@@ -304,7 +364,7 @@
 			</revision>
 		</module>
 		<module organisation="org.seleniumhq.selenium" name="selenium-support">
-			<revision name="2.44.0" status="release" pubdate="20141023171500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="101">
+			<revision name="2.44.0" status="release" pubdate="20141023171500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="104">
 				<metadata-artifact status="no" details="" size="6051" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.seleniumhq.selenium\selenium-support\ivy-2.44.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-support/2.44.0/selenium-support-2.44.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.44.0" rev-constraint-default="2.44.0" rev-constraint-dynamic="2.44.0" callerrev="1.0"/>
 				<artifacts>
@@ -318,7 +378,7 @@
 			</revision>
 		</module>
 		<module organisation="org.seleniumhq.selenium" name="selenium-safari-driver">
-			<revision name="2.44.0" status="release" pubdate="20141023171400" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="99">
+			<revision name="2.44.0" status="release" pubdate="20141023171400" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="102">
 				<metadata-artifact status="no" details="" size="5973" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.seleniumhq.selenium\selenium-safari-driver\ivy-2.44.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-safari-driver/2.44.0/selenium-safari-driver-2.44.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.44.0" rev-constraint-default="2.44.0" rev-constraint-dynamic="2.44.0" callerrev="1.0"/>
 				<artifacts>
@@ -332,7 +392,7 @@
 			</revision>
 		</module>
 		<module organisation="org.webbitserver" name="webbit">
-			<revision name="0.4.14" status="release" pubdate="20120713093556" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webbitserver.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="100">
+			<revision name="0.4.14" status="release" pubdate="20120713093556" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webbitserver.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="103">
 				<license name="BSD License" url="http://www.opensource.org/licenses/bsd-license"/>
 				<metadata-artifact status="no" details="" size="3411" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.webbitserver\webbit\ivy-0.4.14.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/webbitserver/webbit/0.4.14/webbit-0.4.14.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="0.4.14" rev-constraint-default="0.4.14" rev-constraint-dynamic="0.4.14" callerrev="1.0"/>
@@ -347,7 +407,7 @@
 			</revision>
 		</module>
 		<module organisation="org.seleniumhq.selenium" name="selenium-ie-driver">
-			<revision name="2.44.0" status="release" pubdate="20141023171400" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="98">
+			<revision name="2.44.0" status="release" pubdate="20141023171400" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="101">
 				<metadata-artifact status="no" details="" size="6105" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.seleniumhq.selenium\selenium-ie-driver\ivy-2.44.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-ie-driver/2.44.0/selenium-ie-driver-2.44.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.44.0" rev-constraint-default="2.44.0" rev-constraint-dynamic="2.44.0" callerrev="1.0"/>
 				<artifacts>
@@ -361,7 +421,7 @@
 			</revision>
 		</module>
 		<module organisation="org.seleniumhq.selenium" name="selenium-firefox-driver">
-			<revision name="2.44.0" status="release" pubdate="20141023171300" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="97">
+			<revision name="2.44.0" status="release" pubdate="20141023171300" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="100">
 				<metadata-artifact status="no" details="" size="6118" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.seleniumhq.selenium\selenium-firefox-driver\ivy-2.44.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-firefox-driver/2.44.0/selenium-firefox-driver-2.44.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.44.0" rev-constraint-default="2.44.0" rev-constraint-dynamic="2.44.0" callerrev="1.0"/>
 				<artifacts>
@@ -375,7 +435,7 @@
 			</revision>
 		</module>
 		<module organisation="org.seleniumhq.selenium" name="selenium-htmlunit-driver">
-			<revision name="2.44.0" status="release" pubdate="20141023171300" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="83">
+			<revision name="2.44.0" status="release" pubdate="20141023171300" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="86">
 				<metadata-artifact status="no" details="" size="6140" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.seleniumhq.selenium\selenium-htmlunit-driver\ivy-2.44.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-htmlunit-driver/2.44.0/selenium-htmlunit-driver-2.44.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.44.0" rev-constraint-default="2.44.0" rev-constraint-dynamic="2.44.0" callerrev="1.0"/>
 				<artifacts>
@@ -389,7 +449,7 @@
 			</revision>
 		</module>
 		<module organisation="net.sourceforge.htmlunit" name="htmlunit">
-			<revision name="2.15" status="release" pubdate="20140602154600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://htmlunit.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="84">
+			<revision name="2.15" status="release" pubdate="20140602154600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://htmlunit.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="87">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="7571" time="0" location="C:\Users\BRMCe\.ivy2\cache\net.sourceforge.htmlunit\htmlunit\ivy-2.15.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/sourceforge/htmlunit/htmlunit/2.15/htmlunit-2.15.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.15" rev-constraint-default="2.15" rev-constraint-dynamic="2.15" callerrev="1.0"/>
@@ -404,7 +464,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-websocket">
-			<revision name="8.1.15.v20140411" status="release" pubdate="20140411150900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="93">
+			<revision name="8.1.15.v20140411" status="release" pubdate="20140411150900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="96">
 				<metadata-artifact status="no" details="" size="9423" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.eclipse.jetty\jetty-websocket\ivy-8.1.15.v20140411.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/jetty/jetty-websocket/8.1.15.v20140411/jetty-websocket-8.1.15.v20140411.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="8.1.15.v20140411" rev-constraint-default="8.1.15.v20140411" rev-constraint-dynamic="8.1.15.v20140411" callerrev="1.0"/>
 				<artifacts>
@@ -418,7 +478,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-http">
-			<revision name="8.1.15.v20140411" status="release" pubdate="20140411150300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="96">
+			<revision name="8.1.15.v20140411" status="release" pubdate="20140411150300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="99">
 				<metadata-artifact status="no" details="" size="8757" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.eclipse.jetty\jetty-http\ivy-8.1.15.v20140411.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/jetty/jetty-http/8.1.15.v20140411/jetty-http-8.1.15.v20140411.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="8.1.15.v20140411" rev-constraint-default="8.1.15.v20140411" rev-constraint-dynamic="8.1.15.v20140411" callerrev="1.0"/>
 				<artifacts>
@@ -432,7 +492,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-io">
-			<revision name="8.1.15.v20140411" status="release" pubdate="20140411150300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="95">
+			<revision name="8.1.15.v20140411" status="release" pubdate="20140411150300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="98">
 				<metadata-artifact status="no" details="" size="8612" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.eclipse.jetty\jetty-io\ivy-8.1.15.v20140411.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/jetty/jetty-io/8.1.15.v20140411/jetty-io-8.1.15.v20140411.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="8.1.15.v20140411" rev-constraint-default="8.1.15.v20140411" rev-constraint-dynamic="8.1.15.v20140411" callerrev="1.0"/>
 				<artifacts>
@@ -446,7 +506,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-util">
-			<revision name="8.1.15.v20140411" status="release" pubdate="20140411150200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="94">
+			<revision name="8.1.15.v20140411" status="release" pubdate="20140411150200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="97">
 				<metadata-artifact status="no" details="" size="8992" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.eclipse.jetty\jetty-util\ivy-8.1.15.v20140411.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/eclipse/jetty/jetty-util/8.1.15.v20140411/jetty-util-8.1.15.v20140411.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="8.1.15.v20140411" rev-constraint-default="8.1.15.v20140411" rev-constraint-dynamic="8.1.15.v20140411" callerrev="1.0"/>
 				<artifacts>
@@ -460,7 +520,7 @@
 			</revision>
 		</module>
 		<module organisation="net.sourceforge.cssparser" name="cssparser">
-			<revision name="0.9.14" status="release" pubdate="20140508154700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://cssparser.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="90">
+			<revision name="0.9.14" status="release" pubdate="20140508154700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://cssparser.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="93">
 				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/lgpl.txt"/>
 				<metadata-artifact status="no" details="" size="3526" time="0" location="C:\Users\BRMCe\.ivy2\cache\net.sourceforge.cssparser\cssparser\ivy-0.9.14.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/sourceforge/cssparser/cssparser/0.9.14/cssparser-0.9.14.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="0.9.14" rev-constraint-default="0.9.14" rev-constraint-dynamic="0.9.14" callerrev="1.0"/>
@@ -475,7 +535,7 @@
 			</revision>
 		</module>
 		<module organisation="org.w3c.css" name="sac">
-			<revision name="1.3" status="release" pubdate="20080323014250" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.w3.org/Style/CSS/SAC/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="91">
+			<revision name="1.3" status="release" pubdate="20080323014250" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.w3.org/Style/CSS/SAC/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="94">
 				<license name="The W3C Software License" url="http://www.w3.org/Consortium/Legal/copyright-software-19980720"/>
 				<metadata-artifact status="no" details="" size="2414" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.w3c.css\sac\ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/w3c/css/sac/1.3/sac-1.3.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.0"/>
@@ -490,7 +550,7 @@
 			</revision>
 		</module>
 		<module organisation="net.sourceforge.nekohtml" name="nekohtml">
-			<revision name="1.9.21" status="release" pubdate="20140602072400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nekohtml.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="89">
+			<revision name="1.9.21" status="release" pubdate="20140602072400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nekohtml.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="92">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2600" time="0" location="C:\Users\BRMCe\.ivy2\cache\net.sourceforge.nekohtml\nekohtml\ivy-1.9.21.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/sourceforge/nekohtml/nekohtml/1.9.21/nekohtml-1.9.21.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="1.9.21" rev-constraint-default="1.9.21" rev-constraint-dynamic="1.9.21" callerrev="1.0"/>
@@ -505,7 +565,7 @@
 			</revision>
 		</module>
 		<module organisation="net.sourceforge.htmlunit" name="htmlunit-core-js">
-			<revision name="2.15" status="release" pubdate="20140530105700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://htmlunit.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="88">
+			<revision name="2.15" status="release" pubdate="20140530105700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://htmlunit.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="91">
 				<license name="Mozilla Public License version 2.0" url="http://www.mozilla.org/MPL/2.0/"/>
 				<metadata-artifact status="no" details="" size="2542" time="0" location="C:\Users\BRMCe\.ivy2\cache\net.sourceforge.htmlunit\htmlunit-core-js\ivy-2.15.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/sourceforge/htmlunit/htmlunit-core-js/2.15/htmlunit-core-js-2.15.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.15" rev-constraint-default="2.15" rev-constraint-dynamic="2.15" callerrev="1.0"/>
@@ -520,7 +580,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpmime">
-			<revision name="4.3.3" status="release" pubdate="20140222110600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="87">
+			<revision name="4.3.3" status="release" pubdate="20140222110600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="90">
 				<metadata-artifact status="no" details="" size="10163" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.apache.httpcomponents\httpmime\ivy-4.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/httpcomponents/httpmime/4.3.3/httpmime-4.3.3.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="4.3.3" rev-constraint-default="4.3.3" rev-constraint-dynamic="4.3.3" callerrev="1.0"/>
 				<artifacts>
@@ -534,7 +594,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-collections" name="commons-collections">
-			<revision name="3.2.1" status="release" pubdate="20080831084528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="86">
+			<revision name="3.2.1" status="release" pubdate="20080831084528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="89">
 				<metadata-artifact status="no" details="" size="4638" time="0" location="C:\Users\BRMCe\.ivy2\cache\commons-collections\commons-collections\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="1.0"/>
 				<artifacts>
@@ -548,7 +608,7 @@
 			</revision>
 		</module>
 		<module organisation="xalan" name="xalan">
-			<revision name="2.7.1" status="release" pubdate="20080930050254" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/xalan-j/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="85">
+			<revision name="2.7.1" status="release" pubdate="20080930050254" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/xalan-j/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="88">
 				<metadata-artifact status="no" details="" size="2970" time="0" location="C:\Users\BRMCe\.ivy2\cache\xalan\xalan\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/xalan/xalan/2.7.1/xalan-2.7.1.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="1.0"/>
 				<artifacts>
@@ -562,7 +622,7 @@
 			</revision>
 		</module>
 		<module organisation="org.seleniumhq.selenium" name="selenium-chrome-driver">
-			<revision name="2.44.0" status="release" pubdate="20141023171200" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="72">
+			<revision name="2.44.0" status="release" pubdate="20141023171200" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="75">
 				<metadata-artifact status="no" details="" size="5830" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.seleniumhq.selenium\selenium-chrome-driver\ivy-2.44.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-chrome-driver/2.44.0/selenium-chrome-driver-2.44.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.44.0" rev-constraint-default="2.44.0" rev-constraint-dynamic="2.44.0" callerrev="1.0"/>
 				<artifacts>
@@ -576,7 +636,7 @@
 			</revision>
 		</module>
 		<module organisation="org.seleniumhq.selenium" name="selenium-remote-driver">
-			<revision name="2.44.0" status="release" pubdate="20141023171200" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="73">
+			<revision name="2.44.0" status="release" pubdate="20141023171200" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="76">
 				<metadata-artifact status="no" details="" size="6824" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.seleniumhq.selenium\selenium-remote-driver\ivy-2.44.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-remote-driver/2.44.0/selenium-remote-driver-2.44.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.44.0" rev-constraint-default="2.44.0" rev-constraint-dynamic="2.44.0" callerrev="1.0"/>
 				<artifacts>
@@ -590,7 +650,7 @@
 			</revision>
 		</module>
 		<module organisation="net.java.dev.jna" name="platform">
-			<revision name="3.4.0" status="release" pubdate="20111221192231" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twall/jna" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="82">
+			<revision name="3.4.0" status="release" pubdate="20111221192231" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twall/jna" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="85">
 				<license name="LGPL, version 2.1" url="http://creativecommons.org/licenses/LGPL/2.1/"/>
 				<metadata-artifact status="no" details="" size="2499" time="0" location="C:\Users\BRMCe\.ivy2\cache\net.java.dev.jna\platform\ivy-3.4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/java/dev/jna/platform/3.4.0/platform-3.4.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="3.4.0" rev-constraint-default="3.4.0" rev-constraint-dynamic="3.4.0" callerrev="1.0"/>
@@ -605,7 +665,7 @@
 			</revision>
 		</module>
 		<module organisation="net.java.dev.jna" name="jna">
-			<revision name="3.4.0" status="release" pubdate="20111221192151" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twall/jna" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="81">
+			<revision name="3.4.0" status="release" pubdate="20111221192151" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twall/jna" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="84">
 				<license name="LGPL, version 2.1" url="http://creativecommons.org/licenses/LGPL/2.1/"/>
 				<metadata-artifact status="no" details="" size="2480" time="0" location="C:\Users\BRMCe\.ivy2\cache\net.java.dev.jna\jna\ivy-3.4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/java/dev/jna/jna/3.4.0/jna-3.4.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="3.4.0" rev-constraint-default="3.4.0" rev-constraint-dynamic="3.4.0" callerrev="1.0"/>
@@ -620,7 +680,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.commons" name="commons-exec">
-			<revision name="1.1" status="release" pubdate="20101019181142" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/exec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="80">
+			<revision name="1.1" status="release" pubdate="20101019181142" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/exec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="83">
 				<metadata-artifact status="no" details="" size="6113" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.apache.commons\commons-exec\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/commons/commons-exec/1.1/commons-exec-1.1.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.0"/>
 				<artifacts>
@@ -634,7 +694,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpclient">
-			<revision name="4.3.4" status="release" pubdate="20140531121900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="77">
+			<revision name="4.3.4" status="release" pubdate="20140531121900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="80">
 				<metadata-artifact status="no" details="" size="10496" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.3.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="4.3.4" rev-constraint-default="4.3.4" rev-constraint-dynamic="4.3.4" callerrev="1.0"/>
 				<artifacts>
@@ -648,7 +708,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpcore">
-			<revision name="4.3.2" status="release" pubdate="20140212174400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="78">
+			<revision name="4.3.2" status="release" pubdate="20140212174400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="81">
 				<metadata-artifact status="no" details="" size="7613" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.3.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="4.3.2" rev-constraint-default="4.3.2" rev-constraint-dynamic="4.3.2" callerrev="1.0"/>
 				<artifacts>
@@ -662,7 +722,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-logging" name="commons-logging">
-			<revision name="1.1.3" status="release" pubdate="20130516170523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="79">
+			<revision name="1.1.3" status="release" pubdate="20130516170523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="82">
 				<metadata-artifact status="no" details="" size="10197" time="0" location="C:\Users\BRMCe\.ivy2\cache\commons-logging\commons-logging\ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="1.0"/>
 				<artifacts>
@@ -676,7 +736,7 @@
 			</revision>
 		</module>
 		<module organisation="org.seleniumhq.selenium" name="selenium-api">
-			<revision name="2.44.0" status="release" pubdate="20141023171200" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="76">
+			<revision name="2.44.0" status="release" pubdate="20141023171200" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="79">
 				<metadata-artifact status="no" details="" size="5955" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.seleniumhq.selenium\selenium-api\ivy-2.44.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-api/2.44.0/selenium-api-2.44.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.44.0" rev-constraint-default="2.44.0" rev-constraint-dynamic="2.44.0" callerrev="1.0"/>
 				<artifacts>
@@ -690,7 +750,7 @@
 			</revision>
 		</module>
 		<module organisation="com.google.code.gson" name="gson">
-			<revision name="2.3" status="release" pubdate="20140811204100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/google-gson/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="75">
+			<revision name="2.3" status="release" pubdate="20140811204100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/google-gson/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="78">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3290" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.google.code.gson\gson\ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/code/gson/gson/2.3/gson-2.3.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="1.0"/>
@@ -705,7 +765,7 @@
 			</revision>
 		</module>
 		<module organisation="cglib" name="cglib-nodep">
-			<revision name="2.1_3" status="release" pubdate="20080831084543" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://cglib.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="74">
+			<revision name="2.1_3" status="release" pubdate="20080831084543" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://cglib.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="77">
 				<metadata-artifact status="no" details="" size="2243" time="0" location="C:\Users\BRMCe\.ivy2\cache\cglib\cglib-nodep\ivy-2.1_3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.1_3" rev-constraint-default="2.1_3" rev-constraint-dynamic="2.1_3" callerrev="1.0"/>
 				<artifacts>
@@ -719,7 +779,7 @@
 			</revision>
 		</module>
 		<module organisation="com.google.code.findbugs" name="jsr305">
-			<revision name="2.0.3" status="release" pubdate="20131231042600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://code.google.com/p/jsr-305/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="69">
+			<revision name="2.0.3" status="release" pubdate="20131231042600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://code.google.com/p/jsr-305/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="72">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2424" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.google.code.findbugs\jsr305\ivy-2.0.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/code/findbugs/jsr305/2.0.3/jsr305-2.0.3.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.0.3" rev-constraint-default="2.0.3" rev-constraint-dynamic="2.0.3" callerrev="1.0"/>
@@ -734,7 +794,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scaldi" name="scaldi-jsr330_2.11">
-			<revision name="0.5.8" status="release" pubdate="20151213183711" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scaldi.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="44">
+			<revision name="0.5.8" status="release" pubdate="20151213183711" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scaldi.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="43">
 				<license name="Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3259" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.scaldi\scaldi-jsr330_2.11\ivy-0.5.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scaldi/scaldi-jsr330_2.11/0.5.8/scaldi-jsr330_2.11-0.5.8.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="0.5.8" rev-constraint-default="0.5.8" rev-constraint-dynamic="0.5.8" callerrev="1.0"/>
@@ -749,7 +809,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scaldi" name="scaldi_2.11">
-			<revision name="0.5.7" status="release" pubdate="20151213183710" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scaldi.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="45">
+			<revision name="0.5.7" status="release" pubdate="20151213183710" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scaldi.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="44">
 				<license name="Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2976" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.scaldi\scaldi_2.11\ivy-0.5.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scaldi/scaldi_2.11/0.5.7/scaldi_2.11-0.5.7.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="0.5.7" rev-constraint-default="0.5.7" rev-constraint-dynamic="0.5.7" callerrev="1.0"/>
@@ -764,7 +824,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-reflect">
-			<revision name="2.11.7" status="release" pubdate="20150622171700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="46">
+			<revision name="2.11.7" status="release" pubdate="20150622171700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="45">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
@@ -779,7 +839,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-cache_2.11">
-			<revision name="2.4.6" status="release" pubdate="20151214074624" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="41">
+			<revision name="2.4.6" status="release" pubdate="20151214074624" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="40">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3346" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play-cache_2.11\ivy-2.4.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/play/play-cache_2.11/2.4.6/play-cache_2.11-2.4.6.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="1.0"/>
@@ -794,7 +854,7 @@
 			</revision>
 		</module>
 		<module organisation="net.sf.ehcache" name="ehcache-core">
-			<revision name="2.6.11" status="release" pubdate="20150422141900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ehcache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">
+			<revision name="2.6.11" status="release" pubdate="20150422141900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ehcache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="41">
 				<license name="The Apache Software License, Version 2.0" url="src/assemble/EHCACHE-CORE-LICENSE.txt"/>
 				<metadata-artifact status="no" details="" size="8493" time="0" location="C:\Users\BRMCe\.ivy2\cache\net.sf.ehcache\ehcache-core\ivy-2.6.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/sf/ehcache/ehcache-core/2.6.11/ehcache-core-2.6.11.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.6.11" rev-constraint-default="2.6.11" rev-constraint-dynamic="2.6.11" callerrev="1.0"/>
@@ -809,7 +869,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-netty-server_2.11">
-			<revision name="2.4.6" status="release" pubdate="20151214074618" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="38">
+			<revision name="2.4.6" status="release" pubdate="20151214074618" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="37">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3396" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\ivy-2.4.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/play/play-netty-server_2.11/2.4.6/play-netty-server_2.11-2.4.6.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="1.0"/>
@@ -824,7 +884,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.netty" name="netty-http-pipelining">
-			<revision name="1.1.4" status="release" pubdate="20150412211700" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/netty-http-pipelining" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="40">
+			<revision name="1.1.4" status="release" pubdate="20150412211700" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/netty-http-pipelining" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="39">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2978" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/netty/netty-http-pipelining/1.1.4/netty-http-pipelining-1.1.4.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="1.1.4" rev-constraint-default="1.1.4" rev-constraint-dynamic="1.1.4" callerrev="1.0"/>
@@ -839,7 +899,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty">
-			<revision name="3.10.4.Final" status="release" pubdate="20150630102800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="39">
+			<revision name="3.10.4.Final" status="release" pubdate="20150630102800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="38">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="7136" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty\ivy-3.10.4.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty/3.10.4.Final/netty-3.10.4.Final.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="3.10.4.Final" rev-constraint-default="3.10.4.Final" rev-constraint-dynamic="3.10.4.Final" callerrev="1.0"/>
@@ -884,7 +944,7 @@
 			</revision>
 		</module>
 		<module organisation="com.google.guava" name="guava">
-			<revision name="18.0" status="release" pubdate="20140825154800" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="68">
+			<revision name="18.0" status="release" pubdate="20140825154800" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="71">
 				<metadata-artifact status="no" details="" size="5821" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.google.guava\guava\ivy-18.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/guava/guava/18.0/guava-18.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="18.0" rev-constraint-default="18.0" rev-constraint-dynamic="18.0" callerrev="1.0"/>
 				<artifacts>
@@ -905,8 +965,8 @@
 			</revision>
 		</module>
 		<module organisation="com.google.inject.extensions" name="guice-assistedinject">
-			<revision name="4.0" status="release" pubdate="20150428173500" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="37">
-				<metadata-artifact status="successful" details="" size="549" time="764" location="C:\Users\BRMCe\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml" searched="true" original-local-location="C:\Users\BRMCe\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
+			<revision name="4.0" status="release" pubdate="20150428173500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="36">
+				<metadata-artifact status="no" details="" size="5550" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="guice-assistedinject" type="jar" ext="jar" status="no" details="" size="43425" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar">
@@ -919,7 +979,7 @@
 			</revision>
 		</module>
 		<module organisation="com.google.inject" name="guice">
-			<revision name="4.0" status="release" pubdate="20150428173300" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="34">
+			<revision name="4.0" status="release" pubdate="20150428173300" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="33">
 				<metadata-artifact status="no" details="" size="5819" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.google.inject\guice\ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="1.0"/>
 				<artifacts>
@@ -933,7 +993,7 @@
 			</revision>
 		</module>
 		<module organisation="aopalliance" name="aopalliance">
-			<revision name="1.0" status="release" pubdate="20080831084510" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="36">
+			<revision name="1.0" status="release" pubdate="20080831084510" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="35">
 				<license name="Public Domain"/>
 				<metadata-artifact status="no" details="" size="2320" time="0" location="C:\Users\BRMCe\.ivy2\cache\aopalliance\aopalliance\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/aopalliance/aopalliance/1.0/aopalliance-1.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
@@ -948,7 +1008,7 @@
 			</revision>
 		</module>
 		<module organisation="javax.inject" name="javax.inject">
-			<revision name="1" status="release" pubdate="20091013203500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="35">
+			<revision name="1" status="release" pubdate="20091013203500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="34">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2409" time="0" location="C:\Users\BRMCe\.ivy2\cache\javax.inject\javax.inject\ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/inject/javax.inject/1/javax.inject-1.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="1.0"/>
@@ -963,7 +1023,7 @@
 			</revision>
 		</module>
 		<module organisation="javax.transaction" name="jta">
-			<revision name="1.1" status="release" pubdate="20081027222721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/jta" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="33">
+			<revision name="1.1" status="release" pubdate="20081027222721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/jta" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
 				<metadata-artifact status="no" details="" size="2381" time="0" location="C:\Users\BRMCe\.ivy2\cache\javax.transaction\jta\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/transaction/jta/1.1/jta-1.1.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.0"/>
 				<artifacts>
@@ -977,7 +1037,7 @@
 			</revision>
 		</module>
 		<module organisation="xerces" name="xercesImpl">
-			<revision name="2.11.0" status="release" pubdate="20130220172006" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://xerces.apache.org/xerces2-j/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="31">
+			<revision name="2.11.0" status="release" pubdate="20130220172006" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://xerces.apache.org/xerces2-j/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="30">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="4305" time="0" location="C:\Users\BRMCe\.ivy2\cache\xerces\xercesImpl\ivy-2.11.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0"/>
@@ -992,7 +1052,7 @@
 			</revision>
 		</module>
 		<module organisation="xml-apis" name="xml-apis">
-			<revision name="1.4.01" status="release" pubdate="20110819211111" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/commons/components/external/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
+			<revision name="1.4.01" status="release" pubdate="20110819211111" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/commons/components/external/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="31">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<license name="The SAX License" url="http://www.saxproject.org/copying.html"/>
 				<license name="The W3C License" url="http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip"/>
@@ -1009,7 +1069,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-codec" name="commons-codec">
-			<revision name="1.10" status="release" pubdate="20141106111500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="30">
+			<revision name="1.10" status="release" pubdate="20141106111500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
 				<metadata-artifact status="no" details="" size="10476" time="0" location="C:\Users\BRMCe\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="1.0"/>
 				<artifacts>
@@ -1023,7 +1083,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-slf4j_2.11">
-			<revision name="2.3.13" status="release" pubdate="20150903111648" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
+			<revision name="2.3.13" status="release" pubdate="20150903111648" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="28">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3112" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\ivy-2.3.13.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-slf4j_2.11/2.3.13/akka-slf4j_2.11-2.3.13.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.3.13" rev-constraint-default="2.3.13" rev-constraint-dynamic="2.3.13" callerrev="1.0"/>
@@ -1033,21 +1093,6 @@
 					</artifact>
 					<artifact name="akka-slf4j_2.11" type="jar" ext="jar" status="no" details="" size="15457" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-slf4j_2.11/2.3.13/akka-slf4j_2.11-2.3.13.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
-			<revision name="2.3.13" status="release" pubdate="20150903111004" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="28">
-				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="2700" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\ivy-2.3.13.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.pom"/>
-				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.3.13" rev-constraint-default="2.3.13" rev-constraint-dynamic="2.3.13" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="336307" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\srcs\akka-actor_2.11-2.3.13-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13-sources.jar"/>
-					</artifact>
-					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="2792981" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1313,7 +1358,7 @@
 			</revision>
 		</module>
 		<module organisation="com.novocode" name="junit-interface">
-			<revision name="0.11" status="release" pubdate="20140814052700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/sbt/junit-interface/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="66">
+			<revision name="0.11" status="release" pubdate="20140814052700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/sbt/junit-interface/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="69">
 				<license name="Two-clause BSD-style license" url="http://github.com/sbt/junit-interface/blob/master/LICENSE.txt"/>
 				<metadata-artifact status="no" details="" size="2772" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.novocode\junit-interface\ivy-0.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/novocode/junit-interface/0.11/junit-interface-0.11.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="0.11" rev-constraint-default="0.11" rev-constraint-dynamic="0.11" callerrev="1.0"/>
@@ -1328,7 +1373,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="test-interface">
-			<revision name="1.0" status="release" pubdate="20130628194435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="67">
+			<revision name="1.0" status="release" pubdate="20130628194435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="70">
 				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
 				<metadata-artifact status="no" details="" size="2621" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.scala-sbt\test-interface\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
@@ -1449,7 +1494,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-io" name="commons-io">
-			<revision name="2.4" status="release" pubdate="20120612192203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="92">
+			<revision name="2.4" status="release" pubdate="20120612192203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="95">
 				<metadata-artifact status="no" details="" size="8540" time="0" location="C:\Users\BRMCe\.ivy2\cache\commons-io\commons-io\ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.0"/>
 				<artifacts>
@@ -1463,7 +1508,7 @@
 			</revision>
 		</module>
 		<module organisation="junit" name="junit">
-			<revision name="4.12" status="release" pubdate="20141204131700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="64">
+			<revision name="4.12" status="release" pubdate="20141204131700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="67">
 				<license name="Eclipse Public License 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
 				<metadata-artifact status="no" details="" size="3227" time="0" location="C:\Users\BRMCe\.ivy2\cache\junit\junit\ivy-4.12.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/junit/junit/4.12/junit-4.12.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="4.12" rev-constraint-default="4.12" rev-constraint-dynamic="4.12" callerrev="1.0"/>
@@ -1475,7 +1520,7 @@
 			</revision>
 		</module>
 		<module organisation="org.hamcrest" name="hamcrest-core">
-			<revision name="1.3" status="release" pubdate="20120709180802" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="65">
+			<revision name="1.3" status="release" pubdate="20120709180802" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="68">
 				<metadata-artifact status="no" details="" size="2425" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.hamcrest\hamcrest-core\ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="test, compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.0"/>
 				<artifacts>
