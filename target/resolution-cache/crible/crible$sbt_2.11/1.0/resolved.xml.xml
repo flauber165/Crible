@@ -4,7 +4,7 @@
 		module="crible$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160804195459"
+		publication="20160807163635"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

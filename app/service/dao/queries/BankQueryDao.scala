@@ -1,6 +1,6 @@
-package service.queries.dao
+package service.dao.queries
 
-import domain.Bank
+import service.domain.Bank
 
 import scala.concurrent.Future
 

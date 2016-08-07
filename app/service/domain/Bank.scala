@@ -1,4 +1,4 @@
-package domain
+package service.domain
 
 import java.util.UUID
 

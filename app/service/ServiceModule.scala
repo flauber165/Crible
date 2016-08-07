@@ -1,8 +1,9 @@
 package service
 
 import scaldi.Module
-import service.queries.BankQuery
+import service.queries.BankQueryService
 
 class ServiceModule extends Module  {
-  bind[BankQuery] to injected[BankQuery]
+  bind[AuthenticationService] to inject[AuthenticationService]
+  bind[BankQueryService] to injected[BankQueryService]
 }
