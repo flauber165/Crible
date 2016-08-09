@@ -1,13 +1,13 @@
 package service
 
 import java.util.Base64
-
+import com.google.inject.Inject
 import service.dao.queries.UserQueryDao
 import service.dto.{EnterDto, EnterResultDto}
 import play.api.libs.concurrent.Execution.Implicits.defaultContext
 import scala.concurrent.Future
 
-class AuthenticationService(userQueryDao: UserQueryDao) {
+class AuthenticationService @Inject()(userQueryDao: UserQueryDao) {
 
   val charsetName = "utf-8"
   val encoder = Base64.getEncoder

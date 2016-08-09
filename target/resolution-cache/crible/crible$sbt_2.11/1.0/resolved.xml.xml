@@ -4,11 +4,7 @@
 		module="crible$sbt_2.11"
 		revision="1.0"
 		status="integration"
-<<<<<<< HEAD
-		publication="20160807213117"
-=======
-		publication="20160807163635"
->>>>>>> master
+		publication="20160809155920"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
@@ -17,26 +13,23 @@
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-sbt" name="sbt" rev="0.13.8" conf="default->default(compile)"/>
-		<dependency org="com.typesafe.play" name="sbt-plugin" rev="2.4.6" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13"/>
-		<dependency org="com.typesafe.play" name="sbt-routes-compiler_2.10" rev="2.4.6" conf="default->default(compile)"/>
+		<dependency org="com.typesafe.play" name="sbt-plugin" rev="2.5.3" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13"/>
+		<dependency org="com.typesafe.play" name="sbt-routes-compiler_2.10" rev="2.5.3" conf="default->default(compile)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="default->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.4/"/>
 		<dependency org="com.typesafe.play" name="twirl-api_2.10" rev="1.1.1" conf="default->default(compile)"/>
 		<dependency org="org.apache.commons" name="commons-lang3" rev="3.4" conf="default->default(compile)"/>
 		<dependency org="commons-io" name="commons-io" rev="2.4" conf="default->default(compile)"/>
-		<dependency org="com.typesafe.play" name="sbt-run-support_2.10" rev="2.4.6" conf="default->default(compile)"/>
-		<dependency org="com.typesafe.play" name="build-link" rev="2.4.6" conf="default->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-exceptions" rev="2.4.6" conf="default->default(compile)"/>
-		<dependency org="org.javassist" name="javassist" rev="3.19.0-GA" conf="default->default(compile)"/>
+		<dependency org="com.typesafe.play" name="sbt-run-support_2.10" rev="2.5.3" conf="default->default(compile)"/>
+		<dependency org="com.typesafe.play" name="build-link" rev="2.5.3" conf="default->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-exceptions" rev="2.5.3" conf="default->default(compile)"/>
 		<dependency org="com.typesafe" name="config" rev="1.3.0" conf="default->default(compile)"/>
-		<dependency org="com.google.guava" name="guava" rev="18.0" conf="default->default(compile)"/>
-		<dependency org="com.h2database" name="h2" rev="1.4.187" conf="default->default(compile)"/>
 		<dependency org="net.contentobjects.jnotify" name="jnotify" rev="0.94-play-1" conf="default->default(compile)"/>
 		<dependency org="com.typesafe.sbt" name="sbt-twirl" rev="1.1.1" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13"/>
 		<dependency org="com.typesafe.play" name="twirl-compiler_2.10" rev="1.1.1" conf="default->default(compile)"/>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.4" conf="default->default(compile)"/>
 		<dependency org="org.scala-lang" name="scala-reflect" rev="2.10.4" conf="default->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.4/"/>
 		<dependency org="com.typesafe.play" name="twirl-parser_2.10" rev="1.1.1" conf="default->default(compile)"/>
-		<dependency org="com.typesafe.sbt" name="sbt-native-packager" rev="1.0.1" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13"/>
+		<dependency org="com.typesafe.sbt" name="sbt-native-packager" rev="1.0.3" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13"/>
 		<dependency org="org.vafer" name="jdeb" rev="1.3" conf="default->default(compile)"/>
 		<dependency org="org.apache.maven" name="maven-core" rev="3.2.2" conf="default->default(compile)"/>
 		<dependency org="org.apache.maven" name="maven-model" rev="3.2.2" conf="default->default(compile)"/>
@@ -54,6 +47,7 @@
 		<dependency org="javax.enterprise" name="cdi-api" rev="1.0" conf="default->default(compile)"/>
 		<dependency org="javax.annotation" name="jsr250-api" rev="1.0" conf="default->default(compile)"/>
 		<dependency org="javax.inject" name="javax.inject" rev="1" conf="default->default(compile)"/>
+		<dependency org="com.google.guava" name="guava" rev="14.0.1" conf="default->default(compile)"/>
 		<dependency org="org.sonatype.sisu" name="sisu-guice" rev="3.1.3" conf="default->default(compile)"/>
 		<dependency org="aopalliance" name="aopalliance" rev="1.0" conf="default->default(compile)"/>
 		<dependency org="org.eclipse.sisu" name="org.eclipse.sisu.inject" rev="0.0.0.M5" conf="default->default(compile)"/>
@@ -68,7 +62,7 @@
 		<dependency org="org.apache.ant" name="ant-launcher" rev="1.9.3" conf="default->default(compile)"/>
 		<dependency org="org.bouncycastle" name="bcpg-jdk15on" rev="1.51" conf="default->default(compile)"/>
 		<dependency org="org.bouncycastle" name="bcprov-jdk15on" rev="1.51" conf="default->default(compile)"/>
-		<dependency org="com.typesafe.sbt" name="sbt-web" rev="1.2.2" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13"/>
+		<dependency org="com.typesafe.sbt" name="sbt-web" rev="1.3.0" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13"/>
 		<dependency org="org.webjars" name="webjars-locator" rev="0.26" conf="default->default(compile)"/>
 		<dependency org="org.webjars" name="webjars-locator-core" rev="0.26" conf="default->default(compile)"/>
 		<dependency org="org.apache.commons" name="commons-compress" rev="1.9" conf="default->default(compile)"/>

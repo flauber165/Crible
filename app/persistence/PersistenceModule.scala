@@ -1,11 +1,13 @@
 package persistence
 
-import scaldi.Module
+import com.google.inject.AbstractModule
 import persistence.Connector._
 import service.dao.queries._
 
-class PersistenceModule extends Module {
+class PersistenceModule extends AbstractModule {
   val context = new PersistenceContext(connector)
-  bind [UserQueryDao] toProvider context.userQueryDao
-  bind [BankQueryDao] to context.bankQueryDao
+  def configure() = {
+    bind(classOf[UserQueryDao]).toInstance(context.userQueryDao)
+    bind(classOf[BankQueryDao]).toInstance(context.bankQueryDao)
+  }
 }

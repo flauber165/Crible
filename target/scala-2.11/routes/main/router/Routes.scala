@@ -1,11 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Projects/Crible/conf/routes
-<<<<<<< HEAD
-// @DATE:Sun Aug 07 22:39:32 GFT 2016
-=======
-// @DATE:Sun Aug 07 17:43:37 GFT 2016
->>>>>>> master
+// @DATE:Tue Aug 09 15:43:27 BRT 2016
 
 package router
 
@@ -52,7 +48,7 @@ class Routes(
   def documentation = List(
     ("""GET""", this.prefix, """presentation.controllers.Application.index"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """enter""", """presentation.controllers.AuthenticationController.enter"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -107,7 +103,7 @@ class Routes(
       Seq(classOf[String], classOf[Asset]),
       "GET",
       """ Map static resources from the /public folder to the /assets URL path""",
-      this.prefix + """assets/$file<.+>"""
+      this.prefix + """assets/""" + "$" + """file<.+>"""
     )
   )
 

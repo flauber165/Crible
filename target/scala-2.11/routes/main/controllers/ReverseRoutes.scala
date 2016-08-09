@@ -1,11 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Projects/Crible/conf/routes
-<<<<<<< HEAD
-// @DATE:Sun Aug 07 22:39:32 GFT 2016
-=======
-// @DATE:Sun Aug 07 17:43:37 GFT 2016
->>>>>>> master
+// @DATE:Tue Aug 09 15:43:27 BRT 2016
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }
