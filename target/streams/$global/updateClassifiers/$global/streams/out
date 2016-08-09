@@ -12,7 +12,7 @@
 [debug] == resolving dependencies for crible#crible$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c3d04ff
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2396df7f
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -21,7 +21,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#twirl-api_2.11;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@690f2dd1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7233bcd3
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#twirl-api_2.11;1.1.1
 [debug] 	found com.typesafe.play#twirl-api_2.11;1.1.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime]
@@ -29,7 +29,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@448b2a9a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30a470b2
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.4
 [debug] 	found org.apache.commons#commons-lang3;3.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->runtime]
@@ -37,7 +37,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4934d25d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@317e7927
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->runtime]
@@ -45,7 +45,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-server_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-server_2.11;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a19e7c7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24549b19
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-server_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-server_2.11;2.5.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-server_2.11;2.5.3 [compile->runtime]
@@ -53,7 +53,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-server_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play_2.11;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@148ccd0f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d0621a6
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play_2.11;2.5.3
 [debug] 	found com.typesafe.play#play_2.11;2.5.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play_2.11;2.5.3 [compile->runtime]
@@ -61,7 +61,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#build-link;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#build-link;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18fe5559
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@169c64f2
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#build-link;2.5.3
 [debug] 	found com.typesafe.play#build-link;2.5.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#build-link;2.5.3 [compile->runtime]
@@ -69,7 +69,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#build-link;2.5.3 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-exceptions;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-exceptions;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b0c6591
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@81fe1de
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-exceptions;2.5.3
 [debug] 	found com.typesafe.play#play-exceptions;2.5.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-exceptions;2.5.3 [compile->runtime]
@@ -77,7 +77,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-exceptions;2.5.3 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.11;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6921a683
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f4216e3
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-iteratees_2.11;2.5.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.5.3 [compile->runtime]
@@ -85,7 +85,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.11;0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29b3f787
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74a913b7
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
@@ -93,7 +93,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35dcead2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@517a4b18
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
 [debug] 	found com.typesafe#config;1.3.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->runtime]
@@ -101,7 +101,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.11;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b2066f4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f0b0c1c
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-json_2.11;2.5.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.5.3 [compile->runtime]
@@ -109,7 +109,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.11;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@423079f4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@546c73b2
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-functional_2.11;2.5.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.5.3 [compile->runtime]
@@ -117,7 +117,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.11;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3aeede98
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e495f64
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-datacommons_2.11;2.5.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.5.3 [compile->runtime]
@@ -125,7 +125,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->joda-time#joda-time;2.9.2 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.9.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fb6437b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a238f81
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.9.2
 [debug] 	found joda-time#joda-time;2.9.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->joda-time#joda-time;2.9.2 [compile->runtime]
@@ -133,7 +133,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->joda-time#joda-time;2.9.2 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.8.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7944e7d4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71b534e1
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.8.1
 [debug] 	found org.joda#joda-convert;1.8.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->runtime]
@@ -141,7 +141,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4915485f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ff8be58
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
 [debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
@@ -150,7 +150,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.7.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@352eb99a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26a3bcb
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.7.1
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.7.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.7.1 [compile->runtime]
@@ -158,7 +158,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.7.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.7.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29e1799d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@753dfd47
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.7.1
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.7.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.7.1 [compile->runtime]
@@ -166,7 +166,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.7.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.7.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@563d7d20
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46525ddb
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.7.1
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.7.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.7.1 [compile->runtime]
@@ -174,7 +174,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.7.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12b86682
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f09d7c
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.1
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.1 [compile->runtime]
@@ -182,7 +182,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46879901
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c8e185d
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.1
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.1 [compile->runtime]
@@ -190,7 +190,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-netty-utils;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-netty-utils;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19073d2a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3202c82d
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-netty-utils;2.5.3
 [debug] 	found com.typesafe.play#play-netty-utils;2.5.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-netty-utils;2.5.3 [compile->runtime]
@@ -198,7 +198,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-netty-utils;2.5.3 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.16 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.16 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@692f427f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66853c13
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.16
 [debug] 	found org.slf4j#slf4j-api;1.7.16 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.16 [compile->runtime]
@@ -206,7 +206,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.16 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.16 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.16 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57d398dd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b85a2ca
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.16
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.16 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.16 [compile->runtime]
@@ -214,7 +214,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.16 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.16 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.16 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@355961f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58a67360
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.16
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.16 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.16 [compile->runtime]
@@ -222,7 +222,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.16 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-streams_2.11;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57220be3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a9518f5
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-streams_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-streams_2.11;2.5.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams_2.11;2.5.3 [compile->runtime]
@@ -230,7 +230,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
 [info] Resolving org.reactivestreams#reactive-streams;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38c44ee8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50ff8b46
 [debug] sbt-chain: module revision found in cache: org.reactivestreams#reactive-streams;1.0.0
 [debug] 	found org.reactivestreams#reactive-streams;1.0.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
@@ -238,7 +238,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-stream_2.11;2.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@93c851
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@304e4dde
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-stream_2.11;2.4.4
 [debug] 	found com.typesafe.akka#akka-stream_2.11;2.4.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->runtime]
@@ -246,7 +246,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7beecbf2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@164b97d1
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.4.4
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.4.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->runtime]
@@ -254,7 +254,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ff00e73
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1178cedb
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0
 [debug] 	found org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->runtime]
@@ -262,7 +262,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#ssl-config-akka_2.11;0.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@380063b5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47a1cacf
 [debug] sbt-chain: module revision found in cache: com.typesafe#ssl-config-akka_2.11;0.2.1
 [debug] 	found com.typesafe#ssl-config-akka_2.11;0.2.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->runtime]
@@ -270,7 +270,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#ssl-config-core_2.11;0.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ad4eb9b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5cef2a16
 [debug] sbt-chain: module revision found in cache: com.typesafe#ssl-config-core_2.11;0.2.1
 [debug] 	found com.typesafe#ssl-config-core_2.11;0.2.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->runtime]
@@ -278,7 +278,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3062b1ab
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6aab1267
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
@@ -286,7 +286,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.4.4 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-slf4j_2.11;2.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f9b5a3b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2331c7d6
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.11;2.4.4
 [debug] 	found com.typesafe.akka#akka-slf4j_2.11;2.4.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.4.4 [compile->runtime]
@@ -294,7 +294,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.4.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3208a6c1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27e7b703
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.10
 [debug] 	found commons-codec#commons-codec;1.10 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->runtime]
@@ -302,7 +302,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [compile->default(compile)]
 [info] Resolving xerces#xercesImpl;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6232d18d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c0e16cc
 [debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.11.0
 [debug] 	found xerces#xercesImpl;2.11.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [compile->runtime]
@@ -310,7 +310,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->default(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17a8ea39
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@591baef3
 [debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01
 [debug] 	found xml-apis#xml-apis;1.4.01 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->runtime]
@@ -318,7 +318,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->javax.transaction#jta;1.1 [compile->default(compile)]
 [info] Resolving javax.transaction#jta;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cde821c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a23fa9d
 [debug] sbt-chain: module revision found in cache: javax.transaction#jta;1.1
 [debug] 	found javax.transaction#jta;1.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->javax.transaction#jta;1.1 [compile->runtime]
@@ -326,7 +326,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->javax.transaction#jta;1.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject#guice;4.0 [compile->default(compile)]
 [info] Resolving com.google.inject#guice;4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37cfa19c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@251cdaa6
 [debug] sbt-chain: module revision found in cache: com.google.inject#guice;4.0
 [debug] 	found com.google.inject#guice;4.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject#guice;4.0 [compile->runtime]
@@ -334,7 +334,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject#guice;4.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->default(compile)]
 [info] Resolving javax.inject#javax.inject;1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13e00991
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e706e13
 [debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
 [debug] 	found javax.inject#javax.inject;1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->runtime]
@@ -342,7 +342,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->default(compile)]
 [info] Resolving aopalliance#aopalliance;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@de87a99
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2054f0d5
 [debug] sbt-chain: module revision found in cache: aopalliance#aopalliance;1.0
 [debug] 	found aopalliance#aopalliance;1.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->runtime]
@@ -350,7 +350,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.guava#guava;16.0.1 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;16.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@409bde55
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64d7358b
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;16.0.1
 [debug] 	found com.google.guava#guava;16.0.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.guava#guava;16.0.1 [compile->runtime]
@@ -358,15 +358,29 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.guava#guava;16.0.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->default(compile)]
 [info] Resolving com.google.inject.extensions#guice-assistedinject;4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46450d73
-[debug] sbt-chain: module revision found in cache: com.google.inject.extensions#guice-assistedinject;4.0
-[debug] 	found com.google.inject.extensions#guice-assistedinject;4.0 in sbt-chain
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54f8629e
+[info] Resolving com.google.inject.extensions#guice-assistedinject;4.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@54f8629e
+[debug] 		tried C:\Users\brcerqueira\.ivy2\local\com.google.inject.extensions\guice-assistedinject\4.0\ivys\ivy.xml
+[debug] 	local: no ivy file found for com.google.inject.extensions#guice-assistedinject;4.0
+[debug] 		tried https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
+[debug] 	jcenter: found md file for com.google.inject.extensions#guice-assistedinject;4.0
+[debug] 		=> https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom (4.0)
+[debug] downloading https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
+[debug] 	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (882ms)
+[info] Resolving com.google.inject.extensions#extensions-parent;4.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.google.inject.extensions#extensions-parent;4.0 {}
+[debug] sbt-chain: module revision found in cache: com.google.inject.extensions#extensions-parent;4.0
+[debug] 	found com.google.inject.extensions#guice-assistedinject;4.0 in jcenter
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-netty-server_2.11;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2cab8003
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ab97e5b
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-netty-server_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-netty-server_2.11;2.5.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->runtime]
@@ -374,7 +388,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.netty#netty-reactive-streams-http;1.0.5 [compile->default(compile)]
 [info] Resolving com.typesafe.netty#netty-reactive-streams-http;1.0.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76fafa4b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3fc5c8
 [debug] sbt-chain: module revision found in cache: com.typesafe.netty#netty-reactive-streams-http;1.0.5
 [debug] 	found com.typesafe.netty#netty-reactive-streams-http;1.0.5 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.netty#netty-reactive-streams-http;1.0.5 [compile->runtime]
@@ -382,7 +396,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.netty#netty-reactive-streams-http;1.0.5 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.netty#netty-reactive-streams;1.0.5 [compile->default(compile)]
 [info] Resolving com.typesafe.netty#netty-reactive-streams;1.0.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50e08532
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@305c40a
 [debug] sbt-chain: module revision found in cache: com.typesafe.netty#netty-reactive-streams;1.0.5
 [debug] 	found com.typesafe.netty#netty-reactive-streams;1.0.5 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.netty#netty-reactive-streams;1.0.5 [compile->runtime]
@@ -390,7 +404,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.netty#netty-reactive-streams;1.0.5 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-handler;4.0.34.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-handler;4.0.34.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b0c2b3f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3646ed58
 [debug] sbt-chain: module revision found in cache: io.netty#netty-handler;4.0.34.Final
 [debug] 	found io.netty#netty-handler;4.0.34.Final in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-handler;4.0.34.Final [compile->runtime]
@@ -398,7 +412,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-handler;4.0.34.Final [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-codec;4.0.34.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-codec;4.0.34.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12c284de
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53dcb598
 [debug] sbt-chain: module revision found in cache: io.netty#netty-codec;4.0.34.Final
 [debug] 	found io.netty#netty-codec;4.0.34.Final in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-codec;4.0.34.Final [compile->runtime]
@@ -406,7 +420,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-codec;4.0.34.Final [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-codec-http;4.0.34.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-codec-http;4.0.34.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f6b8742
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f859857
 [debug] sbt-chain: module revision found in cache: io.netty#netty-codec-http;4.0.34.Final
 [debug] 	found io.netty#netty-codec-http;4.0.34.Final in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-codec-http;4.0.34.Final [compile->runtime]
@@ -414,7 +428,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-codec-http;4.0.34.Final [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-transport-native-epoll;4.0.36.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-transport-native-epoll;4.0.36.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45eb1e96
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2192bdfc
 [debug] sbt-chain: module revision found in cache: io.netty#netty-transport-native-epoll;4.0.36.Final
 [debug] 	found io.netty#netty-transport-native-epoll;4.0.36.Final in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-transport-native-epoll;4.0.36.Final [compile->runtime]
@@ -422,7 +436,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-transport-native-epoll;4.0.36.Final [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-common;4.0.36.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-common;4.0.36.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6350016d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7876cb10
 [debug] sbt-chain: module revision found in cache: io.netty#netty-common;4.0.36.Final
 [debug] 	found io.netty#netty-common;4.0.36.Final in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-common;4.0.36.Final [compile->runtime]
@@ -430,7 +444,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-common;4.0.36.Final [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-buffer;4.0.36.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-buffer;4.0.36.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71e66490
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2520f7dd
 [debug] sbt-chain: module revision found in cache: io.netty#netty-buffer;4.0.36.Final
 [debug] 	found io.netty#netty-buffer;4.0.36.Final in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-buffer;4.0.36.Final [compile->runtime]
@@ -438,7 +452,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-buffer;4.0.36.Final [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-transport;4.0.36.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-transport;4.0.36.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44572cc6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2342bcb2
 [debug] sbt-chain: module revision found in cache: io.netty#netty-transport;4.0.36.Final
 [debug] 	found io.netty#netty-transport;4.0.36.Final in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-transport;4.0.36.Final [compile->runtime]
@@ -446,7 +460,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-transport;4.0.36.Final [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-logback_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-logback_2.11;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c38de23
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@702f473a
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-logback_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-logback_2.11;2.5.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-logback_2.11;2.5.3 [compile->runtime]
@@ -454,7 +468,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-logback_2.11;2.5.3 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.4 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-core;1.1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e1524c8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a6c1e67
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.4
 [debug] 	found ch.qos.logback#logback-core;1.1.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.4 [compile->runtime]
@@ -462,7 +476,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.4 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-classic;1.1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2debbf63
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ee3e020
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.4
 [debug] 	found ch.qos.logback#logback-classic;1.1.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.4 [compile->runtime]
@@ -470,7 +484,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-cache_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-cache_2.11;2.4.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31c6320e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d2a2531
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-cache_2.11;2.4.6
 [debug] 	found com.typesafe.play#play-cache_2.11;2.4.6 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-cache_2.11;2.4.6 [compile->runtime]
@@ -478,7 +492,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-cache_2.11;2.4.6 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sf.ehcache#ehcache-core;2.6.11 [compile->default(compile)]
 [info] Resolving net.sf.ehcache#ehcache-core;2.6.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23cf2ec8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3264d893
 [debug] sbt-chain: module revision found in cache: net.sf.ehcache#ehcache-core;2.6.11
 [debug] 	found net.sf.ehcache#ehcache-core;2.6.11 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sf.ehcache#ehcache-core;2.6.11 [compile->runtime]
@@ -486,7 +500,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sf.ehcache#ehcache-core;2.6.11 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-dsl_2.11;1.22.0 [compile->default(compile)]
 [info] Resolving com.websudos#phantom-dsl_2.11;1.22.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4615840a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@273bbfe7
 [debug] sbt-chain: module revision found in cache: com.websudos#phantom-dsl_2.11;1.22.0
 [debug] 	found com.websudos#phantom-dsl_2.11;1.22.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-dsl_2.11;1.22.0 [compile->runtime]
@@ -494,7 +508,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-dsl_2.11;1.22.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-connectors_2.11;1.22.0 [compile->default(compile)]
 [info] Resolving com.websudos#phantom-connectors_2.11;1.22.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@336db97d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76b96ce6
 [debug] sbt-chain: module revision found in cache: com.websudos#phantom-connectors_2.11;1.22.0
 [debug] 	found com.websudos#phantom-connectors_2.11;1.22.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-connectors_2.11;1.22.0 [compile->runtime]
@@ -502,7 +516,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-connectors_2.11;1.22.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#log4j-over-slf4j;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#log4j-over-slf4j;1.7.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3efbc8e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9ebf5d7
 [debug] sbt-chain: module revision found in cache: org.slf4j#log4j-over-slf4j;1.7.12
 [debug] 	found org.slf4j#log4j-over-slf4j;1.7.12 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#log4j-over-slf4j;1.7.12 [compile->runtime]
@@ -510,7 +524,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#log4j-over-slf4j;1.7.12 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->default(compile)]
 [info] Resolving com.datastax.cassandra#cassandra-driver-core;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@479ceaaa
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41f00a92
 [debug] sbt-chain: module revision found in cache: com.datastax.cassandra#cassandra-driver-core;3.0.0
 [debug] 	found com.datastax.cassandra#cassandra-driver-core;3.0.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->runtime]
@@ -518,7 +532,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->default(compile)]
 [info] Resolving io.dropwizard.metrics#metrics-core;3.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52316395
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67f7cab
 [debug] sbt-chain: module revision found in cache: io.dropwizard.metrics#metrics-core;3.1.2
 [debug] 	found io.dropwizard.metrics#metrics-core;3.1.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->runtime]
@@ -526,7 +540,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#diesel-engine_2.11;0.2.4 [compile->default(compile)]
 [info] Resolving com.websudos#diesel-engine_2.11;0.2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bf0c8d4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62d5c6ed
 [debug] sbt-chain: module revision found in cache: com.websudos#diesel-engine_2.11;0.2.4
 [debug] 	found com.websudos#diesel-engine_2.11;0.2.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#diesel-engine_2.11;0.2.4 [compile->runtime]
@@ -534,7 +548,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#diesel-engine_2.11;0.2.4 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.chuusai#shapeless_2.11;2.2.5 [compile->default(compile)]
 [info] Resolving com.chuusai#shapeless_2.11;2.2.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b4338a4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@732748c7
 [debug] sbt-chain: module revision found in cache: com.chuusai#shapeless_2.11;2.2.5
 [debug] 	found com.chuusai#shapeless_2.11;2.2.5 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.chuusai#shapeless_2.11;2.2.5 [compile->runtime]
@@ -542,7 +556,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.chuusai#shapeless_2.11;2.2.5 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.twitter#util-core_2.11;6.27.0 [compile->default(compile)]
 [info] Resolving com.twitter#util-core_2.11;6.27.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7032d0f0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c044fc8
 [debug] sbt-chain: module revision found in cache: com.twitter#util-core_2.11;6.27.0
 [debug] 	found com.twitter#util-core_2.11;6.27.0 in sbt-chain
 [debug] 	[6.27.0] com.twitter#util-core_2.11;6.27.0
@@ -551,7 +565,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.twitter#util-core_2.11;6.27.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.twitter#util-function_2.11;6.27.0 [compile->default(compile)]
 [info] Resolving com.twitter#util-function_2.11;6.27.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ec8e5c9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62a1772f
 [debug] sbt-chain: module revision found in cache: com.twitter#util-function_2.11;6.27.0
 [debug] 	found com.twitter#util-function_2.11;6.27.0 in sbt-chain
 [debug] 	[6.27.0] com.twitter#util-function_2.11;6.27.0
@@ -560,7 +574,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.twitter#util-function_2.11;6.27.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->default(compile)]
 [info] Resolving com.datastax.cassandra#cassandra-driver-extras;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d682903
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e47da1d
 [debug] sbt-chain: module revision found in cache: com.datastax.cassandra#cassandra-driver-extras;3.0.0
 [debug] 	found com.datastax.cassandra#cassandra-driver-extras;3.0.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->runtime]
@@ -568,7 +582,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->default(compile)]
 [info] Resolving com.websudos#phantom-reactivestreams_2.11;1.22.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b336e7f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@100718ec
 [debug] sbt-chain: module revision found in cache: com.websudos#phantom-reactivestreams_2.11;1.22.0
 [debug] 	found com.websudos#phantom-reactivestreams_2.11;1.22.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->runtime]
@@ -576,7 +590,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-streams-experimental_2.11;2.4.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42cf2d4a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b42d8c9
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-streams-experimental_2.11;2.4.3
 [debug] 	found com.typesafe.play#play-streams-experimental_2.11;2.4.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->runtime]
@@ -2001,7 +2015,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.11;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17f05b04
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38440ec7
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-test_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-test_2.11;2.5.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->runtime]
@@ -2017,7 +2031,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->junit#junit;4.12 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b72ac65
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c9aa437
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [test->runtime]
@@ -2025,7 +2039,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.novocode#junit-interface;0.11 [test->default(compile)]
 [info] Resolving com.novocode#junit-interface;0.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f46dc4c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ea57b6b
 [debug] sbt-chain: module revision found in cache: com.novocode#junit-interface;0.11
 [debug] 	found com.novocode#junit-interface;0.11 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.novocode#junit-interface;0.11 [test->runtime]
@@ -2033,7 +2047,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.novocode#junit-interface;0.11 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40d15839
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60b5c7cb
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->runtime]
@@ -2041,7 +2055,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.code.findbugs#jsr305;3.0.1 [test->default(compile)]
 [info] Resolving com.google.code.findbugs#jsr305;3.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e90dc9e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4aee756b
 [debug] sbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;3.0.1
 [debug] 	found com.google.code.findbugs#jsr305;3.0.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.code.findbugs#jsr305;3.0.1 [test->runtime]
@@ -2049,7 +2063,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.code.findbugs#jsr305;3.0.1 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit;2.20 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit;2.20 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c5cb9b8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21d57fe3
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit;2.20
 [debug] 	found net.sourceforge.htmlunit#htmlunit;2.20 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit;2.20 [test->runtime]
@@ -2057,7 +2071,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit;2.20 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xalan#xalan;2.7.2 [test->default(compile)]
 [info] Resolving xalan#xalan;2.7.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d20193f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a7754dd
 [debug] sbt-chain: module revision found in cache: xalan#xalan;2.7.2
 [debug] 	found xalan#xalan;2.7.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xalan#xalan;2.7.2 [test->runtime]
@@ -2065,7 +2079,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xalan#xalan;2.7.2 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xalan#serializer;2.7.2 [test->default(compile)]
 [info] Resolving xalan#serializer;2.7.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33670e71
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5921059b
 [debug] sbt-chain: module revision found in cache: xalan#serializer;2.7.2
 [debug] 	found xalan#serializer;2.7.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xalan#serializer;2.7.2 [test->runtime]
@@ -2073,7 +2087,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xalan#serializer;2.7.2 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.5.2 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.5.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29e17ee4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18044b2
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.5.2
 [debug] 	found org.apache.httpcomponents#httpclient;4.5.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.5.2 [test->runtime]
@@ -2081,7 +2095,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.5.2 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.4.4 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47ebbde7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4549c716
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.4.4
 [debug] 	found org.apache.httpcomponents#httpcore;4.4.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.4.4 [test->runtime]
@@ -2089,7 +2103,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.4.4 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-logging#commons-logging;1.2 [test->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a60e612
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@bb7d9bb
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.2
 [debug] 	found commons-logging#commons-logging;1.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-logging#commons-logging;1.2 [test->runtime]
@@ -2097,7 +2111,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-logging#commons-logging;1.2 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpmime;4.5.2 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpmime;4.5.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d53ec0d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@391d15e5
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.5.2
 [debug] 	found org.apache.httpcomponents#httpmime;4.5.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpmime;4.5.2 [test->runtime]
@@ -2105,7 +2119,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpmime;4.5.2 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit-core-js;2.17 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit-core-js;2.17 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3dca2948
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5462fdc7
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.17
 [debug] 	found net.sourceforge.htmlunit#htmlunit-core-js;2.17 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit-core-js;2.17 [test->runtime]
@@ -2113,7 +2127,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit-core-js;2.17 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.nekohtml#nekohtml;1.9.22 [test->default(compile)]
 [info] Resolving net.sourceforge.nekohtml#nekohtml;1.9.22 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5316cf97
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d863f8
 [debug] sbt-chain: module revision found in cache: net.sourceforge.nekohtml#nekohtml;1.9.22
 [debug] 	found net.sourceforge.nekohtml#nekohtml;1.9.22 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.nekohtml#nekohtml;1.9.22 [test->runtime]
@@ -2121,7 +2135,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.nekohtml#nekohtml;1.9.22 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.cssparser#cssparser;0.9.18 [test->default(compile)]
 [info] Resolving net.sourceforge.cssparser#cssparser;0.9.18 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@776cd0a3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ac9a816
 [debug] sbt-chain: module revision found in cache: net.sourceforge.cssparser#cssparser;0.9.18
 [debug] 	found net.sourceforge.cssparser#cssparser;0.9.18 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.cssparser#cssparser;0.9.18 [test->runtime]
@@ -2129,7 +2143,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.cssparser#cssparser;0.9.18 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.w3c.css#sac;1.3 [test->default(compile)]
 [info] Resolving org.w3c.css#sac;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@581ff424
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24afab37
 [debug] sbt-chain: module revision found in cache: org.w3c.css#sac;1.3
 [debug] 	found org.w3c.css#sac;1.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.w3c.css#sac;1.3 [test->runtime]
@@ -2137,7 +2151,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.w3c.css#sac;1.3 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-io#commons-io;2.4 [test->default(compile)]
 [info] Resolving commons-io#commons-io;2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@532aab4e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a21da9a
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.4
 [debug] 	found commons-io#commons-io;2.4 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-io#commons-io;2.4 [test->runtime]
@@ -2145,7 +2159,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-io#commons-io;2.4 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e6aeb4d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1878b091
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210
 [debug] 	found org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210 [test->runtime]
@@ -2153,7 +2167,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;9.2.15.v20160210 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e0be19f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7354a1c7
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;9.2.15.v20160210
 [debug] 	found org.eclipse.jetty#jetty-util;9.2.15.v20160210 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [test->runtime]
@@ -2161,7 +2175,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;9.2.15.v20160210 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72c0cffa
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3735e15b
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;9.2.15.v20160210
 [debug] 	found org.eclipse.jetty#jetty-io;9.2.15.v20160210 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [test->runtime]
@@ -2169,7 +2183,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41419bc0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a7edbdc
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210
 [debug] 	found org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 [test->runtime]
@@ -2177,7 +2191,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1549e5cd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8d95a23
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210
 [debug] 	found org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 [test->runtime]
@@ -2185,7 +2199,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.fluentlenium#fluentlenium-core;0.10.9 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-core;0.10.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@640afe77
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f37dcee
 [debug] sbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-core;0.10.9
 [debug] 	found org.fluentlenium#fluentlenium-core;0.10.9 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.fluentlenium#fluentlenium-core;0.10.9 [test->runtime]
@@ -2193,7 +2207,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.fluentlenium#fluentlenium-core;0.10.9 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-chrome-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-chrome-driver;2.48.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d0ed9c1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cb6eb4d
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-chrome-driver;2.48.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-chrome-driver;2.48.2 [test->runtime]
@@ -2201,7 +2215,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-chrome-driver;2.48.2 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-remote-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-remote-driver;2.48.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@100a1c79
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@273e2d3f
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-remote-driver;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-remote-driver;2.48.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-remote-driver;2.48.2 [test->runtime]
@@ -2209,7 +2223,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-remote-driver;2.48.2 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->cglib#cglib-nodep;2.1_3 [test->default(compile)]
 [info] Resolving cglib#cglib-nodep;2.1_3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25472d51
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61b633c1
 [debug] sbt-chain: module revision found in cache: cglib#cglib-nodep;2.1_3
 [debug] 	found cglib#cglib-nodep;2.1_3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->cglib#cglib-nodep;2.1_3 [test->runtime]
@@ -2217,7 +2231,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->cglib#cglib-nodep;2.1_3 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.code.gson#gson;2.3.1 [test->default(compile)]
 [info] Resolving com.google.code.gson#gson;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43b14a20
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4884b96c
 [debug] sbt-chain: module revision found in cache: com.google.code.gson#gson;2.3.1
 [debug] 	found com.google.code.gson#gson;2.3.1 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.code.gson#gson;2.3.1 [test->runtime]
@@ -2225,7 +2239,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.code.gson#gson;2.3.1 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-api;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-api;2.48.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20bf922a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4725e579
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-api;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-api;2.48.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-api;2.48.2 [test->runtime]
@@ -2233,7 +2247,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-api;2.48.2 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.guava#guava;18.0 [test->default(compile)]
 [info] Resolving com.google.guava#guava;18.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60583644
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4927e5e9
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;18.0
 [debug] 	found com.google.guava#guava;18.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.guava#guava;18.0 [test->runtime]
@@ -2241,7 +2255,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.guava#guava;18.0 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.commons#commons-exec;1.3 [test->default(compile)]
 [info] Resolving org.apache.commons#commons-exec;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@655904b1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cc372e1
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-exec;1.3
 [debug] 	found org.apache.commons#commons-exec;1.3 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.commons#commons-exec;1.3 [test->runtime]
@@ -2249,7 +2263,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.commons#commons-exec;1.3 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.java.dev.jna#jna;4.1.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#jna;4.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18600f95
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2efffc21
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#jna;4.1.0
 [debug] 	found net.java.dev.jna#jna;4.1.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.java.dev.jna#jna;4.1.0 [test->runtime]
@@ -2257,7 +2271,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.java.dev.jna#jna;4.1.0 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.java.dev.jna#jna-platform;4.1.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#jna-platform;4.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1064a39f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b72ad29
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#jna-platform;4.1.0
 [debug] 	found net.java.dev.jna#jna-platform;4.1.0 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.java.dev.jna#jna-platform;4.1.0 [test->runtime]
@@ -2265,7 +2279,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.java.dev.jna#jna-platform;4.1.0 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-edge-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-edge-driver;2.48.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e8afce6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c1d245c
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-edge-driver;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-edge-driver;2.48.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-edge-driver;2.48.2 [test->runtime]
@@ -2273,7 +2287,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-edge-driver;2.48.2 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.48.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c45ac22
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5fe99c7d
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-htmlunit-driver;2.48.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.48.2 [test->runtime]
@@ -2281,7 +2295,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.48.2 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-support;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-support;2.48.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71532a64
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e97b468
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-support;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-support;2.48.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-support;2.48.2 [test->runtime]
@@ -2289,7 +2303,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-support;2.48.2 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-firefox-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-firefox-driver;2.48.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d250323
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69e50194
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-firefox-driver;2.48.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-firefox-driver;2.48.2 [test->runtime]
@@ -2297,7 +2311,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-firefox-driver;2.48.2 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-ie-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-ie-driver;2.48.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@312c606d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6902edfe
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-ie-driver;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-ie-driver;2.48.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-ie-driver;2.48.2 [test->runtime]
@@ -2305,7 +2319,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-ie-driver;2.48.2 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-safari-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-safari-driver;2.48.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c2c2579
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57857c6d
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-safari-driver;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-safari-driver;2.48.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-safari-driver;2.48.2 [test->runtime]
@@ -2313,7 +2327,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-safari-driver;2.48.2 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.webbitserver#webbit;0.4.14 [test->default(compile)]
 [info] Resolving org.webbitserver#webbit;0.4.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54667948
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@315e330e
 [debug] sbt-chain: module revision found in cache: org.webbitserver#webbit;0.4.14
 [debug] 	found org.webbitserver#webbit;0.4.14 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.webbitserver#webbit;0.4.14 [test->runtime]
@@ -2321,7 +2335,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.webbitserver#webbit;0.4.14 [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty;3.5.2.Final [test->default(compile)]
 [info] Resolving io.netty#netty;3.5.2.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1853620f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78bc3cbc
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.5.2.Final
 [debug] 	found io.netty#netty;3.5.2.Final in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty;3.5.2.Final [test->runtime]
@@ -2329,7 +2343,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty;3.5.2.Final [test->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-leg-rc;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-leg-rc;2.48.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23a82e38
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d706fb0
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-leg-rc;2.48.2
 [debug] 	found org.seleniumhq.selenium#selenium-leg-rc;2.48.2 in sbt-chain
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-leg-rc;2.48.2 [test->runtime]
@@ -5841,7 +5855,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 1765ms :: artifacts dl 315ms
+[debug] :: resolution report :: resolve 10888ms :: artifacts dl 163ms
 [debug] 	report for crible#crible$sources_2.11;1.0 compile produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-compile.xml
 [debug] 	report for crible#crible$sources_2.11;1.0 runtime produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-runtime.xml
 [debug] 	report for crible#crible$sources_2.11;1.0 test produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-test.xml
@@ -5855,4 +5869,4 @@
 [debug] 	report for crible#crible$sources_2.11;1.0 docs produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-docs.xml
 [debug] 	report for crible#crible$sources_2.11;1.0 pom produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-pom.xml
 [debug] 	report for crible#crible$sources_2.11;1.0 scala-tool produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-scala-tool.xml
-[debug] 	resolve done (1765ms resolve - 315ms download)
+[debug] 	resolve done (10888ms resolve - 163ms download)

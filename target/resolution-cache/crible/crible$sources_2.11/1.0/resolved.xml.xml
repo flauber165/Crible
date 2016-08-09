@@ -4,7 +4,7 @@
 		module="crible$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160809155927"
+		publication="20160809170508"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
