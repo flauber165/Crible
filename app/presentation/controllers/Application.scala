@@ -5,13 +5,14 @@ import service.domain.Bank
 import play.api.mvc._
 import play.api.libs.json._
 import play.api.libs.concurrent.Execution.Implicits.defaultContext
+import presentation.Authorize
 import service.queries.BankQueryService
 
-class Application @Inject()(service: BankQueryService) extends Controller {
+class Application @Inject()(authorize: Authorize, service: BankQueryService) extends Controller {
 
   implicit val bankWrites = Json.writes[Bank]
 
-  def index = Action.async {
+  def index = authorize.async {
     service.getAll().map(r => Ok(Json.toJson(r)))
   }
 }
