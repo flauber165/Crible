@@ -9,10 +9,10 @@ import play.api.libs.concurrent.Execution.Implicits.defaultContext
 
 class AuthenticationController @Inject()(service: AuthenticationService) extends Controller {
 
-  implicit val enterReads = Json.reads[EnterDto]
-  implicit val enterResultWrites = Json.writes[EnterResultDto]
+  implicit val enterDtoReads = Json.reads[EnterDto]
+  implicit val enterResultDtoWrites = Json.writes[EnterResultDto]
 
   def enter = Action.async { request =>
-    service.enter(enterReads.reads(request.body.asJson.get).get).map(r => Ok(Json.toJson(r)))
+    service.enter(enterDtoReads.reads(request.body.asJson.get).get).map(r => Ok(Json.toJson(r)))
   }
 }
