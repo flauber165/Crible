@@ -4,7 +4,7 @@
 		module="crible$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160811114414"
+		publication="20160811160348"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -32,9 +32,6 @@
 		</dependency>
 		<dependency org="org.apache.commons" name="commons-lang3" rev="3.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile)">
 			<artifact name="commons-lang3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="org.scala-lang.modules" name="scala-xml_2.11" rev="1.0.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile)">
-			<artifact name="scala-xml_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-server_2.11" rev="2.5.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);docs->default(compile)">
 			<artifact name="play-server_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -237,6 +234,21 @@
 		<dependency org="com.typesafe.play" name="play-streams-experimental_2.11" rev="2.4.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="play-streams-experimental_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
+		<dependency org="com.wix" name="accord-core_2.11" rev="0.6-SNAPSHOT" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="accord-core_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.wix" name="accord-api_2.11" rev="0.6-SNAPSHOT" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="accord-api_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.6" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="scalatest_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang.modules" name="scala-xml_2.11" rev="1.0.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="scala-xml_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scalamacros" name="resetallattrs_2.11" rev="1.0.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="resetallattrs_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
 		<dependency org="org.mindrot" name="jbcrypt" rev="0.3m" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="jbcrypt" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
@@ -377,6 +389,9 @@
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-docs_2.11" rev="2.5.3" transitive="false" conf="docs->default(compile)">
 			<artifact name="play-docs_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang.modules" name="scala-xml_2.11" rev="1.0.1" transitive="false" conf="docs->default(compile)">
+			<artifact name="scala-xml_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-doc_2.11" rev="1.2.2" transitive="false" conf="docs->default(compile)">
 			<artifact name="play-doc_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>

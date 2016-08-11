@@ -6,6 +6,7 @@ import play.api.http.HttpErrorHandler
 import play.api.libs.json.Json
 import play.api.mvc.Results._
 import play.api.mvc._
+import service.ValidatorException
 
 import scala.concurrent._
 
@@ -21,8 +22,15 @@ class ErrorHandler extends HttpErrorHandler {
   }
 
   def onServerError(request: RequestHeader, exception: Throwable) = {
+    var errorResultDto: ErrorResultDto = null
+
+    exception match {
+      case validatorException: ValidatorException => errorResultDto = ErrorResultDto(validatorException.failure.toString)
+      case _ => errorResultDto = ErrorResultDto(exception.getMessage)
+    }
+
     Future.successful(
-      InternalServerError(Json.toJson(ErrorResultDto(exception.getMessage)))
+      InternalServerError(Json.toJson(errorResultDto))
     )
   }
 }
