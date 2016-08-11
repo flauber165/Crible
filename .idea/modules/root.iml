@@ -26,6 +26,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: aopalliance:aopalliance:1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.mindrot:jbcrypt:0.3m:jar" level="project" />
     <orderEntry type="library" name="SBT: net.sf.ehcache:ehcache-core:2.6.11:jar" level="project" />
     <orderEntry type="library" name="SBT: com.websudos:phantom-reactivestreams_2.11:1.22.0:jar" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.play:play-streams-experimental_2.11:2.4.3:jar" level="project" />

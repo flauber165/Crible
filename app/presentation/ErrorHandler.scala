@@ -12,7 +12,7 @@ import scala.concurrent._
 @Singleton
 class ErrorHandler extends HttpErrorHandler {
 
-  implicit val exceptionResultDtoWrites = Json.writes[ErrorResultDto]
+  implicit val errorResultDtoWrites = Json.writes[ErrorResultDto]
 
   def onClientError(request: RequestHeader, statusCode: Int, message: String) = {
     Future.successful(

@@ -15,7 +15,7 @@ private[persistence] class UserMap extends CassandraTable[UserMap, User] {
   object name extends StringColumn(this)
   object email extends StringColumn(this) with PartitionKey[String]
   object password extends StringColumn(this) with PartitionKey[String]
-  //implicit val enumPrimitive = enumToQueryConditionPrimitive(RoleKind)
+  implicit val roleKindPrimitive = enumToQueryConditionPrimitive(RoleKind)
   object role extends EnumColumn(this, RoleKind) with PartitionKey[RoleKind]
 
   override def fromRow(r: Row): User = User(id(r), name(r), email(r), password(r), role(r))

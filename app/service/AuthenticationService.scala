@@ -1,10 +1,9 @@
 package service
 
-import java.math.BigInteger
-import java.security.MessageDigest
-import java.util.{Base64, UUID}
 
+import java.util.{Base64, UUID}
 import com.google.inject.Inject
+import org.mindrot.jbcrypt.BCrypt
 import play.api.i18n.{I18nSupport, Messages, MessagesApi}
 import service.dao.queries.UserQueryDao
 import service.dto.{EnterDto, EnterResultDto}
@@ -16,7 +15,6 @@ import scala.concurrent.{Future, Promise}
 
 class AuthenticationService @Inject()(val messagesApi: MessagesApi, userQueryDao: UserQueryDao) extends I18nSupport {
 
-  val messageDigest = MessageDigest.getInstance("MD5");
   val charsetName = "utf-8"
   val encoder = Base64.getEncoder
   val decoder = Base64.getDecoder
@@ -26,7 +24,7 @@ class AuthenticationService @Inject()(val messagesApi: MessagesApi, userQueryDao
     try {
       val array = new String(decoder.decode(authorization.substring(6))).split(":")
       if(array.length == 2) {
-        userQueryDao.getUserByIdAndPassword(UUID.fromString(array(0)), array(1)).onComplete(r => {
+        userQueryDao.getUserByIdAndPasswordAndRole(UUID.fromString(array(0)), array(1), role).onComplete(r => {
           if(r.get.nonEmpty) {
             promise.success(r.get.get)
           }
@@ -47,12 +45,17 @@ class AuthenticationService @Inject()(val messagesApi: MessagesApi, userQueryDao
   }
 
   def enter(enterDto: EnterDto): Future[EnterResultDto] = {
-    val password = new BigInteger(1, messageDigest.digest(enterDto.password.getBytes)).toString(16)
-    userQueryDao.getUserByEmailAndPassword(enterDto.email, password).map(r => {
+    //Gerar senha Para teste... remover em produção...
+    println(BCrypt.hashpw(enterDto.password, BCrypt.gensalt))
+
+    userQueryDao.getUserByEmail(enterDto.email).map(r => {
       if(r.isEmpty) {
         throw new Exception(Messages("authenticationFailed"))
       }
       val user = r.get
+      if(!BCrypt.checkpw(enterDto.password, user.password)) {
+        throw new Exception(Messages("authenticationFailed"))
+      }
       EnterResultDto(encoder.encodeToString(s"${user.id}:${user.password}".getBytes(charsetName)), r.get.name)
     })
   }

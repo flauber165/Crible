@@ -7,8 +7,23 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160810121410"/>
+		date="20160811114414"/>
 	<dependencies>
+		<module organisation="org.mindrot" name="jbcrypt">
+			<revision name="0.3m" status="release" pubdate="20100516234638" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.mindrot.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="71">
+				<license name="ISC/BSD License"/>
+				<metadata-artifact status="no" details="" size="2862" time="0" location="C:\Users\brcerqueira\.ivy2\cache\org.mindrot\jbcrypt\ivy-0.3m.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/mindrot/jbcrypt/0.3m/jbcrypt-0.3m.pom"/>
+				<caller organisation="crible" name="crible$sources_2.11" conf="compile" rev="0.3m" rev-constraint-default="0.3m" rev-constraint-dynamic="0.3m" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jbcrypt" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="12286" time="1717" location="C:\Users\brcerqueira\.ivy2\cache\org.mindrot\jbcrypt\srcs\jbcrypt-0.3m-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/mindrot/jbcrypt/0.3m/jbcrypt-0.3m-sources.jar"/>
+					</artifact>
+					<artifact name="jbcrypt" type="jar" ext="jar" status="no" details="" size="17750" time="0" location="C:\Users\brcerqueira\.ivy2\cache\org.mindrot\jbcrypt\jars\jbcrypt-0.3m.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/mindrot/jbcrypt/0.3m/jbcrypt-0.3m.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.websudos" name="phantom-reactivestreams_2.11">
 			<revision name="1.22.0" status="release" pubdate="20160229104544" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/websudos/phantom" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="69">
 				<license name="Websudos license" url="https://github.com/websudos/phantom/blob/develop/LICENSE.txt"/>
@@ -406,8 +421,8 @@
 			</revision>
 		</module>
 		<module organisation="com.google.inject.extensions" name="guice-assistedinject">
-			<revision name="4.0" status="release" pubdate="20150428173500" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="43">
-				<metadata-artifact status="successful" details="" size="549" time="942" location="C:\Users\brcerqueira\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml" searched="true" original-local-location="C:\Users\brcerqueira\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
+			<revision name="4.0" status="release" pubdate="20150428173500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="43">
+				<metadata-artifact status="no" details="" size="5550" time="0" location="C:\Users\brcerqueira\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
 				<caller organisation="crible" name="crible$sources_2.11" conf="compile" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="guice-assistedinject" type="jar" ext="jar" status="no" details="" size="43425" time="0" location="C:\Users\brcerqueira\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar">

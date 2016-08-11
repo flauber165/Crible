@@ -4,7 +4,7 @@
 		module="crible$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160810121410"
+		publication="20160811114414"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -236,6 +236,9 @@
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-streams-experimental_2.11" rev="2.4.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="play-streams-experimental_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.mindrot" name="jbcrypt" rev="0.3m" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jbcrypt" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-test_2.11" rev="2.5.3" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="play-test_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
