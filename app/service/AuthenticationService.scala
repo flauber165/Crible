@@ -1,10 +1,8 @@
 package service
 
-
 import java.util.{Base64, UUID}
 import com.google.inject.Inject
 import org.mindrot.jbcrypt.BCrypt
-import play.api.i18n.{I18nSupport, Messages, MessagesApi}
 import service.dao.queries.UserQueryDao
 import service.dto.{EnterDto, EnterResultDto}
 import play.api.libs.concurrent.Execution.Implicits.defaultContext
@@ -15,15 +13,15 @@ import dsl._
 import scala.concurrent.{Future, Promise}
 import ServiceValidator.validateAndThrow
 
-class AuthenticationService @Inject()(val messagesApi: MessagesApi, userQueryDao: UserQueryDao) extends I18nSupport {
+class AuthenticationService @Inject()(userQueryDao: UserQueryDao) {
 
   val charsetName = "utf-8"
   val encoder = Base64.getEncoder
   val decoder = Base64.getDecoder
 
   implicit val enterDtoValidator = validator[EnterDto] { e =>
-    e.email is notEmpty
-    e.password is notEmpty
+    e.email as "emailEmptyField" is notEmpty
+    e.password as "passwordEmptyField" is notEmpty
   }
 
   def check(authorization: String, role: RoleKind): Future[User] = {
@@ -52,7 +50,6 @@ class AuthenticationService @Inject()(val messagesApi: MessagesApi, userQueryDao
   }
 
   def enter(enterDto: EnterDto): Future[EnterResultDto] = {
-
     validateAndThrow(enterDto)
 
     //Gerar senha Para teste... remover em produção...
@@ -60,11 +57,11 @@ class AuthenticationService @Inject()(val messagesApi: MessagesApi, userQueryDao
 
     userQueryDao.getUserByEmail(enterDto.email).map(r => {
       if(r.isEmpty) {
-        throw new Exception(Messages("authenticationFailed"))
+        throw new Exception("authenticationFailed")
       }
       val user = r.get
       if(!BCrypt.checkpw(enterDto.password, user.password)) {
-        throw new Exception(Messages("authenticationFailed"))
+        throw new Exception("authenticationFailed")
       }
       EnterResultDto(encoder.encodeToString(s"${user.id}:${user.password}".getBytes(charsetName)), r.get.name)
     })

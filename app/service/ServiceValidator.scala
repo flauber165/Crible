@@ -6,7 +6,7 @@ package object ServiceValidator {
   def validateAndThrow[T](x: T)( implicit validator: Validator[T] ) = {
     val result = validator(x)
     if(result.isFailure) {
-      throw new ValidatorException(result.asInstanceOf[Failure])
+      throw ValidatorException(result.asInstanceOf[Failure])
     }
   }
 }

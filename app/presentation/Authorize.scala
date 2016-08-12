@@ -14,7 +14,7 @@ import play.api.libs.json.Json
 class Authorize @Inject()(val messagesApi: MessagesApi, service: AuthenticationService) extends ActionBuilder[Request]
   with I18nSupport {
 
-  implicit val errorResultDtoWrites = Json.writes[ErrorResultDto]
+  implicit val messageResultDtoWrites = Json.writes[MessageResultDto]
 
   var role: RoleKind = _
 
@@ -32,12 +32,12 @@ class Authorize @Inject()(val messagesApi: MessagesApi, service: AuthenticationS
           promise.completeWith(block(request))
         }
         else {
-          promise.success(Unauthorized(Json.toJson(ErrorResultDto(Messages("unauthorized")))))
+          promise.success(Unauthorized(Json.toJson(MessageResultDto(Messages("unauthorized")))))
         }
       })
     }
     else {
-      promise.success(Unauthorized(Json.toJson(ErrorResultDto(Messages("unauthorized")))))
+      promise.success(Unauthorized(Json.toJson(MessageResultDto(Messages("unauthorized")))))
     }
     promise.future
   }

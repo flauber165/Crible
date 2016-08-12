@@ -1,6 +1,6 @@
 package presentation
 
-
 case class ErrorResultDto(
-  message: String
+  message: String,
+  errors: Seq[String]
 )
