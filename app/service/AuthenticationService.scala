@@ -57,11 +57,11 @@ class AuthenticationService @Inject()(userQueryDao: UserQueryDao) {
 
     userQueryDao.getUserByEmail(enterDto.email).map(r => {
       if(r.isEmpty) {
-        throw new Exception("authenticationFailed")
+        throw I18nException("authenticationFailed")
       }
       val user = r.get
       if(!BCrypt.checkpw(enterDto.password, user.password)) {
-        throw new Exception("authenticationFailed")
+        throw I18nException("authenticationFailed")
       }
       EnterResultDto(encoder.encodeToString(s"${user.id}:${user.password}".getBytes(charsetName)), r.get.name)
     })

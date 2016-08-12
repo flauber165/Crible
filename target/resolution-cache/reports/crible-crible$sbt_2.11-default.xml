@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="default"
 		confs="default"
-		date="20160812103804"/>
+		date="20160812171602"/>
 	<dependencies>
 		<module organisation="com.google.guava" name="guava">
 			<revision name="14.0.1" status="release" pubdate="20130314205719" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="85">

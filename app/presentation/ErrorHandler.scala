@@ -9,7 +9,7 @@ import play.api.i18n.{I18nSupport, Messages, MessagesApi}
 import play.api.libs.json.{JsValue, Json}
 import play.api.mvc.Results._
 import play.api.mvc._
-import service.ValidatorException
+import service.{I18nException, ValidatorException}
 
 import scala.concurrent._
 
@@ -36,7 +36,8 @@ class ErrorHandler @Inject()(val messagesApi: MessagesApi) extends HttpErrorHand
             case _ => e.description.toString
           }
         }).toSeq))
-      case _ => json = Json.toJson(MessageResultDto(Messages(exception.getMessage)))
+      case i18nException: I18nException => json = Json.toJson(MessageResultDto(Messages(exception.getMessage)))
+      case _ => json = Json.toJson(MessageResultDto(exception.getMessage))
     }
 
     Future.successful(InternalServerError(json))
