@@ -4,7 +4,11 @@
 		module="crible$sources_2.11"
 		revision="1.0"
 		status="integration"
+<<<<<<< Updated upstream
 		publication="20160812171608"
+=======
+		publication="20160809205554"
+>>>>>>> Stashed changes
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -323,6 +327,9 @@
 		</dependency>
 		<dependency org="org.fluentlenium" name="fluentlenium-core" rev="0.10.9" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="fluentlenium-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.seleniumhq.selenium" name="selenium-java" rev="2.48.2" transitive="false" conf="test->default(compile);test-internal->default(compile)">
+			<artifact name="selenium-java" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.seleniumhq.selenium" name="selenium-chrome-driver" rev="2.48.2" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="selenium-chrome-driver" type="src" ext="jar" conf="sources" e:classifier="sources"/>

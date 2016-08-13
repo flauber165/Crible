@@ -4,7 +4,11 @@
 		module="crible_2.11"
 		revision="1.0"
 		status="integration"
+<<<<<<< Updated upstream
 		publication="20160811160248"
+=======
+		publication="20160809205308"
+>>>>>>> Stashed changes
 	>
 		<description>
 		crible

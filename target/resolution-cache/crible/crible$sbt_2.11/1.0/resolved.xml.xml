@@ -4,7 +4,11 @@
 		module="crible$sbt_2.11"
 		revision="1.0"
 		status="integration"
+<<<<<<< Updated upstream
 		publication="20160812171601"
+=======
+		publication="20160809205325"
+>>>>>>> Stashed changes
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
