@@ -4598,9 +4598,15 @@
 [debug] 	[NOT REQUIRED] jfree#jcommon;1.0.12!jcommon.jar
 [debug] 	[NOT REQUIRED] jfree#jfreechart;1.0.8a!jfreechart.jar
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] :: resolution report :: resolve 5937ms :: artifacts dl 91ms
 [debug] 	report for crible#crible$sbt_2.11;1.0 default produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sbt_2.11-default.xml
 [debug] 	resolve done (5937ms resolve - 91ms download)
+=======
+[debug] :: resolution report :: resolve 9053ms :: artifacts dl 83ms
+[debug] 	report for crible#crible$sbt_2.11;1.0 default produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sbt_2.11-default.xml
+[debug] 	resolve done (9053ms resolve - 83ms download)
+>>>>>>> Stashed changes
 =======
 [debug] :: resolution report :: resolve 9053ms :: artifacts dl 83ms
 [debug] 	report for crible#crible$sbt_2.11;1.0 default produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sbt_2.11-default.xml
@@ -5787,9 +5793,15 @@
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#npm_2.10;1.1.1!npm_2.10.jar(src)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] :: resolution report :: resolve 299ms :: artifacts dl 57ms
 [debug] 	report for crible#crible$sources_2.11;1.0 default produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-default.xml
 [debug] 	resolve done (299ms resolve - 57ms download)
+=======
+[debug] :: resolution report :: resolve 332ms :: artifacts dl 139174ms
+[debug] 	report for crible#crible$sources_2.11;1.0 default produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-default.xml
+[debug] 	resolve done (332ms resolve - 139174ms download)
+>>>>>>> Stashed changes
 =======
 [debug] :: resolution report :: resolve 332ms :: artifacts dl 139174ms
 [debug] 	report for crible#crible$sources_2.11;1.0 default produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-default.xml

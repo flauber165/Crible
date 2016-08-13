@@ -13,7 +13,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36d1d26d
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49871e77
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49871e77
 >>>>>>> Stashed changes
@@ -26,7 +30,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#twirl-api_2.11;1.1.1 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f84a7ea
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@dde5817
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@dde5817
 >>>>>>> Stashed changes
@@ -38,7 +46,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.4 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18cc832d
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5827bd3d
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5827bd3d
 >>>>>>> Stashed changes
@@ -63,6 +75,9 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-server_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-server_2.11;2.5.3 ...
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44cc025f
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-server_2.11;2.5.3
 [debug] 	found com.typesafe.play#play-server_2.11;2.5.3 in sbt-chain
@@ -72,7 +87,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play_2.11;2.5.3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53ae36a4
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@344e761c
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@344e761c
 >>>>>>> Stashed changes
@@ -84,7 +103,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#build-link;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#build-link;2.5.3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29958926
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d269bd5
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d269bd5
 >>>>>>> Stashed changes
@@ -96,7 +119,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-exceptions;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-exceptions;2.5.3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d7f413a
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38e7a051
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38e7a051
 >>>>>>> Stashed changes
@@ -108,7 +135,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.11;2.5.3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79a62047
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4de49e06
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4de49e06
 >>>>>>> Stashed changes
@@ -120,7 +151,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.11;0.7 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@731f35af
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@416ae225
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@416ae225
 >>>>>>> Stashed changes
@@ -132,7 +167,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.3.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ef89a71
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76b7d6c6
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76b7d6c6
 >>>>>>> Stashed changes
@@ -144,7 +183,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.11;2.5.3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@204a41f9
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75fb1e8f
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75fb1e8f
 >>>>>>> Stashed changes
@@ -156,7 +199,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.11;2.5.3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74ff8b38
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71c891f0
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71c891f0
 >>>>>>> Stashed changes
@@ -168,7 +215,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.11;2.5.3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46849bf9
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a325ff3
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a325ff3
 >>>>>>> Stashed changes
@@ -180,7 +231,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->joda-time#joda-time;2.9.2 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.9.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a40c209
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d7c70c4
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d7c70c4
 >>>>>>> Stashed changes
@@ -192,7 +247,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.8.1 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24e5a09a
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33889bae
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33889bae
 >>>>>>> Stashed changes
@@ -204,7 +263,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59c358d1
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14d23e36
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14d23e36
 >>>>>>> Stashed changes
@@ -217,7 +280,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.7.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.7.1 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26be86d3
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24cd7ef9
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24cd7ef9
 >>>>>>> Stashed changes
@@ -229,7 +296,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.7.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.7.1 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53ab24ba
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f3c082a
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f3c082a
 >>>>>>> Stashed changes
@@ -241,7 +312,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.7.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.7.1 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7150266a
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d5d7a44
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d5d7a44
 >>>>>>> Stashed changes
@@ -253,7 +328,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.1 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60f130be
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3dccb4ab
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3dccb4ab
 >>>>>>> Stashed changes
@@ -265,7 +344,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.1 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.1 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1dce10cd
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5efab5de
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5efab5de
 >>>>>>> Stashed changes
@@ -277,7 +360,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-netty-utils;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-netty-utils;2.5.3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f34156f
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@408f4db8
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@408f4db8
 >>>>>>> Stashed changes
@@ -289,7 +376,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.16 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.16 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a1c2536
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@685e92f7
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@685e92f7
 >>>>>>> Stashed changes
@@ -301,7 +392,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.16 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.16 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52a43cdf
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c090a70
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c090a70
 >>>>>>> Stashed changes
@@ -313,7 +408,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.16 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.16 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bf308ed
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fcaf2bc
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fcaf2bc
 >>>>>>> Stashed changes
@@ -325,7 +424,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-streams_2.11;2.5.3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c9649ff
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3614d37a
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3614d37a
 >>>>>>> Stashed changes
@@ -337,7 +440,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
 [info] Resolving org.reactivestreams#reactive-streams;1.0.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f564b6d
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bfc7a0
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bfc7a0
 >>>>>>> Stashed changes
@@ -349,7 +456,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-stream_2.11;2.4.4 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@410069c
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d68e63
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d68e63
 >>>>>>> Stashed changes
@@ -361,7 +472,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.4.4 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42841728
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2543e409
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2543e409
 >>>>>>> Stashed changes
@@ -373,7 +488,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@671b6b2
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49440a75
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49440a75
 >>>>>>> Stashed changes
@@ -385,7 +504,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#ssl-config-akka_2.11;0.2.1 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64bdbad9
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@787959e7
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@787959e7
 >>>>>>> Stashed changes
@@ -397,7 +520,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#ssl-config-core_2.11;0.2.1 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d8a7251
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a08f3ed
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a08f3ed
 >>>>>>> Stashed changes
@@ -409,7 +536,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61d0a060
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e1ad281
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e1ad281
 >>>>>>> Stashed changes
@@ -421,7 +552,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.akka#akka-slf4j_2.11;2.4.4 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-slf4j_2.11;2.4.4 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79606438
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12457a79
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12457a79
 >>>>>>> Stashed changes
@@ -433,7 +568,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.10 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3720c8c4
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d59f0c
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d59f0c
 >>>>>>> Stashed changes
@@ -445,7 +584,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [compile->default(compile)]
 [info] Resolving xerces#xercesImpl;2.11.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32e2da0f
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6bdea242
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6bdea242
 >>>>>>> Stashed changes
@@ -457,7 +600,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->default(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34435465
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19e87c6
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19e87c6
 >>>>>>> Stashed changes
@@ -469,7 +616,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->javax.transaction#jta;1.1 [compile->default(compile)]
 [info] Resolving javax.transaction#jta;1.1 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cd5d7c0
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4185c10c
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4185c10c
 >>>>>>> Stashed changes
@@ -481,7 +632,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject#guice;4.0 [compile->default(compile)]
 [info] Resolving com.google.inject#guice;4.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a98a8a
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55aa31f4
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55aa31f4
 >>>>>>> Stashed changes
@@ -493,7 +648,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->default(compile)]
 [info] Resolving javax.inject#javax.inject;1 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18f2aec
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@585df289
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@585df289
 >>>>>>> Stashed changes
@@ -505,7 +664,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->default(compile)]
 [info] Resolving aopalliance#aopalliance;1.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d473c27
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54ec4b2
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54ec4b2
 >>>>>>> Stashed changes
@@ -517,7 +680,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.guava#guava;16.0.1 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;16.0.1 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ad93235
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b0017b4
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b0017b4
 >>>>>>> Stashed changes
@@ -528,6 +695,7 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.guava#guava;16.0.1 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->default(compile)]
 [info] Resolving com.google.inject.extensions#guice-assistedinject;4.0 ...
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@587f51a
 [info] Resolving com.google.inject.extensions#guice-assistedinject;4.0 ...
@@ -551,13 +719,22 @@
 [debug] sbt-chain: module revision found in cache: com.google.inject.extensions#guice-assistedinject;4.0
 [debug] 	found com.google.inject.extensions#guice-assistedinject;4.0 in sbt-chain
 >>>>>>> Stashed changes
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@728a6f5a
+[debug] sbt-chain: module revision found in cache: com.google.inject.extensions#guice-assistedinject;4.0
+[debug] 	found com.google.inject.extensions#guice-assistedinject;4.0 in sbt-chain
+>>>>>>> Stashed changes
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->runtime]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->compile]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->master]
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-netty-server_2.11;2.5.3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5280b98b
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36654989
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36654989
 >>>>>>> Stashed changes
@@ -569,7 +746,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.netty#netty-reactive-streams-http;1.0.5 [compile->default(compile)]
 [info] Resolving com.typesafe.netty#netty-reactive-streams-http;1.0.5 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f16de85
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b1a2a2
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b1a2a2
 >>>>>>> Stashed changes
@@ -581,7 +762,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.netty#netty-reactive-streams;1.0.5 [compile->default(compile)]
 [info] Resolving com.typesafe.netty#netty-reactive-streams;1.0.5 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68ba73bb
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f21c8da
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f21c8da
 >>>>>>> Stashed changes
@@ -593,7 +778,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-handler;4.0.34.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-handler;4.0.34.Final ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3071aa26
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6481c441
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6481c441
 >>>>>>> Stashed changes
@@ -605,7 +794,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-codec;4.0.34.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-codec;4.0.34.Final ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ca6ccec
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51168acf
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51168acf
 >>>>>>> Stashed changes
@@ -617,7 +810,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-codec-http;4.0.34.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-codec-http;4.0.34.Final ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60fcdd00
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30074832
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30074832
 >>>>>>> Stashed changes
@@ -629,7 +826,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-transport-native-epoll;4.0.36.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-transport-native-epoll;4.0.36.Final ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46bc4d0f
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42bdcfc8
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42bdcfc8
 >>>>>>> Stashed changes
@@ -641,7 +842,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-common;4.0.36.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-common;4.0.36.Final ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a14989f
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63f36138
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63f36138
 >>>>>>> Stashed changes
@@ -653,7 +858,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-buffer;4.0.36.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-buffer;4.0.36.Final ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74f4b56a
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ba8a8b6
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ba8a8b6
 >>>>>>> Stashed changes
@@ -665,7 +874,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty-transport;4.0.36.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-transport;4.0.36.Final ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7def848f
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@451413c7
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@451413c7
 >>>>>>> Stashed changes
@@ -677,7 +890,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-logback_2.11;2.5.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-logback_2.11;2.5.3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26fa4913
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13c8aa57
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13c8aa57
 >>>>>>> Stashed changes
@@ -689,7 +906,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.4 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-core;1.1.4 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d27f6df
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79415c04
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79415c04
 >>>>>>> Stashed changes
@@ -701,7 +922,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.4 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-classic;1.1.4 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c69ce57
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@863c93c
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@863c93c
 >>>>>>> Stashed changes
@@ -713,7 +938,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-cache_2.11;2.4.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-cache_2.11;2.4.6 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e97411
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@108752c9
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@108752c9
 >>>>>>> Stashed changes
@@ -725,7 +954,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sf.ehcache#ehcache-core;2.6.11 [compile->default(compile)]
 [info] Resolving net.sf.ehcache#ehcache-core;2.6.11 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@88f76f8
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22e505d1
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22e505d1
 >>>>>>> Stashed changes
@@ -737,7 +970,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-dsl_2.11;1.22.0 [compile->default(compile)]
 [info] Resolving com.websudos#phantom-dsl_2.11;1.22.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e6b673a
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47da87e2
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47da87e2
 >>>>>>> Stashed changes
@@ -749,7 +986,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-connectors_2.11;1.22.0 [compile->default(compile)]
 [info] Resolving com.websudos#phantom-connectors_2.11;1.22.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@532cec4d
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31bc7d0d
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31bc7d0d
 >>>>>>> Stashed changes
@@ -761,7 +1002,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.slf4j#log4j-over-slf4j;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#log4j-over-slf4j;1.7.12 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18fc7045
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4346072d
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4346072d
 >>>>>>> Stashed changes
@@ -773,7 +1018,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->default(compile)]
 [info] Resolving com.datastax.cassandra#cassandra-driver-core;3.0.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2770593d
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@438e0c8e
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@438e0c8e
 >>>>>>> Stashed changes
@@ -785,7 +1034,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->default(compile)]
 [info] Resolving io.dropwizard.metrics#metrics-core;3.1.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23a5452d
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@631b437e
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@631b437e
 >>>>>>> Stashed changes
@@ -797,7 +1050,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#diesel-engine_2.11;0.2.4 [compile->default(compile)]
 [info] Resolving com.websudos#diesel-engine_2.11;0.2.4 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25fdc6a9
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3645da8
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3645da8
 >>>>>>> Stashed changes
@@ -809,7 +1066,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.chuusai#shapeless_2.11;2.2.5 [compile->default(compile)]
 [info] Resolving com.chuusai#shapeless_2.11;2.2.5 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62399c9b
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10e9c43c
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10e9c43c
 >>>>>>> Stashed changes
@@ -821,7 +1082,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.twitter#util-core_2.11;6.27.0 [compile->default(compile)]
 [info] Resolving com.twitter#util-core_2.11;6.27.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b9b0751
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6fc8b930
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6fc8b930
 >>>>>>> Stashed changes
@@ -834,7 +1099,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.twitter#util-function_2.11;6.27.0 [compile->default(compile)]
 [info] Resolving com.twitter#util-function_2.11;6.27.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30705695
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b32ac84
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b32ac84
 >>>>>>> Stashed changes
@@ -847,7 +1116,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.datastax.cassandra#cassandra-driver-extras;3.0.0 [compile->default(compile)]
 [info] Resolving com.datastax.cassandra#cassandra-driver-extras;3.0.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@625e16a0
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e943359
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e943359
 >>>>>>> Stashed changes
@@ -859,7 +1132,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.websudos#phantom-reactivestreams_2.11;1.22.0 [compile->default(compile)]
 [info] Resolving com.websudos#phantom-reactivestreams_2.11;1.22.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f5379e6
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@174e8811
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@174e8811
 >>>>>>> Stashed changes
@@ -871,7 +1148,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-streams-experimental_2.11;2.4.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-streams-experimental_2.11;2.4.3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58554881
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6402605e
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6402605e
 >>>>>>> Stashed changes
@@ -2518,7 +2799,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.typesafe.play#play-test_2.11;2.5.3 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.11;2.5.3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cb52100
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b9e6627
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b9e6627
 >>>>>>> Stashed changes
@@ -2538,7 +2823,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2201eb9b
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33fa9f91
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33fa9f91
 >>>>>>> Stashed changes
@@ -2550,7 +2839,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.novocode#junit-interface;0.11 [test->default(compile)]
 [info] Resolving com.novocode#junit-interface;0.11 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48aeae42
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@301bd6f8
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@301bd6f8
 >>>>>>> Stashed changes
@@ -2562,7 +2855,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4311155f
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@378b9db2
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@378b9db2
 >>>>>>> Stashed changes
@@ -2574,7 +2871,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.code.findbugs#jsr305;3.0.1 [test->default(compile)]
 [info] Resolving com.google.code.findbugs#jsr305;3.0.1 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1bb51912
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a936a5b
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a936a5b
 >>>>>>> Stashed changes
@@ -2586,7 +2887,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit;2.20 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit;2.20 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@263b877d
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35c19408
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35c19408
 >>>>>>> Stashed changes
@@ -2598,7 +2903,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xalan#xalan;2.7.2 [test->default(compile)]
 [info] Resolving xalan#xalan;2.7.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49fe7c4
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e1bbeab
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e1bbeab
 >>>>>>> Stashed changes
@@ -2610,7 +2919,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->xalan#serializer;2.7.2 [test->default(compile)]
 [info] Resolving xalan#serializer;2.7.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2aa861f4
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e15e7b7
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e15e7b7
 >>>>>>> Stashed changes
@@ -2622,7 +2935,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.5.2 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.5.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@407124b9
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c474f2a
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c474f2a
 >>>>>>> Stashed changes
@@ -2634,7 +2951,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.4.4 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.4.4 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56007d8e
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@703adeba
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@703adeba
 >>>>>>> Stashed changes
@@ -2646,7 +2967,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-logging#commons-logging;1.2 [test->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21baed00
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@be13ce1
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@be13ce1
 >>>>>>> Stashed changes
@@ -2658,7 +2983,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.httpcomponents#httpmime;4.5.2 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpmime;4.5.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5af58567
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@212c8f76
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@212c8f76
 >>>>>>> Stashed changes
@@ -2670,7 +2999,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.htmlunit#htmlunit-core-js;2.17 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit-core-js;2.17 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e8087e6
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56e75b21
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56e75b21
 >>>>>>> Stashed changes
@@ -2682,7 +3015,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.nekohtml#nekohtml;1.9.22 [test->default(compile)]
 [info] Resolving net.sourceforge.nekohtml#nekohtml;1.9.22 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1365bb46
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e6c1c7f
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e6c1c7f
 >>>>>>> Stashed changes
@@ -2694,7 +3031,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.sourceforge.cssparser#cssparser;0.9.18 [test->default(compile)]
 [info] Resolving net.sourceforge.cssparser#cssparser;0.9.18 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49e9ff7f
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d092320
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d092320
 >>>>>>> Stashed changes
@@ -2706,7 +3047,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.w3c.css#sac;1.3 [test->default(compile)]
 [info] Resolving org.w3c.css#sac;1.3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@324c82
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bf44e54
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bf44e54
 >>>>>>> Stashed changes
@@ -2718,7 +3063,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->commons-io#commons-io;2.4 [test->default(compile)]
 [info] Resolving commons-io#commons-io;2.4 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ef0f616
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34c338c8
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34c338c8
 >>>>>>> Stashed changes
@@ -2730,7 +3079,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.websocket#websocket-client;9.2.15.v20160210 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9562f7e
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@618e36e2
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@618e36e2
 >>>>>>> Stashed changes
@@ -2742,7 +3095,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-util;9.2.15.v20160210 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;9.2.15.v20160210 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fe28265
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@144726ca
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@144726ca
 >>>>>>> Stashed changes
@@ -2754,7 +3111,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty#jetty-io;9.2.15.v20160210 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;9.2.15.v20160210 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7db06fd3
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@677dd66
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@677dd66
 >>>>>>> Stashed changes
@@ -2766,7 +3127,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.websocket#websocket-common;9.2.15.v20160210 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60a17151
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68e5bb90
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68e5bb90
 >>>>>>> Stashed changes
@@ -2778,7 +3143,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.websocket#websocket-api;9.2.15.v20160210 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f3346ba
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@307c03ed
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@307c03ed
 >>>>>>> Stashed changes
@@ -2790,7 +3159,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.fluentlenium#fluentlenium-core;0.10.9 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-core;0.10.9 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18f8b5ba
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d956123
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d956123
 >>>>>>> Stashed changes
@@ -2810,7 +3183,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-chrome-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-chrome-driver;2.48.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12849077
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@435a4246
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@435a4246
 >>>>>>> Stashed changes
@@ -2822,7 +3199,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-remote-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-remote-driver;2.48.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21c2de21
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@bd3bedb
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@bd3bedb
 >>>>>>> Stashed changes
@@ -2834,7 +3215,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->cglib#cglib-nodep;2.1_3 [test->default(compile)]
 [info] Resolving cglib#cglib-nodep;2.1_3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54953c3a
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a27fe91
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a27fe91
 >>>>>>> Stashed changes
@@ -2846,7 +3231,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.code.gson#gson;2.3.1 [test->default(compile)]
 [info] Resolving com.google.code.gson#gson;2.3.1 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@deeb9fb
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f0ea2c5
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f0ea2c5
 >>>>>>> Stashed changes
@@ -2858,7 +3247,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-api;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-api;2.48.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37ed524
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@745cd4a
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@745cd4a
 >>>>>>> Stashed changes
@@ -2870,7 +3263,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->com.google.guava#guava;18.0 [test->default(compile)]
 [info] Resolving com.google.guava#guava;18.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e3199bf
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@219ca2ed
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@219ca2ed
 >>>>>>> Stashed changes
@@ -2882,7 +3279,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.apache.commons#commons-exec;1.3 [test->default(compile)]
 [info] Resolving org.apache.commons#commons-exec;1.3 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57070a80
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22d3d73b
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22d3d73b
 >>>>>>> Stashed changes
@@ -2894,7 +3295,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.java.dev.jna#jna;4.1.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#jna;4.1.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56434b4d
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f1a21eb
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f1a21eb
 >>>>>>> Stashed changes
@@ -2906,7 +3311,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->net.java.dev.jna#jna-platform;4.1.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#jna-platform;4.1.0 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69cd2768
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9bc7dac
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9bc7dac
 >>>>>>> Stashed changes
@@ -2918,7 +3327,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-edge-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-edge-driver;2.48.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4264c845
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@374f0c56
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@374f0c56
 >>>>>>> Stashed changes
@@ -2930,7 +3343,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.48.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@699979b8
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@380ae1cb
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@380ae1cb
 >>>>>>> Stashed changes
@@ -2942,7 +3359,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-support;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-support;2.48.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e9f78c1
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d899f14
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d899f14
 >>>>>>> Stashed changes
@@ -2954,7 +3375,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-firefox-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-firefox-driver;2.48.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3daeec20
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4db5f677
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4db5f677
 >>>>>>> Stashed changes
@@ -2966,7 +3391,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-ie-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-ie-driver;2.48.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44b6a18
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16b18ba7
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16b18ba7
 >>>>>>> Stashed changes
@@ -2978,7 +3407,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-safari-driver;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-safari-driver;2.48.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e2e5025
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24a14261
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24a14261
 >>>>>>> Stashed changes
@@ -2990,7 +3423,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.webbitserver#webbit;0.4.14 [test->default(compile)]
 [info] Resolving org.webbitserver#webbit;0.4.14 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4aeaa46c
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1784a3fc
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1784a3fc
 >>>>>>> Stashed changes
@@ -3002,7 +3439,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->io.netty#netty;3.5.2.Final [test->default(compile)]
 [info] Resolving io.netty#netty;3.5.2.Final ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53b2c5dd
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57270592
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57270592
 >>>>>>> Stashed changes
@@ -3014,7 +3455,11 @@
 [debug] == resolving dependencies crible#crible$sources_2.11;1.0->org.seleniumhq.selenium#selenium-leg-rc;2.48.2 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-leg-rc;2.48.2 ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1976504e
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f8c9be6
+>>>>>>> Stashed changes
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f8c9be6
 >>>>>>> Stashed changes
@@ -7030,6 +7475,7 @@
 [debug] 		tried C:\Users\BRMCe\.ivy2\local\org.seleniumhq.selenium\selenium-chrome-driver\2.48.2\srcs\selenium-chrome-driver-sources.jar
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-chrome-driver;2.48.2!selenium-chrome-driver.jar
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-remote-driver;2.48.2!selenium-remote-driver.jar(src)
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-remote-driver;2.48.2!selenium-remote-driver.jar
 [debug] 	[NOT REQUIRED] cglib#cglib-nodep;2.1_3!cglib-nodep.jar
@@ -7093,6 +7539,11 @@
 [debug] 	report for crible#crible$sources_2.11;1.0 pom produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-pom.xml
 [debug] 	report for crible#crible$sources_2.11;1.0 scala-tool produced in C:\Projects\Crible\target\resolution-cache\reports\crible-crible$sources_2.11-scala-tool.xml
 [debug] 	resolve done (24649ms resolve - 669ms download)
+=======
+[debug] 		tried https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-chrome-driver/2.48.2/selenium-chrome-driver-2.48.2-sources.jar
+[info] downloading https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-chrome-driver/2.48.2/selenium-chrome-driver-2.48.2-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-chrome-driver/2.48.2/selenium-chrome-driver-2.48.2-sources.jar
+>>>>>>> Stashed changes
 =======
 [debug] 		tried https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-chrome-driver/2.48.2/selenium-chrome-driver-2.48.2-sources.jar
 [info] downloading https://jcenter.bintray.com/org/seleniumhq/selenium/selenium-chrome-driver/2.48.2/selenium-chrome-driver-2.48.2-sources.jar ...

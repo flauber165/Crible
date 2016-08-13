@@ -8,7 +8,11 @@
 		conf="optional"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		date="20160811160248"/>
+=======
+		date="20160809205308"/>
+>>>>>>> Stashed changes
 =======
 		date="20160809205308"/>
 >>>>>>> Stashed changes

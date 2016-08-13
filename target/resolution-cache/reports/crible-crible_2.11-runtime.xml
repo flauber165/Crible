@@ -8,7 +8,11 @@
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		date="20160811160248"/>
+=======
+		date="20160809205308"/>
+>>>>>>> Stashed changes
 =======
 		date="20160809205308"/>
 >>>>>>> Stashed changes
@@ -221,8 +225,13 @@
 		</module>
 		<module organisation="io.dropwizard.metrics" name="metrics-core">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="3.1.2" status="release" pubdate="20150426005900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
 				<metadata-artifact status="no" details="" size="5039" time="0" location="C:\Users\brcerqueira\.ivy2\cache\io.dropwizard.metrics\metrics-core\ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.pom"/>
+=======
+			<revision name="3.1.2" status="release" pubdate="20150426005900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<metadata-artifact status="no" details="" size="5039" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.dropwizard.metrics\metrics-core\ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="3.1.2" status="release" pubdate="20150426005900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
 				<metadata-artifact status="no" details="" size="5039" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.dropwizard.metrics\metrics-core\ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.pom"/>
@@ -299,8 +308,13 @@
 		</module>
 		<module organisation="io.netty" name="netty-transport-native-epoll">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="4.0.36.Final" status="release" pubdate="20160405092130" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
 				<metadata-artifact status="no" details="" size="16791" time="0" location="C:\Users\brcerqueira\.ivy2\cache\io.netty\netty-transport-native-epoll\ivy-4.0.36.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-transport-native-epoll/4.0.36.Final/netty-transport-native-epoll-4.0.36.Final.pom"/>
+=======
+			<revision name="4.0.36.Final" status="release" pubdate="20160405092130" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<metadata-artifact status="no" details="" size="16791" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-transport-native-epoll\ivy-4.0.36.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-transport-native-epoll/4.0.36.Final/netty-transport-native-epoll-4.0.36.Final.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="4.0.36.Final" status="release" pubdate="20160405092130" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
 				<metadata-artifact status="no" details="" size="16791" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-transport-native-epoll\ivy-4.0.36.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-transport-native-epoll/4.0.36.Final/netty-transport-native-epoll-4.0.36.Final.pom"/>
@@ -315,8 +329,13 @@
 		</module>
 		<module organisation="io.netty" name="netty-transport">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="4.0.36.Final" status="release" pubdate="20160405092142" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
 				<metadata-artifact status="no" details="" size="15929" time="0" location="C:\Users\brcerqueira\.ivy2\cache\io.netty\netty-transport\ivy-4.0.36.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-transport/4.0.36.Final/netty-transport-4.0.36.Final.pom"/>
+=======
+			<revision name="4.0.36.Final" status="release" pubdate="20160405092142" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<metadata-artifact status="no" details="" size="15929" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-transport\ivy-4.0.36.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-transport/4.0.36.Final/netty-transport-4.0.36.Final.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="4.0.36.Final" status="release" pubdate="20160405092142" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
 				<metadata-artifact status="no" details="" size="15929" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-transport\ivy-4.0.36.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-transport/4.0.36.Final/netty-transport-4.0.36.Final.pom"/>
@@ -341,8 +360,13 @@
 		</module>
 		<module organisation="io.netty" name="netty-buffer">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="4.0.36.Final" status="release" pubdate="20160405092140" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
 				<metadata-artifact status="no" details="" size="15923" time="0" location="C:\Users\brcerqueira\.ivy2\cache\io.netty\netty-buffer\ivy-4.0.36.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-buffer/4.0.36.Final/netty-buffer-4.0.36.Final.pom"/>
+=======
+			<revision name="4.0.36.Final" status="release" pubdate="20160405092140" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<metadata-artifact status="no" details="" size="15923" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-buffer\ivy-4.0.36.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-buffer/4.0.36.Final/netty-buffer-4.0.36.Final.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="4.0.36.Final" status="release" pubdate="20160405092140" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
 				<metadata-artifact status="no" details="" size="15923" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-buffer\ivy-4.0.36.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-buffer/4.0.36.Final/netty-buffer-4.0.36.Final.pom"/>
@@ -370,8 +394,13 @@
 		</module>
 		<module organisation="io.netty" name="netty-common">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="4.0.36.Final" status="release" pubdate="20160405092138" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
 				<metadata-artifact status="no" details="" size="14367" time="0" location="C:\Users\brcerqueira\.ivy2\cache\io.netty\netty-common\ivy-4.0.36.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-common/4.0.36.Final/netty-common-4.0.36.Final.pom"/>
+=======
+			<revision name="4.0.36.Final" status="release" pubdate="20160405092138" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<metadata-artifact status="no" details="" size="14367" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-common\ivy-4.0.36.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-common/4.0.36.Final/netty-common-4.0.36.Final.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="4.0.36.Final" status="release" pubdate="20160405092138" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
 				<metadata-artifact status="no" details="" size="14367" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-common\ivy-4.0.36.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-common/4.0.36.Final/netty-common-4.0.36.Final.pom"/>
@@ -395,8 +424,13 @@
 		</module>
 		<module organisation="com.typesafe.netty" name="netty-reactive-streams-http">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="1.0.5" status="release" pubdate="20160329182443" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
 				<metadata-artifact status="no" details="" size="5412" time="0" location="C:\Users\brcerqueira\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/netty/netty-reactive-streams-http/1.0.5/netty-reactive-streams-http-1.0.5.pom"/>
+=======
+			<revision name="1.0.5" status="release" pubdate="20160329182443" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<metadata-artifact status="no" details="" size="5412" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/netty/netty-reactive-streams-http/1.0.5/netty-reactive-streams-http-1.0.5.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="1.0.5" status="release" pubdate="20160329182443" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
 				<metadata-artifact status="no" details="" size="5412" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/netty/netty-reactive-streams-http/1.0.5/netty-reactive-streams-http-1.0.5.pom"/>
@@ -411,8 +445,13 @@
 		</module>
 		<module organisation="io.netty" name="netty-codec-http">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="4.0.34.Final" status="release" pubdate="20160129115845" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
 				<metadata-artifact status="no" details="" size="15359" time="0" location="C:\Users\brcerqueira\.ivy2\cache\io.netty\netty-codec-http\ivy-4.0.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-codec-http/4.0.34.Final/netty-codec-http-4.0.34.Final.pom"/>
+=======
+			<revision name="4.0.34.Final" status="release" pubdate="20160129115845" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<metadata-artifact status="no" details="" size="15359" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-codec-http\ivy-4.0.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-codec-http/4.0.34.Final/netty-codec-http-4.0.34.Final.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="4.0.34.Final" status="release" pubdate="20160129115845" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
 				<metadata-artifact status="no" details="" size="15359" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-codec-http\ivy-4.0.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-codec-http/4.0.34.Final/netty-codec-http-4.0.34.Final.pom"/>
@@ -427,8 +466,13 @@
 		</module>
 		<module organisation="com.typesafe.netty" name="netty-reactive-streams">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="1.0.5" status="release" pubdate="20160329182455" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
 				<metadata-artifact status="no" details="" size="5264" time="0" location="C:\Users\brcerqueira\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/netty/netty-reactive-streams/1.0.5/netty-reactive-streams-1.0.5.pom"/>
+=======
+			<revision name="1.0.5" status="release" pubdate="20160329182455" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<metadata-artifact status="no" details="" size="5264" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/netty/netty-reactive-streams/1.0.5/netty-reactive-streams-1.0.5.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="1.0.5" status="release" pubdate="20160329182455" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
 				<metadata-artifact status="no" details="" size="5264" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/netty/netty-reactive-streams/1.0.5/netty-reactive-streams-1.0.5.pom"/>
@@ -443,8 +487,13 @@
 		</module>
 		<module organisation="io.netty" name="netty-handler">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="4.0.34.Final" status="release" pubdate="20160129115909" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
 				<metadata-artifact status="no" details="" size="16097" time="0" location="C:\Users\brcerqueira\.ivy2\cache\io.netty\netty-handler\ivy-4.0.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-handler/4.0.34.Final/netty-handler-4.0.34.Final.pom"/>
+=======
+			<revision name="4.0.34.Final" status="release" pubdate="20160129115909" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<metadata-artifact status="no" details="" size="16097" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-handler\ivy-4.0.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-handler/4.0.34.Final/netty-handler-4.0.34.Final.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="4.0.34.Final" status="release" pubdate="20160129115909" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
 				<metadata-artifact status="no" details="" size="16097" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-handler\ivy-4.0.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-handler/4.0.34.Final/netty-handler-4.0.34.Final.pom"/>
@@ -467,8 +516,13 @@
 		</module>
 		<module organisation="io.netty" name="netty-codec">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="4.0.34.Final" status="release" pubdate="20160129115858" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
 				<metadata-artifact status="no" details="" size="15772" time="0" location="C:\Users\brcerqueira\.ivy2\cache\io.netty\netty-codec\ivy-4.0.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-codec/4.0.34.Final/netty-codec-4.0.34.Final.pom"/>
+=======
+			<revision name="4.0.34.Final" status="release" pubdate="20160129115858" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<metadata-artifact status="no" details="" size="15772" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-codec\ivy-4.0.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-codec/4.0.34.Final/netty-codec-4.0.34.Final.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="4.0.34.Final" status="release" pubdate="20160129115858" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
 				<metadata-artifact status="no" details="" size="15772" time="0" location="C:\Users\BRMCe\.ivy2\cache\io.netty\netty-codec\ivy-4.0.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-codec/4.0.34.Final/netty-codec-4.0.34.Final.pom"/>
@@ -522,6 +576,9 @@
 =======
 			<revision name="4.0" status="release" pubdate="20150428173500" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
 				<metadata-artifact status="successful" details="" size="549" time="2010" location="C:\Users\BRMCe\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml" searched="true" original-local-location="C:\Users\BRMCe\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="2.5.3"/>
 				<artifacts>
@@ -533,8 +590,13 @@
 		</module>
 		<module organisation="com.google.inject" name="guice">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="4.0" status="release" pubdate="20150428173300" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
 				<metadata-artifact status="no" details="" size="5819" time="0" location="C:\Users\brcerqueira\.ivy2\cache\com.google.inject\guice\ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0.pom"/>
+=======
+			<revision name="4.0" status="release" pubdate="20150428173300" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<metadata-artifact status="no" details="" size="5819" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.google.inject\guice\ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="4.0" status="release" pubdate="20150428173300" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
 				<metadata-artifact status="no" details="" size="5819" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.google.inject\guice\ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0.pom"/>
@@ -550,8 +612,13 @@
 		</module>
 		<module organisation="com.google.guava" name="guava">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="16.0.1" status="release" pubdate="20140203194500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
 				<metadata-artifact status="no" details="" size="5991" time="0" location="C:\Users\brcerqueira\.ivy2\cache\com.google.guava\guava\ivy-16.0.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.pom"/>
+=======
+			<revision name="16.0.1" status="release" pubdate="20140203194500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<metadata-artifact status="no" details="" size="5991" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.google.guava\guava\ivy-16.0.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="16.0.1" status="release" pubdate="20140203194500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
 				<metadata-artifact status="no" details="" size="5991" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.google.guava\guava\ivy-16.0.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.pom"/>
@@ -592,8 +659,13 @@
 		</module>
 		<module organisation="javax.transaction" name="jta">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="1.1" status="release" pubdate="20081027222721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/jta" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
 				<metadata-artifact status="no" details="" size="2381" time="0" location="C:\Users\brcerqueira\.ivy2\cache\javax.transaction\jta\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/transaction/jta/1.1/jta-1.1.pom"/>
+=======
+			<revision name="1.1" status="release" pubdate="20081027222721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/jta" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<metadata-artifact status="no" details="" size="2381" time="0" location="C:\Users\BRMCe\.ivy2\cache\javax.transaction\jta\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/transaction/jta/1.1/jta-1.1.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="1.1" status="release" pubdate="20081027222721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/jta" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
 				<metadata-artifact status="no" details="" size="2381" time="0" location="C:\Users\BRMCe\.ivy2\cache\javax.transaction\jta\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/transaction/jta/1.1/jta-1.1.pom"/>
@@ -634,8 +706,13 @@
 		</module>
 		<module organisation="commons-codec" name="commons-codec">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="1.10" status="release" pubdate="20141106111500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
 				<metadata-artifact status="no" details="" size="10476" time="0" location="C:\Users\brcerqueira\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+=======
+			<revision name="1.10" status="release" pubdate="20141106111500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<metadata-artifact status="no" details="" size="10476" time="0" location="C:\Users\BRMCe\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="1.10" status="release" pubdate="20141106111500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
 				<metadata-artifact status="no" details="" size="10476" time="0" location="C:\Users\BRMCe\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
@@ -787,8 +864,13 @@
 		</module>
 		<module organisation="org.slf4j" name="jcl-over-slf4j">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="1.7.16" status="release" pubdate="20160211180811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
 				<metadata-artifact status="no" details="" size="5424" time="0" location="C:\Users\brcerqueira\.ivy2\cache\org.slf4j\jcl-over-slf4j\ivy-1.7.16.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.pom"/>
+=======
+			<revision name="1.7.16" status="release" pubdate="20160211180811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<metadata-artifact status="no" details="" size="5424" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.slf4j\jcl-over-slf4j\ivy-1.7.16.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="1.7.16" status="release" pubdate="20160211180811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
 				<metadata-artifact status="no" details="" size="5424" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.slf4j\jcl-over-slf4j\ivy-1.7.16.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.pom"/>
@@ -816,8 +898,13 @@
 		</module>
 		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="2.7.1" status="release" pubdate="20160202194554" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleJSR310" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
 				<metadata-artifact status="no" details="" size="7708" time="0" location="C:\Users\brcerqueira\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.1/jackson-datatype-jsr310-2.7.1.pom"/>
+=======
+			<revision name="2.7.1" status="release" pubdate="20160202194554" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleJSR310" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<metadata-artifact status="no" details="" size="7708" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.1/jackson-datatype-jsr310-2.7.1.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="2.7.1" status="release" pubdate="20160202194554" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleJSR310" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
 				<metadata-artifact status="no" details="" size="7708" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.1/jackson-datatype-jsr310-2.7.1.pom"/>
@@ -833,8 +920,13 @@
 		</module>
 		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="2.7.1" status="release" pubdate="20160202194552" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
 				<metadata-artifact status="no" details="" size="7373" time="0" location="C:\Users\brcerqueira\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.1/jackson-datatype-jdk8-2.7.1.pom"/>
+=======
+			<revision name="2.7.1" status="release" pubdate="20160202194552" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<metadata-artifact status="no" details="" size="7373" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.1/jackson-datatype-jdk8-2.7.1.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="2.7.1" status="release" pubdate="20160202194552" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
 				<metadata-artifact status="no" details="" size="7373" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.1/jackson-datatype-jdk8-2.7.1.pom"/>
@@ -850,8 +942,13 @@
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="2.7.1" status="release" pubdate="20160202043924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
 				<metadata-artifact status="no" details="" size="7763" time="0" location="C:\Users\brcerqueira\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.pom"/>
+=======
+			<revision name="2.7.1" status="release" pubdate="20160202043924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<metadata-artifact status="no" details="" size="7763" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="2.7.1" status="release" pubdate="20160202043924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
 				<metadata-artifact status="no" details="" size="7763" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.pom"/>
@@ -869,8 +966,13 @@
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="2.7.1" status="release" pubdate="20160202043923" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
 				<metadata-artifact status="no" details="" size="6684" time="0" location="C:\Users\brcerqueira\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.pom"/>
+=======
+			<revision name="2.7.1" status="release" pubdate="20160202043923" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<metadata-artifact status="no" details="" size="6684" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="2.7.1" status="release" pubdate="20160202043923" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
 				<metadata-artifact status="no" details="" size="6684" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.pom"/>
@@ -893,8 +995,13 @@
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="2.7.1" status="release" pubdate="20160202043922" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
 				<metadata-artifact status="no" details="" size="7139" time="0" location="C:\Users\brcerqueira\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.pom"/>
+=======
+			<revision name="2.7.1" status="release" pubdate="20160202043922" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<metadata-artifact status="no" details="" size="7139" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="2.7.1" status="release" pubdate="20160202043922" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
 				<metadata-artifact status="no" details="" size="7139" time="0" location="C:\Users\BRMCe\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.pom"/>
@@ -1028,8 +1135,13 @@
 		</module>
 		<module organisation="ch.qos.logback" name="logback-classic">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="1.1.4" status="release" pubdate="20160212112944" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
 				<metadata-artifact status="no" details="" size="10009" time="0" location="C:\Users\brcerqueira\.ivy2\cache\ch.qos.logback\logback-classic\ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.4/logback-classic-1.1.4.pom"/>
+=======
+			<revision name="1.1.4" status="release" pubdate="20160212112944" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<metadata-artifact status="no" details="" size="10009" time="0" location="C:\Users\BRMCe\.ivy2\cache\ch.qos.logback\logback-classic\ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.4/logback-classic-1.1.4.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="1.1.4" status="release" pubdate="20160212112944" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
 				<metadata-artifact status="no" details="" size="10009" time="0" location="C:\Users\BRMCe\.ivy2\cache\ch.qos.logback\logback-classic\ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.4/logback-classic-1.1.4.pom"/>
@@ -1055,8 +1167,13 @@
 		</module>
 		<module organisation="org.slf4j" name="jul-to-slf4j">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="1.7.16" status="release" pubdate="20160211180808" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
 				<metadata-artifact status="no" details="" size="5409" time="0" location="C:\Users\brcerqueira\.ivy2\cache\org.slf4j\jul-to-slf4j\ivy-1.7.16.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.pom"/>
+=======
+			<revision name="1.7.16" status="release" pubdate="20160211180808" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<metadata-artifact status="no" details="" size="5409" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.slf4j\jul-to-slf4j\ivy-1.7.16.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="1.7.16" status="release" pubdate="20160211180808" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
 				<metadata-artifact status="no" details="" size="5409" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.slf4j\jul-to-slf4j\ivy-1.7.16.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.pom"/>
@@ -1072,8 +1189,13 @@
 		</module>
 		<module organisation="org.slf4j" name="slf4j-api">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="1.7.16" status="release" pubdate="20160211175555" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
 				<metadata-artifact status="no" details="" size="5346" time="0" location="C:\Users\brcerqueira\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.16.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.pom"/>
+=======
+			<revision name="1.7.16" status="release" pubdate="20160211175555" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<metadata-artifact status="no" details="" size="5346" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.16.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="1.7.16" status="release" pubdate="20160211175555" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
 				<metadata-artifact status="no" details="" size="5346" time="0" location="C:\Users\BRMCe\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.16.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.pom"/>
@@ -1115,8 +1237,13 @@
 		</module>
 		<module organisation="ch.qos.logback" name="logback-core">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<revision name="1.1.4" status="release" pubdate="20160212112444" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
 				<metadata-artifact status="no" details="" size="9043" time="0" location="C:\Users\brcerqueira\.ivy2\cache\ch.qos.logback\logback-core\ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.4/logback-core-1.1.4.pom"/>
+=======
+			<revision name="1.1.4" status="release" pubdate="20160212112444" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<metadata-artifact status="no" details="" size="9043" time="0" location="C:\Users\BRMCe\.ivy2\cache\ch.qos.logback\logback-core\ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.4/logback-core-1.1.4.pom"/>
+>>>>>>> Stashed changes
 =======
 			<revision name="1.1.4" status="release" pubdate="20160212112444" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
 				<metadata-artifact status="no" details="" size="9043" time="0" location="C:\Users\BRMCe\.ivy2\cache\ch.qos.logback\logback-core\ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.4/logback-core-1.1.4.pom"/>
