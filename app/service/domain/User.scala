@@ -8,5 +8,6 @@ case class User(
   name: String,
   email: String,
   password: String,
+  accessKey: Option[String],
   role: RoleKind
 )

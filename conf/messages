@@ -3,3 +3,4 @@ unauthorized=Usuario não autorizado.
 validatorException=Erros foram encontrados.
 emailEmptyField=Campo e-mail vazio.
 passwordEmptyField=Campo senha vazio.
+resourceNotFound=Recurso não encontrado.

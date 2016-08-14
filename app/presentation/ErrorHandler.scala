@@ -9,7 +9,7 @@ import play.api.i18n.{I18nSupport, Messages, MessagesApi}
 import play.api.libs.json.{JsValue, Json}
 import play.api.mvc.Results._
 import play.api.mvc._
-import service.{I18nException, ValidatorException}
+import service.exceptions.{I18nException, UnauthorizedException, ValidatorException}
 
 import scala.concurrent._
 
@@ -20,26 +20,34 @@ class ErrorHandler @Inject()(val messagesApi: MessagesApi) extends HttpErrorHand
   implicit val errorResultDtoWrites = Json.writes[ErrorResultDto]
 
   def onClientError(request: RequestHeader, statusCode: Int, message: String) = {
+    var resultMessage: String = null
+    statusCode match {
+      case 404 => resultMessage = "resourceNotFound"
+      case _ => resultMessage = message
+    }
     Future.successful(
-      Status(statusCode)(Json.toJson(MessageResultDto(Messages(message))))
+      Status(statusCode)(Json.toJson(MessageResultDto(Messages(resultMessage))))
     )
   }
 
   def onServerError(request: RequestHeader, exception: Throwable) = {
-    var json: JsValue = null
+    var result: Result = null
 
     exception match {
-      case validatorException: ValidatorException => json =
-        Json.toJson(ErrorResultDto(Messages("validatorException"), validatorException.failure.violations.map(e => {
-          e.description match {
-            case explicit: Explicit => Messages(explicit.description)
-            case _ => e.description.toString
-          }
-        }).toSeq))
-      case i18nException: I18nException => json = Json.toJson(MessageResultDto(Messages(exception.getMessage)))
-      case _ => json = Json.toJson(MessageResultDto(exception.getMessage))
+      case validatorException: ValidatorException => result =
+        InternalServerError(Json.toJson(ErrorResultDto(Messages("validatorException"), validatorException.failure
+          .violations.map(e => { e.description match {
+              case explicit: Explicit => Messages(explicit.description)
+              case _ => e.description.toString
+            }
+          }).toSeq)))
+      case i18nException: I18nException => result =
+        InternalServerError(Json.toJson(MessageResultDto(Messages(exception.getMessage))))
+      case unauthorizedException: UnauthorizedException => result =
+        Unauthorized(Json.toJson(MessageResultDto(Messages("unauthorized"))))
+      case _ => result = InternalServerError(Json.toJson(MessageResultDto(exception.getMessage)))
     }
 
-    Future.successful(InternalServerError(json))
+    Future.successful(result)
   }
 }
