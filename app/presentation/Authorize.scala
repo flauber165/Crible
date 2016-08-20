@@ -5,11 +5,8 @@ import play.api.mvc._
 import service.AuthenticationService
 import service.domain.RoleKind.RoleKind
 import service.exceptions._
-
 import scala.concurrent.{Future, Promise}
 import play.api.libs.concurrent.Execution.Implicits.defaultContext
-import play.api.libs.json.Json
-
 import scala.util.{Failure, Success}
 
 class Authorize @Inject()(service: AuthenticationService) extends ActionBuilder[Request] {
