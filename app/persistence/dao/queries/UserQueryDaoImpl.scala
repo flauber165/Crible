@@ -1,25 +1,50 @@
 package persistence.dao.queries
 
-import java.util.UUID
-
-import com.websudos.phantom.dsl._
+import com.datastax.driver.core.{PagingState, Row}
+import com.websudos.phantom.dsl.{ConsistencyLevel, _}
 import persistence.maps.UserMap
-import service.dao.queries.UserQueryDao
-import service.domain.{RoleKind, User}
+import service.dao.queries.QueryDao
+import service.domain.User
+import service.dto.queries.{FilterResultDto, UserFilterDto}
+import scala.collection.JavaConversions._
+import scala.collection.mutable.ListBuffer
+import scala.concurrent.{Future, Promise}
+import scala.util.control.Breaks
 
-import scala.concurrent.Future
+private[persistence] abstract class UserQueryDaoImpl extends UserMap with QueryDao[User, UserFilterDto] with RootConnector {
+  def filter(dto: UserFilterDto): Future[FilterResultDto] = {
+    select.consistencyLevel_=(ConsistencyLevel.ONE).future(e => {
+      var statement = e.setFetchSize(dto.count)
 
-private[persistence] abstract class UserQueryDaoImpl extends UserMap with UserQueryDao with RootConnector {
+      if (dto.index.nonEmpty) {
+        statement = statement.setPagingState(PagingState.fromString(dto.index.get))
+      }
 
-  def getUserById(id: UUID): Future[Option[User]] = {
-    select.where(_.id eqs id).consistencyLevel_=(ConsistencyLevel.ONE).allowFiltering().one()
-  }
+      statement
+    }).map(rs => {
+      val list = ListBuffer[User]()
 
-  def getUserByEmail(email: String): Future[Option[User]] = {
-    select.where(_.email eqs email).consistencyLevel_=(ConsistencyLevel.ONE).allowFiltering().one()
-  }
+      var remaining = rs.getAvailableWithoutFetching
 
-  def updateUserAccessKey(id: UUID, accessKey: String): Future[Boolean] = {
-    update.where(_.id eqs id).modify(_.accessKey setTo Option(accessKey)).future().map(_.wasApplied)
+      val loop = new Breaks
+
+      loop.breakable {
+        for(row <- rs){
+          list += fromRow(row)
+          remaining -= 1
+          if(remaining == 0){
+            loop.break
+          }
+        }
+      }
+
+      var index: String = null
+
+      if(rs.getExecutionInfo.getPagingState != null) {
+        index = rs.getExecutionInfo.getPagingState.toString
+      }
+
+      FilterResultDto(index, list)
+    })
   }
 }

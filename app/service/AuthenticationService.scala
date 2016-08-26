@@ -4,7 +4,6 @@ import java.util.{Base64, UUID}
 
 import com.google.inject.Inject
 import org.mindrot.jbcrypt.BCrypt
-import service.dao.queries.UserQueryDao
 import service.dto.{EnterDto, EnterResultDto}
 import play.api.libs.concurrent.Execution.Implicits.defaultContext
 import service.domain.RoleKind.RoleKind
@@ -14,9 +13,10 @@ import dsl._
 
 import scala.concurrent.{Future, Promise}
 import ServiceValidator.validateAndThrow
+import service.dao.AuthenticationDao
 import service.exceptions.{AuthenticationException, I18nException, UnauthorizedException}
 
-class AuthenticationService @Inject()(userQueryDao: UserQueryDao) {
+class AuthenticationService @Inject()(authenticationDao: AuthenticationDao) {
 
   val encoder = Base64.getEncoder
   val decoder = Base64.getDecoder
@@ -31,7 +31,7 @@ class AuthenticationService @Inject()(userQueryDao: UserQueryDao) {
     try {
       val array = new String(decoder.decode(authorization.substring(6))).split(":")
       if(array.length == 2) {
-        userQueryDao.getUserById(UUID.fromString(array(0))).onComplete(r => {
+        authenticationDao.getUserById(UUID.fromString(array(0))).onComplete(r => {
           if(r.get.nonEmpty) {
             val user = r.get.get
             if(user.accessKey.get == array(1)) {
@@ -85,7 +85,7 @@ class AuthenticationService @Inject()(userQueryDao: UserQueryDao) {
 
       validateAndThrow(enterDto)
 
-      userQueryDao.getUserByEmail(enterDto.email).onComplete(r => {
+      authenticationDao.getUserByEmail(enterDto.email).onComplete(r => {
         try {
           if (r.get.isEmpty) {
             throw new AuthenticationException()
@@ -95,7 +95,7 @@ class AuthenticationService @Inject()(userQueryDao: UserQueryDao) {
             throw new AuthenticationException()
           }
           val accessKey = BCrypt.hashpw(UUID.randomUUID.toString, BCrypt.gensalt)
-          userQueryDao.updateUserAccessKey(user.id, accessKey).onComplete(b => {
+          authenticationDao.updateUserAccessKey(user.id, accessKey).onComplete(b => {
             promise.success(EnterResultDto(encoder.encodeToString(s"${user.id}:${accessKey}".getBytes), user.name))
           })
         }
