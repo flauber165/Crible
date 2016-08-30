@@ -1,8 +1,6 @@
 package service.dto.queries
 
-import service.domain.User
-
-case class FilterResultDto(
+case class FilterResultDto[T](
   index: String,
-  data: Seq[User]
+  data: Seq[T]
 )
