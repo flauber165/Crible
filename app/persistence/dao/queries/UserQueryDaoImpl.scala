@@ -1,6 +1,5 @@
 package persistence.dao.queries
 
-import com.datastax.driver.core.Row
 import com.websudos.phantom.dsl.{ConsistencyLevel, _}
 import persistence.maps.UserMap
 import service.dao.queries.QueryDao
