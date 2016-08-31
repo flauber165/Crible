@@ -18,6 +18,6 @@ private[persistence] class UserMap extends CassandraTable[UserMap, User] {
   object accessKey extends OptionalStringColumn(this)
   object role extends EnumColumn(this, RoleKind) with Index[RoleKind]
 
-  override def fromRow(r: Row): User = User(id(r), name(r), email(r), password(r), accessKey(r), role(r))
+  implicit override def fromRow(r: Row): User = User(id(r), name(r), email(r), password(r), accessKey(r), role(r))
 }
 

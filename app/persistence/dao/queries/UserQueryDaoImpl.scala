@@ -10,7 +10,6 @@ import scala.concurrent.Future
 import persistence.dao.QueryExtensions._
 
 private[persistence] abstract class UserQueryDaoImpl extends UserMap with QueryDao[User, UserFilterDto] with RootConnector {
-  implicit def fromRow: Row => User = super.fromRow
   def filter(dto: UserFilterDto): Future[FilterResultDto[User]] = {
     select.consistencyLevel_=(ConsistencyLevel.ONE).page(dto)
   }
