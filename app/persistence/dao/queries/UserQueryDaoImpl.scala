@@ -10,6 +10,16 @@ import persistence.dao.QueryExtensions._
 
 private[persistence] abstract class UserQueryDaoImpl extends UserMap with QueryDao[User, UserFilterDto] with RootConnector {
   def filter(dto: UserFilterDto): Future[FilterResultDto[User]] = {
-    select.consistencyLevel_=(ConsistencyLevel.ONE).page(dto)
+    val query = select
+
+    if (dto.name.nonEmpty) {
+      query.where(_.name eqs dto.name.get)
+    }
+
+    if (dto.email.nonEmpty) {
+      query.where(_.email eqs dto.email.get)
+    }
+
+    query.consistencyLevel_=(ConsistencyLevel.ONE).page(dto)
   }
 }

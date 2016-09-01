@@ -12,7 +12,7 @@ private[persistence] class UserMap extends CassandraTable[UserMap, User] {
   override def tableName: String = "user"
 
   object id extends UUIDColumn(this) with PartitionKey[UUID] { override lazy val name = "id" }
-  object name extends StringColumn(this)
+  object name extends StringColumn(this) with Index[String]
   object email extends StringColumn(this) with Index[String]
   object password extends StringColumn(this)
   object accessKey extends OptionalStringColumn(this)
