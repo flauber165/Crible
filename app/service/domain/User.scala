@@ -4,7 +4,7 @@ import java.util.UUID
 import service.domain.RoleKind.RoleKind
 
 case class User(
-  id: UUID,
+  id: String,
   name: String,
   email: String,
   password: String,

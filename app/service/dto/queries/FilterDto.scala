@@ -1,6 +1,6 @@
 package service.dto.queries
 
 trait FilterDto {
-  val index: Option[String]
+  val index: Int
   val count: Int
 }

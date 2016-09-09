@@ -1,14 +1,13 @@
 package service.queries
 
 import com.google.inject.Inject
-import service.dao.queries.{BankQueryDao, QueryDao}
+import service.dao.queries.QueryDao
 import service.domain.User
-import service.dto.queries.{FilterResultDto, UserFilterDto}
-
+import service.dto.queries.UserFilterDto
 import scala.concurrent.Future
 
 class UserQueryService @Inject()(userQueryDao: QueryDao[User, UserFilterDto]) {
-  def filter(dto: UserFilterDto): Future[FilterResultDto[User]] = {
+  def filter(dto: UserFilterDto): Future[Seq[User]] = {
     userQueryDao.filter(dto)
   }
 }

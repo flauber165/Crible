@@ -1,25 +1,39 @@
 package persistence.dao.queries
 
-import com.websudos.phantom.dsl.{ConsistencyLevel, _}
-import persistence.maps.UserMap
+import com.google.inject.Inject
+import org.mongodb.scala.MongoDatabase
+import org.mongodb.scala.bson.conversions.Bson
+import org.mongodb.scala.model.Filters._
+import persistence.dao.maps.UserMap
 import service.dao.queries.QueryDao
 import service.domain.User
-import service.dto.queries.{FilterResultDto, UserFilterDto}
+import service.dto.queries.UserFilterDto
+import play.api.libs.concurrent.Execution.Implicits.defaultContext
+import scala.collection.mutable.ListBuffer
 import scala.concurrent.Future
-import persistence.dao.QueryExtensions._
 
-private[persistence] abstract class UserQueryDaoImpl extends UserMap with QueryDao[User, UserFilterDto] with RootConnector {
-  def filter(dto: UserFilterDto): Future[FilterResultDto[User]] = {
-    val query = select
+private[persistence] class UserQueryDaoImpl @Inject()(database: MongoDatabase) extends QueryDao[User, UserFilterDto] {
+  def filter(dto: UserFilterDto): Future[Seq[User]] = {
+
+    var filters = ListBuffer[Bson]()
 
     if (dto.name.nonEmpty) {
-      query.where(_.name eqs dto.name.get)
+      filters += equal("name", dto.name.get)
     }
 
     if (dto.email.nonEmpty) {
-      query.where(_.email eqs dto.email.get)
+      filters += equal("email", dto.email.get)
     }
 
-    query.consistencyLevel_=(ConsistencyLevel.ONE).page(dto)
+    database.getCollection("user").find().skip(dto.index).limit(dto.count).toFuture()
+      .map(d => {
+        val list = ListBuffer[User]()
+
+        for(row <- d.seq){
+          list += UserMap.from(row)
+        }
+
+        list
+      })
   }
 }

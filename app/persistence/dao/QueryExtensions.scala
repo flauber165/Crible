@@ -1,5 +1,5 @@
 package persistence.dao
-
+/*
 import com.datastax.driver.core.{PagingState, Session}
 import com.websudos.phantom.builder.query.ExecutableStatement
 import com.websudos.phantom.connectors.KeySpace
@@ -51,4 +51,4 @@ private[persistence] object QueryExtensions {
       })
     }
   }
-}
+}*/

@@ -9,7 +9,6 @@ import service.queries.UserQueryService
 import play.api.libs.concurrent.Execution.Implicits.defaultContext
 import presentation.parse.reads.UserFilterDtoReads._
 import presentation.parse.writes.UserWrites._
-import presentation.parse.writes.FilterResultDtoWrites._
 
 class UserQueryController @Inject()(authorize: Authorize, service: UserQueryService) extends Controller {
   def filter = authorize.role(RoleKind.Administrator).async { request =>

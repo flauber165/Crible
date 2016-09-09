@@ -1,7 +1,6 @@
 package service
 
 import java.util.{Base64, UUID}
-
 import com.google.inject.Inject
 import org.mindrot.jbcrypt.BCrypt
 import service.dto.{EnterDto, EnterResultDto}
@@ -10,11 +9,10 @@ import service.domain.RoleKind.RoleKind
 import service.domain.{RoleKind, User}
 import com.wix.accord._
 import dsl._
-
 import scala.concurrent.{Future, Promise}
 import ServiceValidator.validateAndThrow
 import service.dao.AuthenticationDao
-import service.exceptions.{AuthenticationException, I18nException, UnauthorizedException}
+import service.exceptions.{AuthenticationException, UnauthorizedException}
 
 class AuthenticationService @Inject()(authenticationDao: AuthenticationDao) {
 
@@ -31,7 +29,7 @@ class AuthenticationService @Inject()(authenticationDao: AuthenticationDao) {
     try {
       val array = new String(decoder.decode(authorization.substring(6))).split(":")
       if(array.length == 2) {
-        authenticationDao.getUserById(UUID.fromString(array(0))).onComplete(r => {
+        authenticationDao.getUserById(array(0)).onComplete(r => {
           if(r.get.nonEmpty) {
             val user = r.get.get
             if(user.accessKey.get == array(1)) {
