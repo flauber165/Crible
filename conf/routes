@@ -3,7 +3,6 @@
 # ~~~~
 
 # Home page
-GET     /                           presentation.controllers.Application.index
 POST    /enter                      presentation.controllers.AuthenticationController.enter
 POST    /user/query                 presentation.controllers.UserQueryController.filter
 

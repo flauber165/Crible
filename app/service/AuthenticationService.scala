@@ -11,10 +11,18 @@ import com.wix.accord._
 import dsl._
 import scala.concurrent.{Future, Promise}
 import ServiceValidator.validateAndThrow
-import service.dao.AuthenticationDao
+import com.google.inject.name.Named
+import com.mongodb.client.model.Filters
+import org.mongodb.scala._
+import org.mongodb.scala.bson.BsonObjectId
+import org.mongodb.scala.model.Filters._
+import org.mongodb.scala.model.Updates._
+import persistence.dao.maps.UserMap
 import service.exceptions.{AuthenticationException, UnauthorizedException}
 
-class AuthenticationService @Inject()(authenticationDao: AuthenticationDao) {
+import scala.collection.mutable.ListBuffer
+
+class AuthenticationService @Inject()(@Named("user") collection: MongoCollection[Document]) {
 
   val encoder = Base64.getEncoder
   val decoder = Base64.getDecoder
@@ -29,40 +37,35 @@ class AuthenticationService @Inject()(authenticationDao: AuthenticationDao) {
     try {
       val array = new String(decoder.decode(authorization.substring(6))).split(":")
       if(array.length == 2) {
-        authenticationDao.getUserById(array(0)).onComplete(r => {
-          if(r.get.nonEmpty) {
-            val user = r.get.get
-            if(user.accessKey.get == array(1)) {
 
-              var isAuthorized = true
+        val roles = ListBuffer[RoleKind]()
 
-              if(role != null) {
-                role match {
-                  case RoleKind.Administrator => isAuthorized = user.role == RoleKind.Administrator
-                  case RoleKind.Director => isAuthorized = user.role == RoleKind.Administrator ||
-                    user.role == RoleKind.Director
-                  case RoleKind.GeneralManager => isAuthorized = user.role == RoleKind.Administrator ||
-                    user.role == RoleKind.Director || user.role == RoleKind.GeneralManager
-                  case RoleKind.AccountManager => isAuthorized = user.role == RoleKind.Administrator ||
-                    user.role == RoleKind.Director || user.role == RoleKind.GeneralManager || user.role == RoleKind.AccountManager
-                }
-              }
+        role match {
+          case RoleKind.Administrator =>
+            roles += RoleKind.Administrator
+          case RoleKind.Director =>
+            roles += RoleKind.Administrator
+            roles += RoleKind.Director
+          case RoleKind.GeneralManager =>
+            roles += RoleKind.Administrator
+            roles += RoleKind.Director
+            roles += RoleKind.GeneralManager
+          case RoleKind.AccountManager =>
+            roles += RoleKind.Administrator
+            roles += RoleKind.Director
+            roles += RoleKind.GeneralManager
+            roles += RoleKind.AccountManager
+        }
 
-              if(isAuthorized) {
-                promise.success(user)
-              }
-              else {
-                promise.failure(new UnauthorizedException())
-              }
+        collection.find(and(equal("_id", BsonObjectId(array(0))), equal("accessKey", array(1)), Filters.in("role", roles.map(_.id):_*)))
+          .first.toFuture.onComplete(r => {
+            if(r.get.nonEmpty) {
+              promise.success(UserMap.from(r.get.head))
             }
             else {
               promise.failure(new UnauthorizedException())
             }
-          }
-          else {
-            promise.failure(new UnauthorizedException())
-          }
-        })
+          })
       }
       else {
         promise.failure(new UnauthorizedException())
@@ -83,17 +86,21 @@ class AuthenticationService @Inject()(authenticationDao: AuthenticationDao) {
 
       validateAndThrow(enterDto)
 
-      authenticationDao.getUserByEmail(enterDto.email).onComplete(r => {
+      collection.find(equal("email", enterDto.email)).first.toFuture.onComplete(r => {
         try {
           if (r.get.isEmpty) {
             throw new AuthenticationException()
           }
-          val user = r.get.get
+
+          val user = UserMap.from(r.get.head)
+
           if (!BCrypt.checkpw(enterDto.password, user.password)) {
             throw new AuthenticationException()
           }
+
           val accessKey = BCrypt.hashpw(UUID.randomUUID.toString, BCrypt.gensalt)
-          authenticationDao.updateUserAccessKey(user.id, accessKey).onComplete(b => {
+
+          collection.updateOne(equal("_id", BsonObjectId(user.id)), set("accessKey", accessKey)).head.onComplete(b => {
             promise.success(EnterResultDto(encoder.encodeToString(s"${user.id}:${accessKey}".getBytes), user.name))
           })
         }
