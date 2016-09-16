@@ -11,29 +11,21 @@ import service.dto.queries.UserFilterDto
 import play.api.libs.concurrent.Execution.Implicits.defaultContext
 import scala.collection.mutable.ListBuffer
 import scala.concurrent.Future
+import service.FilterExtensions._
 
 class UserQueryService @Inject()(@Named("user") collection: MongoCollection[Document]) {
   def filter(dto: UserFilterDto): Future[Seq[User]] = {
     var filters = ListBuffer[Bson]()
 
-    if (dto.name.get != "") {
+    if (dto.name.nonEmpty && dto.name.get != "") {
       filters += regex("name", s".*${dto.name.get}.*")
     }
 
-    if (dto.email.get != "") {
+    if (dto.email.nonEmpty && dto.email.get != "") {
       filters += regex("email", s".*${dto.email.get}.*")
     }
 
-    var query: FindObservable[Document] = null
-
-    if (filters.nonEmpty) {
-      query = collection.find(and(filters:_*))
-    }
-    else {
-      query = collection.find()
-    }
-
-    query.skip(dto.index).limit(dto.count).toFuture().map(d => {
+    collection.andListBuffer(filters).skip(dto.index).limit(dto.count).toFuture.map(d => {
       val list = ListBuffer[User]()
 
       for(row <- d.seq){

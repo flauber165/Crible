@@ -2,48 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efdea7f8-380e-44bf-b388-0eb110c6c858" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/persistence/dao/AuthenticationDaoImpl.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/persistence/dao/queries/BankQueryDaoImpl.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/persistence/dao/queries/UserQueryDaoImpl.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/presentation/controllers/Application.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/service/dao/AuthenticationDao.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/service/dao/queries/BankQueryDao.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/service/dao/queries/QueryDao.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/service/domain/Bank.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/service/queries/BankQueryService.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/service/queries/QueryService.scala" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root.iml" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/persistence/PersistenceModule.scala" afterPath="$PROJECT_DIR$/app/persistence/PersistenceModule.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/service/AuthenticationService.scala" afterPath="$PROJECT_DIR$/app/service/AuthenticationService.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/service/ServiceModule.scala" afterPath="$PROJECT_DIR$/app/service/ServiceModule.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/service/queries/UserQueryService.scala" afterPath="$PROJECT_DIR$/app/service/queries/UserQueryService.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/crible-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/crible-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/crible-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/crible-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="Crible.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,21 +39,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserMap.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserMap.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/persistence/dao/maps/UserMap.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="151">
+              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="58" />
+              <folding>
+                <element signature="e#30#63#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ErrorHandler.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presentation/ErrorHandler.scala">
+      <file leaf-file-name="UserQueryService.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/service/queries/UserQueryService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-323">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="-34">
+              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+              <folding>
+                <element signature="e#25#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilterExtensions.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/service/FilterExtensions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <element signature="e#17#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryExtensions.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/persistence/dao/QueryExtensions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="53" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -101,85 +88,11 @@
       <file leaf-file-name="AuthenticationService.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/service/AuthenticationService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+            <state relative-caret-position="901">
+              <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
               <folding>
                 <element signature="e#17#48#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ErrorResultDto.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presentation/ErrorResultDto.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Filters.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presentation/Filters.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-              <folding>
-                <element signature="e#22#53#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageResultDto.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presentation/MessageResultDto.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceModule.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/service/ServiceModule.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="e#17#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/application.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messages" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/messages">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/routes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -237,9 +150,10 @@
         <option value="$PROJECT_DIR$/app/service/AuthenticationService.scala" />
         <option value="$PROJECT_DIR$/app/persistence/dao/queries/UserQueryDaoImpl.scala" />
         <option value="$PROJECT_DIR$/app/persistence/PersistenceModule.scala" />
-        <option value="$PROJECT_DIR$/app/service/queries/UserQueryService.scala" />
         <option value="$PROJECT_DIR$/app/service/ServiceModule.scala" />
         <option value="$PROJECT_DIR$/conf/routes" />
+        <option value="$PROJECT_DIR$/app/service/queries/UserQueryService.scala" />
+        <option value="$PROJECT_DIR$/app/service/FilterExtensions.scala" />
       </list>
     </option>
   </component>
@@ -274,9 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -409,6 +320,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -755,7 +669,7 @@
     </list>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1473951455839" />
+    <option name="lastUpdateTimestamp" value="1474051356165" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -903,19 +817,8 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb.scala/mongo-scala-driver_2.11/srcs/mongo-scala-driver_2.11-1.0.1-sources.jar!/org/mongodb/scala/package.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb.scala/mongo-scala-bson_2.11/srcs/mongo-scala-bson_2.11-1.0.1-sources.jar!/org/mongodb/scala/bson/collection/BaseDocument.scala" />
-    <entry file="file://$PROJECT_DIR$/app/service/domain/User.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb.scala/mongo-scala-driver_2.11/srcs/mongo-scala-driver_2.11-1.0.1-sources.jar!/org/mongodb/scala/ObservableImplicits.scala" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb/mongodb-driver-core/srcs/mongodb-driver-core-3.1.0-sources.jar!/com/mongodb/client/result/UpdateResult.java" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb.scala/mongo-scala-bson_2.11/srcs/mongo-scala-bson_2.11-1.0.1-sources.jar!/org/mongodb/scala/bson/conversions/package.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb/mongodb-driver-core/srcs/mongodb-driver-core-3.1.0-sources.jar!/com/mongodb/client/model/Filters.java" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/TraversableOnce.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
@@ -955,14 +858,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/service/dto/queries/FilterResultDto.scala" />
     <entry file="file://$PROJECT_DIR$/app/presentation/parse/writes/FilterResultDtoWrites.scala" />
-    <entry file="file://$PROJECT_DIR$/app/service/dao/queries/QueryDao.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/dao/queries/QueryDao.scala" />
     <entry file="file://$PROJECT_DIR$/app/service/dto/queries/FilterDto.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -998,19 +894,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/persistence/dao/queries/BankQueryDaoImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/persistence/dao/queries/BankQueryDaoImpl.scala" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/concurrent/Future.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="150" column="6" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,71 +906,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb.scala/mongo-scala-driver_2.11/srcs/mongo-scala-driver_2.11-1.0.1-sources.jar!/org/mongodb/scala/model/Filters.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb.scala/mongo-scala-driver_2.11/srcs/mongo-scala-driver_2.11-1.0.1-sources.jar!/org/mongodb/scala/MongoCollection.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="178" column="81" selection-start-line="178" selection-start-column="81" selection-end-line="178" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/persistence/dao/queries/UserQueryDaoImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="46" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/service/queries/QueryService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/service/queries/BankQueryService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/persistence/dao/AuthenticationDaoImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="41" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/persistence/dao/queries/UserQueryDaoImpl.scala" />
+    <entry file="file://$PROJECT_DIR$/app/service/queries/QueryService.scala" />
+    <entry file="file://$PROJECT_DIR$/app/service/queries/BankQueryService.scala" />
+    <entry file="file://$PROJECT_DIR$/app/persistence/dao/AuthenticationDaoImpl.scala" />
     <entry file="file://$PROJECT_DIR$/app/persistence/dao/maps/Map.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/persistence/dao/QueryExtensions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,20 +928,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/service/dao/AuthenticationDao.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/dao/AuthenticationDao.scala" />
     <entry file="file://$PROJECT_DIR$/app/persistence/PersistenceModule.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#21#56#0" expanded="true" />
+            <element signature="e#21#56#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1116,9 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#34#65#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1126,37 +950,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presentation/controllers/Application.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/service/queries/UserQueryService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presentation/controllers/Application.scala" />
     <entry file="file://$PROJECT_DIR$/app/presentation/Authorize.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2">
           <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/presentation/ErrorHandler.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
+        <state relative-caret-position="85">
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding />
         </state>
@@ -1174,9 +981,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#22#53#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1193,7 +998,7 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#17#56#0" expanded="true" />
+            <element signature="e#17#56#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1222,21 +1027,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb/mongodb-driver-core/srcs/mongodb-driver-core-3.1.0-sources.jar!/com/mongodb/client/model/Filters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2839">
+          <caret line="204" column="23" selection-start-line="204" selection-start-column="23" selection-end-line="204" selection-end-column="23" />
+          <folding>
+            <element signature="e#7709#7710#0" expanded="false" />
+            <element signature="e#7754#7755#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/mutable/ListBuffer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="166" column="6" selection-start-line="166" selection-start-column="6" selection-end-line="166" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/persistence/dao/QueryExtensions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="53" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/service/AuthenticationService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+        <state relative-caret-position="901">
+          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
           <folding>
             <element signature="e#17#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb/mongodb-driver-async/srcs/mongodb-driver-async-3.1.0-sources.jar!/com/mongodb/async/client/MongoCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="190" column="36" selection-start-line="190" selection-start-column="36" selection-end-line="190" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb.scala/mongo-scala-driver_2.11/srcs/mongo-scala-driver_2.11-1.0.1-sources.jar!/org/mongodb/scala/model/Filters.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/persistence/dao/maps/UserMap.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="151">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="58" />
+          <folding>
+            <element signature="e#30#63#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb.scala/mongo-scala-driver_2.11/srcs/mongo-scala-driver_2.11-1.0.1-sources.jar!/org/mongodb/scala/MongoCollection.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb.scala/mongo-scala-driver_2.11/srcs/mongo-scala-driver_2.11-1.0.1-sources.jar!/org/mongodb/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/queries/UserQueryService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="e#25#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/FilterExtensions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#17#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
