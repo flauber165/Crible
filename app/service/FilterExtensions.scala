@@ -1,12 +1,16 @@
 package service
 
+import com.mongodb.client.model.Filters
 import org.mongodb.scala._
 import org.mongodb.scala.bson.conversions._
-import org.mongodb.scala.model.Filters
 import scala.collection.mutable.ListBuffer
 
 object FilterExtensions {
-  implicit def listBufferExtensions(listBuffer: ListBuffer[Bson]) = new {
+  implicit def listBufferExtensions[T](listBuffer: ListBuffer[T]) = new {
+    def in(fieldName: String): Bson = Filters.in(fieldName, listBuffer:_*)
+  }
+
+  implicit def bsonListBufferExtensions(listBuffer: ListBuffer[Bson]) = new {
     def and(): Bson = Filters.and(listBuffer:_*)
   }
 

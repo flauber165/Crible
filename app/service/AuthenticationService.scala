@@ -12,14 +12,13 @@ import dsl._
 import scala.concurrent.{Future, Promise}
 import ServiceValidator.validateAndThrow
 import com.google.inject.name.Named
-import com.mongodb.client.model.Filters
 import org.mongodb.scala._
 import org.mongodb.scala.bson.BsonObjectId
 import org.mongodb.scala.model.Filters._
 import org.mongodb.scala.model.Updates._
 import persistence.dao.maps.UserMap
 import service.exceptions.{AuthenticationException, UnauthorizedException}
-
+import service.FilterExtensions._
 import scala.collection.mutable.ListBuffer
 
 class AuthenticationService @Inject()(@Named("user") collection: MongoCollection[Document]) {
@@ -57,7 +56,7 @@ class AuthenticationService @Inject()(@Named("user") collection: MongoCollection
             roles += RoleKind.AccountManager
         }
 
-        collection.find(and(equal("_id", BsonObjectId(array(0))), equal("accessKey", array(1)), Filters.in("role", roles.map(_.id):_*)))
+        collection.find(and(equal("_id", BsonObjectId(array(0))), equal("accessKey", array(1)), roles.map(_.id).in("role")))
           .first.toFuture.onComplete(r => {
             if(r.get.nonEmpty) {
               promise.success(UserMap.from(r.get.head))
@@ -98,7 +97,7 @@ class AuthenticationService @Inject()(@Named("user") collection: MongoCollection
             throw new AuthenticationException()
           }
 
-          val accessKey = BCrypt.hashpw(UUID.randomUUID.toString, BCrypt.gensalt)
+          val accessKey = UUID.randomUUID.toString
 
           collection.updateOne(equal("_id", BsonObjectId(user.id)), set("accessKey", accessKey)).head.onComplete(b => {
             promise.success(EnterResultDto(encoder.encodeToString(s"${user.id}:${accessKey}".getBytes), user.name))
