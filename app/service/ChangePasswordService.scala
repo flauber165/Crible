@@ -44,7 +44,7 @@ class ChangePasswordService @Inject()(@Named("user") collection: MongoCollection
 
           val user = UserMap.from(r.get.head)
           val accessKey = UUID.randomUUID.toString
-          val link = "localhost:8000/resetPassword/" + user.id + "," + user.accessKey
+          val link = "localhost:9000/resetPassword/" + user.id + "," + user.accessKey
 
           collection.updateOne(equal("_id", BsonObjectId(user.id)), set("accessKey", accessKey)).head.onComplete(b => {
             promise.success(link)
