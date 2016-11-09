@@ -7,5 +7,6 @@ class ServiceModule extends AbstractModule {
   def configure() = {
     bind(classOf[AuthenticationService])
     bind(classOf[UserQueryService])
+    bind(classOf[ChangePasswordService])
   }
 }

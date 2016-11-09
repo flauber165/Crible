@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efdea7f8-380e-44bf-b388-0eb110c6c858" name="Default" comment="" />
+    <list default="true" id="efdea7f8-380e-44bf-b388-0eb110c6c858" name="Default" comment="Serviço de Reset de Senha - rota: /changePassword, param: email (em implantação)">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presentation/controllers/ChangePasswordController.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presentation/parse/reads/ChangePasswordDtoReads.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presentation/parse/writes/ChangePasswordDtoWrites.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/service/ChangePasswordService.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/service/dto/ChangePasswordDto.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root.iml" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/service/AuthenticationService.scala" afterPath="$PROJECT_DIR$/app/service/AuthenticationService.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/service/ServiceModule.scala" afterPath="$PROJECT_DIR$/app/service/ServiceModule.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/crible-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/crible-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/crible-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/crible-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-crible-build-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/unmanagedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/unmanagedJars/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedJars/$global/streams/export" />
+    </list>
     <ignored path="Crible.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,13 +83,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PersistenceModule.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/persistence/PersistenceModule.scala">
+      <file leaf-file-name="ServiceModule.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/service/ServiceModule.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="105">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding>
-                <element signature="e#21#56#0" expanded="false" />
+                <element signature="e#17#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,18 +98,62 @@
       <file leaf-file-name="UserQueryService.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/service/queries/UserQueryService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="33" />
+            <state relative-caret-position="240">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilterExtensions.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/service/FilterExtensions.scala">
+      <file leaf-file-name="AuthenticationController.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presentation/controllers/AuthenticationController.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            <state relative-caret-position="75">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangePasswordController.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presentation/controllers/ChangePasswordController.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <folding>
+                <element signature="e#34#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/routes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangePasswordService.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/service/ChangePasswordService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+              <folding>
+                <element signature="e#18#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangePasswordDtoReads.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presentation/parse/reads/ChangePasswordDtoReads.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -70,8 +162,21 @@
       <file leaf-file-name="AuthenticationService.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/service/AuthenticationService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+            <state relative-caret-position="137">
+              <caret line="104" column="80" selection-start-line="104" selection-start-column="80" selection-end-line="104" selection-end-column="80" />
+              <folding>
+                <element signature="e#17#48#0" expanded="true" />
+                <element signature="e#1133#2600#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnterResultDto.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/service/dto/EnterResultDto.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -79,7 +184,19 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="cribleadmin &lt;italo@crible.com.br&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -108,7 +225,6 @@
         <option value="$PROJECT_DIR$/app/presentation/reads/UserFilterDtoReads.scala" />
         <option value="$PROJECT_DIR$/app/presentation/parse/writes/EnterResultDtoWrites.scala" />
         <option value="$PROJECT_DIR$/app/presentation/parse/reads/EnterDtoReads.scala" />
-        <option value="$PROJECT_DIR$/app/presentation/controllers/AuthenticationController.scala" />
         <option value="$PROJECT_DIR$/app/presentation/parse/writes/MessageResultDtoWrites.scala" />
         <option value="$PROJECT_DIR$/app/presentation/parse/writes/ErrorResultDtoWrites.scala" />
         <option value="$PROJECT_DIR$/app/presentation/ErrorHandler.scala" />
@@ -129,19 +245,23 @@
         <option value="$PROJECT_DIR$/app/persistence/dao/AuthenticationDaoImpl.scala" />
         <option value="$PROJECT_DIR$/app/persistence/dao/queries/UserQueryDaoImpl.scala" />
         <option value="$PROJECT_DIR$/app/persistence/PersistenceModule.scala" />
-        <option value="$PROJECT_DIR$/app/service/ServiceModule.scala" />
-        <option value="$PROJECT_DIR$/conf/routes" />
         <option value="$PROJECT_DIR$/app/service/queries/UserQueryService.scala" />
-        <option value="$PROJECT_DIR$/app/service/AuthenticationService.scala" />
         <option value="$PROJECT_DIR$/app/service/FilterExtensions.scala" />
+        <option value="$PROJECT_DIR$/app/presentation/parse/reads/ChangePasswordDtoReads.scala" />
+        <option value="$PROJECT_DIR$/app/service/AuthenticationService.scala" />
+        <option value="$PROJECT_DIR$/app/service/ServiceModule.scala" />
+        <option value="$PROJECT_DIR$/app/presentation/parse/writes/ChangePasswordDtoWrites.scala" />
+        <option value="$PROJECT_DIR$/app/presentation/controllers/AuthenticationController.scala" />
+        <option value="$PROJECT_DIR$/app/service/dto/ChangePasswordDto.scala" />
+        <option value="$PROJECT_DIR$/app/service/ChangePasswordService.scala" />
+        <option value="$PROJECT_DIR$/conf/routes" />
+        <option value="$PROJECT_DIR$/app/presentation/controllers/ChangePasswordController.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="696" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -168,9 +288,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,6 +316,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -225,7 +356,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="queries" />
+              <option name="myItemId" value="exceptions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -240,11 +371,176 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="writes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,6 +550,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -261,6 +558,10 @@
       <recent name="service.dao" />
       <recent name="persistence.dao" />
       <recent name="service.exceptions" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="presentation.parse.writes" />
+      <recent name="presentation.parse.reads" />
     </key>
   </component>
   <component name="RunManager" selected="SBT Task.Run">
@@ -572,7 +873,7 @@
     </list>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1474143357703" />
+    <option name="lastUpdateTimestamp" value="1478354112963" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -627,41 +928,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44026187" sideWeight="0.4720121" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3492696" sideWeight="0.43125" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3492696" sideWeight="0.56875" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.48789713" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21779549" sideWeight="0.47578126" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26375404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4140753" sideWeight="0.49241275" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37848607" sideWeight="0.65" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3492696" sideWeight="0.56875" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -669,17 +970,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4140753" sideWeight="0.49241275" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34661356" sideWeight="0.65" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44026187" sideWeight="0.4720121" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3492696" sideWeight="0.43125" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.48789713" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21779549" sideWeight="0.47578126" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24659607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18359375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -698,9 +999,215 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Serviço de Reset de Senha - rota: /changePassword, param: email (em implantação)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Serviço de Reset de Senha - rota: /changePassword, param: email (em implantação)" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="57" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/presentation/controllers/AuthenticationController.scala</url>
+          <line>12</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/presentation/controllers/AuthenticationController.scala</url>
+          <line>11</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/presentation/controllers/UserQueryController.scala</url>
+          <line>13</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/presentation/controllers/UserQueryController.scala</url>
+          <line>14</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/queries/UserQueryService.scala</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/queries/UserQueryService.scala</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/ServiceModule.scala</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/ServiceValidator.scala</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/ServiceValidator.scala</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/queries/UserQueryService.scala</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/queries/UserQueryService.scala</url>
+          <line>27</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/AuthenticationService.scala</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/AuthenticationService.scala</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/presentation/controllers/ChangePasswordController.scala</url>
+          <line>13</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/presentation/controllers/ChangePasswordController.scala</url>
+          <line>14</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/ChangePasswordService.scala</url>
+          <line>28</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/ChangePasswordService.scala</url>
+          <line>37</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/ChangePasswordService.scala</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/ChangePasswordService.scala</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/ChangePasswordService.scala</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/ChangePasswordService.scala</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/ChangePasswordService.scala</url>
+          <line>48</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/ChangePasswordService.scala</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/ChangePasswordService.scala</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/ChangePasswordService.scala</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/ChangePasswordService.scala</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/presentation/parse/reads/ChangePasswordDtoReads.scala</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/presentation/controllers/ChangePasswordController.scala</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/ChangePasswordService.scala</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/app/service/ChangePasswordService.scala</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="126" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SbtRunConfiguration">
@@ -720,177 +1227,342 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb.scala/mongo-scala-bson_2.11/srcs/mongo-scala-bson_2.11-1.0.1-sources.jar!/org/mongodb/scala/bson/conversions/package.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/TraversableOnce.scala">
+    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="110" column="6" selection-start-line="110" selection-start-column="6" selection-end-line="110" selection-end-column="6" />
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.4.4-sources.jar!/akka/dispatch/BatchingExecutor.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/srcs/play_2.11-2.5.3-sources.jar!/play/api/http/HttpErrorHandler.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb/bson/srcs/bson-3.1.0-sources.jar!/org/bson/BsonObjectId.java" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb/bson/srcs/bson-3.1.0-sources.jar!/org/bson/types/ObjectId.java" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.5.3-sources.jar!/play/api/libs/json/JsMacroImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.5.3-sources.jar!/play/api/libs/json/Json.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="202" column="48" selection-start-line="202" selection-start-column="48" selection-end-line="202" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presentation/parse/reads/EnterDtoReads.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/service/dto/queries/FilterResultDto.scala" />
-    <entry file="file://$PROJECT_DIR$/app/presentation/parse/writes/FilterResultDtoWrites.scala" />
-    <entry file="file://$PROJECT_DIR$/app/service/dao/queries/QueryDao.scala" />
-    <entry file="file://$PROJECT_DIR$/app/service/dto/queries/FilterDto.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/service/dto/queries/UserFilterDto.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb.scala/mongo-scala-driver_2.11/srcs/mongo-scala-driver_2.11-1.0.1-sources.jar!/org/mongodb/scala/MongoDatabase.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="99" column="120" selection-start-line="99" selection-start-column="118" selection-end-line="99" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.google.inject/guice/srcs/guice-4.0-sources.jar!/com/google/inject/name/Named.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.google.inject/guice/srcs/guice-4.0-sources.jar!/com/google/inject/Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/persistence/dao/queries/BankQueryDaoImpl.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/concurrent/Future.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="150" column="6" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.wix/accord-core_2.11/srcs/accord-core_2.11-0.6-sources.jar!/com/wix/accord/dsl/CollectionOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/persistence/dao/queries/UserQueryDaoImpl.scala" />
-    <entry file="file://$PROJECT_DIR$/app/service/queries/QueryService.scala" />
-    <entry file="file://$PROJECT_DIR$/app/service/queries/BankQueryService.scala" />
-    <entry file="file://$PROJECT_DIR$/app/persistence/dao/AuthenticationDaoImpl.scala" />
-    <entry file="file://$PROJECT_DIR$/app/persistence/dao/maps/Map.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/persistence/Connector.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/service/dao/AuthenticationDao.scala" />
-    <entry file="file://$PROJECT_DIR$/app/presentation/controllers/UserQueryController.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presentation/controllers/AuthenticationController.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presentation/controllers/Application.scala" />
-    <entry file="file://$PROJECT_DIR$/app/presentation/Authorize.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="160">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/presentation/ErrorHandler.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="75">
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presentation/ErrorResultDto.scala">
+    <entry file="file://$PROJECT_DIR$/app/persistence/dao/maps/Map.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presentation/Filters.scala">
+    <entry file="file://$PROJECT_DIR$/app/presentation/controllers/UserQueryController.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="120">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/presentation/MessageResultDto.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/service/ServiceModule.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.wix/accord-api_2.11/srcs/accord-api_2.11-0.6-sources.jar!/com/wix/accord/Validator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presentation/parse/writes/UserWrites.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/dto/queries/FilterDto.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presentation/Filters.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/srcs/play_2.11-2.5.3-sources.jar!/play/api/http/HttpFilters.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presentation/parse/reads/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/dto/queries/UserFilterDto.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/FilterExtensions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/srcs/play_2.11-2.5.3-sources.jar!/play/api/mvc/Http.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="274" column="8" selection-start-line="274" selection-start-column="8" selection-end-line="274" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presentation/parse/reads/EnterDtoReads.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presentation/parse/writes/ErrorResultDtoWrites.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.google.inject/guice/srcs/guice-4.0-sources.jar!/com/google/inject/name/Named.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/exceptions/ValidatorException.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.wix/accord-core_2.11/srcs/accord-core_2.11-0.6-sources.jar!/com/wix/accord/dsl/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="188" column="6" selection-start-line="188" selection-start-column="6" selection-end-line="188" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/ServiceValidator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/Option.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mindrot/jbcrypt/srcs/jbcrypt-0.3m-sources.jar!/org/mindrot/jbcrypt/BCrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6596">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.5.3-sources.jar!/play/api/libs/json/Reads.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/srcs/play_2.11-2.5.3-sources.jar!/play/core/Execution.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/srcs/play_2.11-2.5.3-sources.jar!/play/api/libs/concurrent/Execution.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presentation/parse/writes/EnterResultDtoWrites.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="e#35#65#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presentation/parse/writes/ChangePasswordDtoWrites.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="e#35#65#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.google.inject/guice/srcs/guice-4.0-sources.jar!/com/google/inject/Inject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/persistence/PersistenceModule.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#21#56#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/domain/User.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/Predef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presentation/Authorize.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/dto/EnterResultDto.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/dto/EnterDto.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/dto/ChangePasswordDto.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb.scala/mongo-scala-driver_2.11/srcs/mongo-scala-driver_2.11-1.0.1-sources.jar!/org/mongodb/scala/MongoCollection.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="309" column="6" selection-start-line="309" selection-start-column="6" selection-end-line="309" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/persistence/dao/maps/UserMap.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.google.inject/guice/srcs/guice-4.0-sources.jar!/com/google/inject/AbstractModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -898,114 +1570,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/routes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/mutable/ListBuffer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="166" column="6" selection-start-line="166" selection-start-column="6" selection-end-line="166" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb/mongodb-driver-async/srcs/mongodb-driver-async-3.1.0-sources.jar!/com/mongodb/async/client/MongoCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="190" column="36" selection-start-line="190" selection-start-column="36" selection-end-line="190" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb.scala/mongo-scala-driver_2.11/srcs/mongo-scala-driver_2.11-1.0.1-sources.jar!/org/mongodb/scala/model/Filters.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/persistence/dao/maps/UserMap.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb.scala/mongo-scala-driver_2.11/srcs/mongo-scala-driver_2.11-1.0.1-sources.jar!/org/mongodb/scala/MongoCollection.scala">
+    <entry file="file://$PROJECT_DIR$/app/presentation/controllers/AuthenticationController.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb.scala/mongo-scala-driver_2.11/srcs/mongo-scala-driver_2.11-1.0.1-sources.jar!/org/mongodb/scala/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/persistence/dao/QueryExtensions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="53" selection-end-column="3" />
+        <state relative-caret-position="75">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mongodb/mongodb-driver-core/srcs/mongodb-driver-core-3.1.0-sources.jar!/com/mongodb/client/model/Filters.java">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.5.3-sources.jar!/play/api/libs/json/Json.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        <state relative-caret-position="120">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/persistence/PersistenceModule.scala">
+    <entry file="file://$PROJECT_DIR$/app/service/ServiceModule.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
-            <element signature="e#21#56#0" expanded="false" />
+            <element signature="e#17#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/service/queries/UserQueryService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="240">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/TraversableLike.scala">
+    <entry file="file://$PROJECT_DIR$/app/presentation/controllers/ChangePasswordController.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="226" column="6" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="e#34#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presentation/parse/reads/ChangePasswordDtoReads.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/service/FilterExtensions.scala">
+    <entry file="file://$PROJECT_DIR$/app/service/ChangePasswordService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="536">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+          <folding>
+            <element signature="e#18#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/service/AuthenticationService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="137">
+          <caret line="104" column="80" selection-start-line="104" selection-start-column="80" selection-end-line="104" selection-end-column="80" />
+          <folding>
+            <element signature="e#17#48#0" expanded="true" />
+            <element signature="e#1133#2600#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

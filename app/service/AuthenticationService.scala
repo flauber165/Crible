@@ -79,7 +79,9 @@ class AuthenticationService @Inject()(@Named("user") collection: MongoCollection
 
   def enter(enterDto: EnterDto): Future[EnterResultDto] = {
     val promise = Promise[EnterResultDto]
+
     try {
+
       //Gerar senha Para teste... remover em produção...
       println(BCrypt.hashpw(enterDto.password, BCrypt.gensalt))
 
@@ -107,6 +109,7 @@ class AuthenticationService @Inject()(@Named("user") collection: MongoCollection
           case e: Throwable => promise.failure(e)
         }
       })
+
     }
     catch {
       case e: Throwable => promise.failure(e)
