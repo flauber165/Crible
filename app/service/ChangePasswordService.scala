@@ -2,7 +2,6 @@ package service
 
 
 import java.util.{Base64, UUID}
-
 import com.google.inject.Inject
 import com.google.inject.name.Named
 import com.wix.accord.dsl._
@@ -14,7 +13,6 @@ import org.mongodb.scala.model.Filters._
 import org.mongodb.scala.model.Updates._
 import persistence.dao.maps.UserMap
 import service.dto.ChangePasswordDto
-
 import scala.concurrent.{Future, Promise}
 
 /**
@@ -45,9 +43,10 @@ class ChangePasswordService @Inject()(mailer : MailerClient,@Named("user") colle
 
           val user = UserMap.from(r.get.head)
           val accessKey = UUID.randomUUID.toString
-          val token = encoder.encodeToString(s"${user.id}:${accessKey}".getBytes())
-          val link = "http://localhost:9000/resetPassword/" + token
+          val link = "http://localhost:9000/resetPassword?id=" + user.id + "&token=" + accessKey
+
           sendEmail(mailer,link, user.email)
+
           collection.updateOne(equal("_id", BsonObjectId(user.id)), set("accessKey", accessKey)).head.onComplete(b => {
             promise.success("Link para recuperação de senha anviado para: " + user.email)
           })
@@ -57,7 +56,6 @@ class ChangePasswordService @Inject()(mailer : MailerClient,@Named("user") colle
           case e: Throwable => promise.failure(e)
         }
       })
-
     }
     catch {
       case e: Throwable => promise.failure(e)

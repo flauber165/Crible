@@ -97,9 +97,9 @@ class AuthenticationService @Inject()(@Named("user") collection: MongoCollection
 
           val user = UserMap.from(r.get.head)
 
-          /*if (!BCrypt.checkpw(enterDto.password, user.password)) {
+          if (!BCrypt.checkpw(enterDto.password, user.password)) {
             throw new AuthenticationException()
-          }*/
+          }
 
           collection.updateOne(equal("_id", BsonObjectId(user.id)), set("accessKey", accessKey)).head.onComplete(b => {
             promise.success(EnterResultDto(encoder.encodeToString(s"${user.id}:${accessKey}".getBytes), user.name))
