@@ -6,7 +6,8 @@
 POST    /enter                      presentation.controllers.AuthenticationController.enter
 POST    /user/query                 presentation.controllers.UserQueryController.filter
 POST    /changePassword             presentation.controllers.ChangePasswordController.changePassword
-GET    /resetPassword              presentation.controllers.ChangePasswordController.resetPassword(id: Option[String], token: Option[String])
+GET    /resetPassword               presentation.controllers.ChangePasswordController.resetPassword(id: Option[String], token: Option[String])
+POST   /updatePassword              presentation.controllers.ChangePasswordController.updatePassword
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

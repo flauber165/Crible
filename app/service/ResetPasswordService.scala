@@ -29,6 +29,11 @@ def resetPassword(id: Option[String], token: Option[String]): Future[Boolean] = 
 
   try{
 
+    if(id.isEmpty || token.isEmpty){
+      throw new Throwable
+    }
+
+
     collection.find(equal("_id", BsonObjectId(id.get))).first.toFuture.onComplete(r => {
       try {
 
