@@ -7,6 +7,7 @@ import org.mongodb.scala._
 class PersistenceModule extends AbstractModule {
   def configure() = {
     bindCollection("user")
+    bindCollection("dashboard")
   }
 
   private def bindCollection(alias: String)= {

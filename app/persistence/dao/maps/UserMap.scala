@@ -1,7 +1,6 @@
 package persistence.dao.maps
 
 import org.mongodb.scala.Document
-import org.mongodb.scala.bson.{BsonInt32, BsonString}
 import service.domain.{RoleKind, User}
 
 object UserMap extends Map[User] {

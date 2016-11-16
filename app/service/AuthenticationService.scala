@@ -1,14 +1,16 @@
 package service
 
 import java.util.{Base64, UUID}
+
 import com.google.inject.Inject
 import org.mindrot.jbcrypt.BCrypt
 import service.dto.{EnterDto, EnterResultDto}
 import play.api.libs.concurrent.Execution.Implicits.defaultContext
 import service.domain.RoleKind.RoleKind
-import service.domain.{RoleKind, User}
+import service.domain.{DashboardPortrait, Portfolio, RoleKind, User}
 import com.wix.accord._
 import dsl._
+
 import scala.concurrent.{Future, Promise}
 import ServiceValidator.validateAndThrow
 import com.google.inject.name.Named
@@ -19,6 +21,7 @@ import org.mongodb.scala.model.Updates._
 import persistence.dao.maps.UserMap
 import service.exceptions.{AuthenticationException, UnauthorizedException}
 import service.FilterExtensions._
+
 import scala.collection.mutable.ListBuffer
 
 class AuthenticationService @Inject()(@Named("user") collection: MongoCollection[Document]) {
